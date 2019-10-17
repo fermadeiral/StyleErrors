@@ -1,0 +1,28 @@
+[
+    {
+        "line": "4",
+        "severity": "error",
+        "message": "Wrong order for 'com.blazemeter.jmeter.correlation.core.RegexMatcher' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "4",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - com.blazemeter.jmeter.correlation.core.RegexMatcher.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "14",
+        "column": "61",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 122).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]

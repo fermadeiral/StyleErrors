@@ -1,0 +1,34 @@
+[
+    {
+        "line": "5",
+        "severity": "error",
+        "message": "Extra separation in import group before 'com.blazemeter.jmeter.correlation.TestUtils'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "5",
+        "severity": "error",
+        "message": "Wrong order for 'com.blazemeter.jmeter.correlation.TestUtils' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 104).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "23",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'VALID_RESPONSE_DATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "24",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'INVALID_RESPONSE_DATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    }
+]
