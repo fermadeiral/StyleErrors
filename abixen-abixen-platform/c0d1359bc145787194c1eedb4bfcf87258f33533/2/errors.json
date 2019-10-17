@@ -1,0 +1,23 @@
+[
+    {
+        "line": "60",
+        "column": "32",
+        "severity": "error",
+        "message": "Name 'structureContent' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "68",
+        "column": "32",
+        "severity": "error",
+        "message": "Name 'faiureStructureContent' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "76",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'templateContent' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]
