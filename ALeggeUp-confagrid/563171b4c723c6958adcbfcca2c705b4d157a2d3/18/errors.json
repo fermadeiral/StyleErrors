@@ -1,0 +1,26 @@
+[
+    {
+        "line": "14",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'org.springframework.boot.web.servlet.FilterRegistrationBean'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'com.aleggeup.confagrid.filter.JwtFilter'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.aleggeup.confagrid.filter.JwtFilter' import. Should be before 'org.springframework.context.annotation.Configuration'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Wrong order for 'com.aleggeup.confagrid.filter.JwtFilter' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    }
+]

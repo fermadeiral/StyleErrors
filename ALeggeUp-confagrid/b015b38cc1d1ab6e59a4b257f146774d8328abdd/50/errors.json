@@ -1,0 +1,26 @@
+[
+    {
+        "line": "14",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'org.springframework.data.jpa.repository.JpaRepository'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'com.aleggeup.confagrid.model.Word'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.aleggeup.confagrid.model.Word' import. Should be before 'org.springframework.transaction.annotation.Transactional'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "warning",
+        "message": "Wrong order for 'com.aleggeup.confagrid.model.Word' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    }
+]

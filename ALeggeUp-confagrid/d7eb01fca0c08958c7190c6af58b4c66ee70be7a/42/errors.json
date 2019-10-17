@@ -1,0 +1,32 @@
+[
+    {
+        "line": "5",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'org.springframework.data.jpa.repository.JpaRepository'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "8",
+        "severity": "warning",
+        "message": "Extra separation in import group before 'com.aleggeup.confagrid.model.WordSequence'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "8",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.aleggeup.confagrid.model.WordSequence' import. Should be before 'org.springframework.data.querydsl.QueryDslPredicateExecutor'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "8",
+        "severity": "warning",
+        "message": "Wrong order for 'com.aleggeup.confagrid.model.WordSequence' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "11",
+        "severity": "warning",
+        "message": "'extends' has incorrect indentation level 4, expected level should be 8.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+    }
+]
