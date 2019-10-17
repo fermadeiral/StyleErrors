@@ -1,0 +1,1312 @@
+[
+    {
+        "line": "29",
+        "severity": "warning",
+        "message": "'package' should be separated from previous statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+    },
+    {
+        "line": "392",
+        "severity": "warning",
+        "message": "Avoid using finalizer method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheck"
+    },
+    {
+        "line": "419",
+        "column": "19",
+        "severity": "warning",
+        "message": "Method name 'HASREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "424",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETMAXREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "428",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'CLEARREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "432",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'INCREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "438",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'DECREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "445",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'GETREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "449",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'LEVEL' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "453",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'LEVELANDMARK' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "457",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETLEVEL' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "465",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETLEVELANDMARK' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "473",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETMARK' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "477",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'UNMARK' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "481",
+        "column": "19",
+        "severity": "warning",
+        "message": "Method name 'MARKED' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "485",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'LOW' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "489",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETLOW' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "493",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'HIGH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "497",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETHIGH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "501",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'HASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "505",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "509",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'NEXT' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "513",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETNEXT' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "517",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'VARr' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "521",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'SETVARr' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "525",
+        "column": "23",
+        "severity": "warning",
+        "message": "Method name '_assert' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "532",
+        "severity": "warning",
+        "message": "',' should be separated from previous statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+    },
+    {
+        "line": "532",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "532",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'a' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "532",
+        "column": "12",
+        "severity": "warning",
+        "message": "Member name 'b' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "532",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'c' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "538",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'res' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "553",
+        "column": "16",
+        "severity": "warning",
+        "message": "Member name 'value' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "568",
+        "column": "11",
+        "severity": "warning",
+        "message": "Member name 'operands' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "582",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'table' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "583",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'tablesize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "624",
+        "column": "19",
+        "severity": "warning",
+        "message": "Member name 'bddrunning' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "625",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bdderrorcond' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "626",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddnodesize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "627",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddmaxnodesize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "628",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddmaxnodeincrease' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "629",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'bddnodes' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "630",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddfreepos' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "631",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddfreenum' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "632",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddproduced' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "633",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddvarnum' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "634",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'bddrefstack' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "635",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'bddrefstacktop' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "636",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'bddvar2level' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "637",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'bddlevel2var' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "638",
+        "column": "19",
+        "severity": "warning",
+        "message": "Member name 'bddresized' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "640",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'minfreenodes' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "644",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'bddvarset' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "645",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'gbcollectnum' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "646",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'cachesize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "647",
+        "column": "16",
+        "severity": "warning",
+        "message": "Member name 'gbcclock' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "717",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'PAIR' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "722",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'TRIPLE' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "727",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'NODEHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "767",
+        "column": "26",
+        "severity": "warning",
+        "message": "Method name 'ISZERO' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "771",
+        "column": "26",
+        "severity": "warning",
+        "message": "Method name 'ISONE' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "775",
+        "column": "26",
+        "severity": "warning",
+        "message": "Method name 'ISCONST' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "780",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'CHECK' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "806",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'NOTHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "810",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'APPLYHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "814",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'MULTIOPHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "822",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'RESTRHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "826",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'CONSTRAINHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "830",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'QUANTHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "834",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'REPLACEHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "838",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'CORRECTIFYHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "842",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'VECCOMPOSEHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "846",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'COMPOSEHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "850",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'SATCOUHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "854",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'PATHCOUHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "858",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'APPEXHASH' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "862",
+        "column": "19",
+        "severity": "warning",
+        "message": "Method name 'INVARSET' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "866",
+        "column": "19",
+        "severity": "warning",
+        "message": "Method name 'INSVARSET' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1255",
+        "severity": "warning",
+        "message": "switch without \"default\" clause.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"
+    },
+    {
+        "line": "1820",
+        "column": "9",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_l' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "1821",
+        "column": "9",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_r' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "1988",
+        "severity": "warning",
+        "message": "switch without \"default\" clause.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"
+    },
+    {
+        "line": "2065",
+        "column": "9",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "2099",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "2099",
+        "column": "9",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_l' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "2099",
+        "column": "18",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_r' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "2099",
+        "column": "27",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_var' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "2169",
+        "column": "9",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "2202",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "2202",
+        "column": "9",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_r' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "2202",
+        "column": "18",
+        "severity": "warning",
+        "message": "Local variable name 'LEVEL_q' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "2271",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "3026",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'INITREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3030",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'PUSHREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3035",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'READREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3039",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'POPREF' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3185",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "3587",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'applyop' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3588",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'appexop' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3589",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'appexid' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3590",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'quantid' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3591",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'quantvarset' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3592",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'quantvarsetID' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3593",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'quantlast' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3594",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'replaceid' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3595",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'replacepair' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3596",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'replacelast' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3597",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'composelevel' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3598",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'miscid' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3599",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'supportID' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3600",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'supportMin' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3601",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'supportMax' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3602",
+        "column": "26",
+        "severity": "warning",
+        "message": "Member name 'supportSet' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3603",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'applycache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3604",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'quantcache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3605",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'appexcache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3606",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'replacecache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3607",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'misccache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3608",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'multiopcache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3609",
+        "column": "20",
+        "severity": "warning",
+        "message": "Member name 'countcache' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3610",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'cacheratio' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3611",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'satPolarity' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3706",
+        "column": "20",
+        "severity": "warning",
+        "message": "Method name 'BddCacheI_init' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3721",
+        "column": "20",
+        "severity": "warning",
+        "message": "Method name 'BddCacheMultiOp_init' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3736",
+        "column": "20",
+        "severity": "warning",
+        "message": "Method name 'BddCacheBigInteger_init' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3751",
+        "column": "23",
+        "severity": "warning",
+        "message": "Method name 'BddCache_done' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3785",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'BddCache_resize' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3825",
+        "column": "32",
+        "severity": "warning",
+        "message": "Method name 'BddCache_lookupI' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3829",
+        "column": "41",
+        "severity": "warning",
+        "message": "Method name 'BddCache_lookupBigInteger' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3833",
+        "column": "38",
+        "severity": "warning",
+        "message": "Method name 'BddCache_lookupMultiOp' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3837",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_reset' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3852",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_clean_d' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3864",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_clean_a' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3879",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_clean_ab' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3896",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_clean_abc' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3914",
+        "column": "16",
+        "severity": "warning",
+        "message": "Method name 'BddCache_clean_multiop' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3968",
+        "column": "9",
+        "severity": "warning",
+        "message": "Type name 'bddPair' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "3969",
+        "column": "11",
+        "severity": "warning",
+        "message": "Member name 'result' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3970",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'last' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3971",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'id' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "3972",
+        "column": "13",
+        "severity": "warning",
+        "message": "Member name 'next' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4012",
+        "column": "19",
+        "severity": "warning",
+        "message": "Member name 'pairs' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4013",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'pairsid' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4073",
+        "column": "13",
+        "severity": "warning",
+        "message": "Local variable name 'new_result' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "4177",
+        "column": "18",
+        "severity": "warning",
+        "message": "Member name 'increasefactor' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4381",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'extroots' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4382",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'extrootsize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4384",
+        "column": "23",
+        "severity": "warning",
+        "message": "Member name 'levels' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4386",
+        "column": "16",
+        "severity": "warning",
+        "message": "Type name 'levelData' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "4387",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'start' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4388",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'size' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4389",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'maxsize' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4390",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'nodenum' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4393",
+        "column": "16",
+        "severity": "warning",
+        "message": "Type name 'imatrix' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "4394",
+        "column": "14",
+        "severity": "warning",
+        "message": "Member name 'rows' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4395",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'size' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4399",
+        "column": "19",
+        "severity": "warning",
+        "message": "Member name 'iactmtx' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4430",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4590",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4634",
+        "column": "22",
+        "severity": "warning",
+        "message": "Method name 'MIN' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "4699",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4746",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'NODEHASH2' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "4750",
+        "column": "19",
+        "severity": "warning",
+        "message": "Member name 'resizedInMakenode' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "4874",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4882",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4892",
+        "column": "11",
+        "severity": "warning",
+        "message": "Local variable name 'NEXT_r' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "4920",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4926",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4926",
+        "column": "11",
+        "severity": "warning",
+        "message": "Local variable name 'n_low' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "4926",
+        "column": "18",
+        "severity": "warning",
+        "message": "Local variable name 'n_high' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "4940",
+        "column": "7",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "4950",
+        "column": "11",
+        "severity": "warning",
+        "message": "Local variable name 'NEXT_r' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "5212",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'lh_nodenum' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5213",
+        "column": "15",
+        "severity": "warning",
+        "message": "Member name 'lh_freepos' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5214",
+        "column": "17",
+        "severity": "warning",
+        "message": "Member name 'loadvar2level' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5215",
+        "column": "22",
+        "severity": "warning",
+        "message": "Member name 'lh_table' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5218",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "5264",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'key' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5265",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'data' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5266",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'first' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5267",
+        "column": "9",
+        "severity": "warning",
+        "message": "Member name 'next' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5271",
+        "column": "5",
+        "severity": "warning",
+        "message": "Each variable declaration must be in its own statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"
+    },
+    {
+        "line": "5394",
+        "column": "17",
+        "severity": "warning",
+        "message": "Type name 'bddDomain' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "5411",
+        "column": "17",
+        "severity": "warning",
+        "message": "Type name 'bvec' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "5413",
+        "severity": "warning",
+        "message": "At-clause should have a non-empty description.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"
+    },
+    {
+        "line": "5426",
+        "column": "18",
+        "severity": "warning",
+        "message": "Member name 'rng' must match pattern '^_[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "5428",
+        "column": "15",
+        "severity": "warning",
+        "message": "Method name 'Random' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "5440",
+        "column": "26",
+        "severity": "warning",
+        "message": "Method name 'BitIsSet' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
