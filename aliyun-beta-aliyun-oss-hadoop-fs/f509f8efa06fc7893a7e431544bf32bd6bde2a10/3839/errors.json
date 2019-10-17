@@ -1,0 +1,23 @@
+[
+    {
+        "line": "22",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.hdfs.server.blockmanagement.DatanodeStorageInfo.AddBlockResult.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "46",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'baseBlock' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "47",
+        "column": "44",
+        "severity": "error",
+        "message": "Name 'testECPolicy' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    }
+]

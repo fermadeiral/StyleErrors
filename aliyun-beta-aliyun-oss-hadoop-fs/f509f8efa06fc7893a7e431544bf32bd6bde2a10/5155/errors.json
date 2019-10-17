@@ -1,0 +1,536 @@
+[
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - java.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "27",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.commons.logging.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "94",
+        "column": "9",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "95",
+        "column": "9",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "96",
+        "column": "9",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "98",
+        "column": "17",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "169",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "273",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "318",
+        "column": "42",
+        "severity": "error",
+        "message": "';' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "328",
+        "column": "78",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "329",
+        "column": "11",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "413",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'outReader' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "414",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'outCollector' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "415",
+        "column": "14",
+        "severity": "error",
+        "message": "Variable 'reporter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "416",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'lastStdoutReport' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "422",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "437",
+        "column": "49",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "504",
+        "column": "68",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "516",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'lastStderrReport' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "517",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'reporter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "542",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "554",
+        "column": "29",
+        "severity": "error",
+        "message": "'100000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "555",
+        "column": "1",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "557",
+        "column": "1",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "557",
+        "column": "30",
+        "severity": "error",
+        "message": "'100000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "590",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'startTime_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "590",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'startTime_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "591",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'numRecRead_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "591",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'numRecRead_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "592",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'numRecWritten_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "592",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'numRecWritten_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "593",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'numRecSkipped_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "593",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'numRecSkipped_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "594",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'nextRecReadLog_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "594",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'nextRecReadLog_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "596",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'minRecWrittenToEnableSkip_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "596",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'minRecWrittenToEnableSkip_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "598",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'reporterOutDelay_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "598",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'reporterOutDelay_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "599",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'reporterErrDelay_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "599",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'reporterErrDelay_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "600",
+        "column": "8",
+        "severity": "error",
+        "message": "Name 'joinDelay_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "600",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'joinDelay_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "601",
+        "column": "11",
+        "severity": "error",
+        "message": "Name 'job_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "601",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'job_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "603",
+        "column": "11",
+        "severity": "error",
+        "message": "Name 'doPipe_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "603",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'doPipe_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "605",
+        "column": "32",
+        "severity": "error",
+        "message": "Name 'mapInputWriterClass_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "605",
+        "column": "32",
+        "severity": "error",
+        "message": "Variable 'mapInputWriterClass_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "606",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'mapOutputReaderClass_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "606",
+        "column": "33",
+        "severity": "error",
+        "message": "Variable 'mapOutputReaderClass_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "607",
+        "column": "32",
+        "severity": "error",
+        "message": "Name 'reduceInputWriterClass_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "607",
+        "column": "32",
+        "severity": "error",
+        "message": "Variable 'reduceInputWriterClass_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "608",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'reduceOutputReaderClass_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "608",
+        "column": "33",
+        "severity": "error",
+        "message": "Variable 'reduceOutputReaderClass_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "609",
+        "column": "11",
+        "severity": "error",
+        "message": "Name 'nonZeroExitIsFailure_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "609",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'nonZeroExitIsFailure_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "611",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'sim' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "612",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'inWriter_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "612",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'inWriter_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "613",
+        "column": "16",
+        "severity": "error",
+        "message": "Name 'outReader_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "613",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'outReader_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "614",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'outThread_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "614",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'outThread_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "615",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'errThread_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "615",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'errThread_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "616",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'clientOut_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "616",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'clientOut_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "617",
+        "column": "19",
+        "severity": "error",
+        "message": "Name 'clientErr_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "617",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'clientErr_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "618",
+        "column": "19",
+        "severity": "error",
+        "message": "Name 'clientIn_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "618",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'clientIn_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "621",
+        "column": "7",
+        "severity": "error",
+        "message": "Name 'numExceptions_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "621",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'numExceptions_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "623",
+        "column": "32",
+        "severity": "error",
+        "message": "Variable 'outerrThreadsThrowable' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "625",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'processProvidedStatus_' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "625",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'processProvidedStatus_' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "line": "114",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'maps' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "115",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'reduces' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "124",
+        "column": "24",
+        "severity": "error",
+        "message": "Name 'NM_HOST' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "124",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'NM_HOST' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "125",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'NM_PORT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "125",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'NM_PORT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "125",
+        "column": "31",
+        "severity": "error",
+        "message": "'1234' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "126",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'NM_HTTP_PORT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "126",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'NM_HTTP_PORT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "126",
+        "column": "36",
+        "severity": "error",
+        "message": "'8042' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "129",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'autoComplete' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "131",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'applicationId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "213",
+        "column": "10",
+        "severity": "error",
+        "message": "More than 8 parameters (found 9).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "227",
+        "column": "10",
+        "severity": "error",
+        "message": "More than 8 parameters (found 11).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "273",
+        "column": "32",
+        "severity": "error",
+        "message": "'10240' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "278",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "290",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "317",
+        "column": "58",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "320",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "333",
+        "column": "58",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "337",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "351",
+        "column": "58",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "355",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "368",
+        "column": "61",
+        "severity": "error",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "369",
+        "column": "25",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "370",
+        "column": "83",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "371",
+        "column": "48",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "374",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "385",
+        "column": "54",
+        "severity": "error",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "386",
+        "column": "25",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "391",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "401",
+        "column": "53",
+        "severity": "error",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "402",
+        "column": "25",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "403",
+        "column": "67",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "404",
+        "column": "48",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "405",
+        "column": "58",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "408",
+        "column": "20",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "418",
+        "column": "33",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "421",
+        "column": "71",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "424",
+        "column": "22",
+        "severity": "error",
+        "message": "'500' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "466",
+        "column": "5",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "538",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'shufflePort' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "545",
+        "severity": "error",
+        "message": "switch without \"default\" clause.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"
+    },
+    {
+        "line": "592",
+        "column": "50",
+        "severity": "error",
+        "message": "'1234' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "595",
+        "column": "52",
+        "severity": "error",
+        "message": "'10000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "595",
+        "column": "59",
+        "severity": "error",
+        "message": "'42' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "595",
+        "column": "63",
+        "severity": "error",
+        "message": "'42' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "606",
+        "column": "13",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "610",
+        "column": "13",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "719",
+        "column": "76",
+        "severity": "error",
+        "message": "Variable 'localFactory' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "735",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "735",
+        "column": "12",
+        "severity": "error",
+        "message": "More than 8 parameters (found 12).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "771",
+        "column": "32",
+        "severity": "error",
+        "message": "';' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    }
+]

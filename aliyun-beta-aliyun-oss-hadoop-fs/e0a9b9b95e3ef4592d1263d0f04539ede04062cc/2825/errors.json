@@ -1,0 +1,29 @@
+[
+    {
+        "line": "51",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "77",
+        "column": "67",
+        "severity": "error",
+        "message": "'1.5' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "163",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "200",
+        "column": "16",
+        "severity": "error",
+        "message": "More than 8 parameters (found 9).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    }
+]

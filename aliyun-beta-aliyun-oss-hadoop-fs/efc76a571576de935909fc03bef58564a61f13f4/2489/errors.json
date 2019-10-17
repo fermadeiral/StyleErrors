@@ -1,0 +1,51 @@
+[
+    {
+        "line": "43",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "46",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'serialNo' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "48",
+        "column": "33",
+        "severity": "error",
+        "message": "Variable 'readWriteLock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "49",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'readLock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "50",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'writeLock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "57",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'currentMasterKey' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "59",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'containerTokenExpiryInterval' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

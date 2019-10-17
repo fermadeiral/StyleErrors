@@ -1,0 +1,50 @@
+[
+    {
+        "line": "48",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.registry.client.binding.RegistryTypeUtils.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "68",
+        "column": "59",
+        "severity": "error",
+        "message": "Name 'recordMarshal' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "152",
+        "column": "58",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "156",
+        "column": "56",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "281",
+        "column": "73",
+        "severity": "error",
+        "message": "'8030' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "283",
+        "column": "70",
+        "severity": "error",
+        "message": "'8050' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "286",
+        "column": "13",
+        "severity": "error",
+        "message": "'8050' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

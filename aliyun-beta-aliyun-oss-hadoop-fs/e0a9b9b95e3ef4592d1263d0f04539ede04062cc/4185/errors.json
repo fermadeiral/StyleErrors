@@ -1,0 +1,796 @@
+[
+    {
+        "line": "115",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.hdfs.protocol.LocatedStripedBlock.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "177",
+        "column": "31",
+        "severity": "error",
+        "message": "Name 'gen' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "178",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'dirNames' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "225",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "225",
+        "column": "5",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "253",
+        "column": "70",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "298",
+        "column": "24",
+        "severity": "error",
+        "message": "'{' at column 24 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "304",
+        "column": "22",
+        "severity": "error",
+        "message": "'{' at column 22 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "305",
+        "column": "19",
+        "severity": "error",
+        "message": "'{' at column 19 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "306",
+        "column": "20",
+        "severity": "error",
+        "message": "'{' at column 20 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "310",
+        "column": "35",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "340",
+        "column": "13",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "341",
+        "column": "1",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "373",
+        "column": "22",
+        "severity": "error",
+        "message": "More than 8 parameters (found 9).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "380",
+        "column": "22",
+        "severity": "error",
+        "message": "More than 8 parameters (found 10).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "386",
+        "column": "56",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "402",
+        "column": "60",
+        "severity": "error",
+        "message": "'4096' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "434",
+        "column": "13",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "516",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "526",
+        "column": "33",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "527",
+        "column": "39",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "560",
+        "column": "8",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "571",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "576",
+        "column": "13",
+        "severity": "error",
+        "message": "'512' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "585",
+        "column": "22",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "604",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "608",
+        "column": "57",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "615",
+        "column": "26",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "616",
+        "column": "45",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "671",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "688",
+        "column": "43",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "689",
+        "column": "43",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "690",
+        "column": "58",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "709",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "723",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "741",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'ATTEMPTS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "746",
+        "column": "25",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "768",
+        "column": "70",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "809",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "809",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "809",
+        "column": "19",
+        "severity": "error",
+        "message": "Inner assignments should be avoided.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"
+    },
+    {
+        "line": "809",
+        "column": "53",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "809",
+        "column": "57",
+        "severity": "error",
+        "message": "Empty statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"
+    },
+    {
+        "line": "877",
+        "column": "46",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "881",
+        "column": "51",
+        "severity": "error",
+        "message": "'4096' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "890",
+        "column": "35",
+        "severity": "error",
+        "message": "Variable 'fakeUser2GroupsMap' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "891",
+        "column": "39",
+        "severity": "error",
+        "message": "Name 'defaultGroups' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "904",
+        "column": "7",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "905",
+        "column": "9",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "907",
+        "column": "11",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "914",
+        "column": "7",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "916",
+        "column": "9",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "917",
+        "column": "69",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "931",
+        "column": "10",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "932",
+        "column": "5",
+        "severity": "error",
+        "message": "'(' should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+    },
+    {
+        "line": "933",
+        "column": "5",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "947",
+        "column": "10",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "957",
+        "column": "36",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "965",
+        "column": "41",
+        "severity": "error",
+        "message": "'127' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "981",
+        "column": "35",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1110",
+        "column": "9",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "13",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "17",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "21",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "25",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "29",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1110",
+        "column": "33",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1150",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1150",
+        "column": "41",
+        "severity": "error",
+        "message": "';' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyForIteratorPadCheck"
+    },
+    {
+        "line": "1186",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1270",
+        "column": "63",
+        "severity": "error",
+        "message": "'4096' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1299",
+        "column": "53",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1301",
+        "column": "24",
+        "severity": "error",
+        "message": "'0777' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1310",
+        "column": "18",
+        "severity": "error",
+        "message": "'1285195527000L' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1317",
+        "column": "75",
+        "severity": "error",
+        "message": "'888L' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1355",
+        "column": "28",
+        "severity": "error",
+        "message": "'60' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1368",
+        "column": "68",
+        "severity": "error",
+        "message": "'99l' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1368",
+        "column": "68",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "1373",
+        "column": "34",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1380",
+        "column": "34",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1416",
+        "column": "20",
+        "severity": "error",
+        "message": "'0x31' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1416",
+        "column": "26",
+        "severity": "error",
+        "message": "'0x32' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1416",
+        "column": "32",
+        "severity": "error",
+        "message": "'0x33' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1418",
+        "column": "20",
+        "severity": "error",
+        "message": "'0x37' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1418",
+        "column": "26",
+        "severity": "error",
+        "message": "'0x38' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1418",
+        "column": "32",
+        "severity": "error",
+        "message": "'0x39' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1428",
+        "column": "13",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "1445",
+        "column": "49",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1448",
+        "column": "56",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1449",
+        "column": "76",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1450",
+        "column": "71",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1451",
+        "column": "36",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1452",
+        "column": "72",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1457",
+        "column": "51",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1458",
+        "column": "72",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1459",
+        "column": "67",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1460",
+        "column": "32",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1464",
+        "column": "8",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1464",
+        "column": "13",
+        "severity": "error",
+        "message": "'60000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1526",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1603",
+        "column": "70",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1604",
+        "column": "43",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1605",
+        "column": "58",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1642",
+        "column": "26",
+        "severity": "error",
+        "message": "'128' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1656",
+        "column": "67",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1710",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'FsShellRun' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1716",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'DFSAdminRun' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1722",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'FsShellRun' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1776",
+        "column": "8",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1949",
+        "column": "23",
+        "severity": "error",
+        "message": "More than 8 parameters (found 10).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "1975",
+        "column": "37",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1989",
+        "column": "33",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "2018",
+        "column": "48",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "2019",
+        "column": "59",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    }
+]

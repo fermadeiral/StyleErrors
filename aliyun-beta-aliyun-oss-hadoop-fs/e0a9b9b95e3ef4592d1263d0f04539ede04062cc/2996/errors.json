@@ -1,0 +1,50 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "38",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.util.NodeHealthScriptRunner.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "90",
+        "column": "29",
+        "severity": "error",
+        "message": "Name 'testRootDir' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "137",
+        "column": "57",
+        "severity": "error",
+        "message": "'8042' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "141",
+        "column": "18",
+        "severity": "error",
+        "message": "'1234' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "175",
+        "column": "10",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "499",
+        "column": "15",
+        "severity": "error",
+        "message": "More than 8 parameters (found 10).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    }
+]

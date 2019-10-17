@@ -1,0 +1,127 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "31",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.yarn.lib.ZKClient.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "42",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'CONNECTION_TIMEOUT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "42",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'CONNECTION_TIMEOUT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "42",
+        "column": "42",
+        "severity": "error",
+        "message": "'30000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "46",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'hostPort' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "47",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'maxCnxns' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "48",
+        "column": "34",
+        "severity": "error",
+        "message": "Variable 'factory' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "49",
+        "column": "29",
+        "severity": "error",
+        "message": "Variable 'zks' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "50",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'tmpDir' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "54",
+        "column": "3",
+        "severity": "error",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "69",
+        "column": "7",
+        "severity": "error",
+        "message": "'while' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "96",
+        "column": "22",
+        "severity": "error",
+        "message": "'250' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "122",
+        "column": "22",
+        "severity": "error",
+        "message": "'250' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "143",
+        "column": "32",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "148",
+        "column": "49",
+        "severity": "error",
+        "message": "'3000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "149",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'PORT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "170",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'PORT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    }
+]

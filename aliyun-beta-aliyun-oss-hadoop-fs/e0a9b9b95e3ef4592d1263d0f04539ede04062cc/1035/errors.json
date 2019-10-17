@@ -1,0 +1,51 @@
+[
+    {
+        "line": "21",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.FileReader.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "46",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.io.IOUtils.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "200",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'RECONNECT_RETRY_COUNT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "200",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'RECONNECT_RETRY_COUNT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "231",
+        "column": "23",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "279",
+        "column": "76",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "431",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    }
+]

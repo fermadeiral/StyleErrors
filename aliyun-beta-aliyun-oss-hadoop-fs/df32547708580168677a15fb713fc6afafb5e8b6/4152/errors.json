@@ -1,0 +1,350 @@
+[
+    {
+        "line": "46",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.hdfs.web.resources.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "55",
+        "column": "38",
+        "severity": "error",
+        "message": "Name 'conf' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "56",
+        "column": "39",
+        "severity": "error",
+        "message": "Name 'cluster' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "68",
+        "column": "49",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "68",
+        "column": "50",
+        "severity": "error",
+        "message": "'0777' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "141",
+        "column": "20",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "142",
+        "column": "20",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "147",
+        "column": "20",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "148",
+        "column": "20",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "157",
+        "column": "57",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "168",
+        "column": "54",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "173",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "173",
+        "column": "28",
+        "severity": "error",
+        "message": "Inner assignments should be avoided.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"
+    },
+    {
+        "line": "173",
+        "column": "54",
+        "severity": "error",
+        "message": "';' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyForIteratorPadCheck"
+    },
+    {
+        "line": "196",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "202",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "202",
+        "column": "7",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "202",
+        "column": "38",
+        "severity": "error",
+        "message": "Empty statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"
+    },
+    {
+        "line": "207",
+        "column": "41",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "211",
+        "column": "50",
+        "severity": "error",
+        "message": "'4096' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "211",
+        "column": "62",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "211",
+        "column": "72",
+        "severity": "error",
+        "message": "'17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "215",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'one_third' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "216",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'two_third' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "218",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "236",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "256",
+        "column": "57",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "264",
+        "column": "18",
+        "severity": "error",
+        "message": "'0777' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "293",
+        "column": "51",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "314",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "342",
+        "column": "51",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "364",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "388",
+        "column": "57",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "397",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "407",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "416",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "424",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "432",
+        "column": "53",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "436",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "445",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "454",
+        "column": "26",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "454",
+        "column": "27",
+        "severity": "error",
+        "message": "'0755' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "458",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "462",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "481",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "488",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "504",
+        "column": "5",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "508",
+        "column": "50",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "522",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "544",
+        "column": "53",
+        "severity": "error",
+        "message": "'0444' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "line": "39",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.util.NodeHealthScriptRunner.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "53",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.server.nodemanager.containermanager.container.Container.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "96",
+        "column": "29",
+        "severity": "error",
+        "message": "Name 'testRootDir' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "115",
+        "column": "62",
+        "severity": "error",
+        "message": "'8042' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "116",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "173",
+        "column": "10",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "405",
+        "column": "50",
+        "severity": "error",
+        "message": "'17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "421",
+        "column": "15",
+        "severity": "error",
+        "message": "More than 8 parameters (found 16).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "433",
+        "column": "62",
+        "severity": "error",
+        "message": "'15872' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "435",
+        "column": "62",
+        "severity": "error",
+        "message": "'16384' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "437",
+        "column": "62",
+        "severity": "error",
+        "message": "'4000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

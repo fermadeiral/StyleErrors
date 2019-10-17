@@ -1,0 +1,30 @@
+[
+    {
+        "line": "199",
+        "column": "16",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "222",
+        "column": "39",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "385",
+        "column": "19",
+        "severity": "error",
+        "message": "More than 8 parameters (found 13).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "1537",
+        "column": "38",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "line": "20",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.classification.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "41",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'aclName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

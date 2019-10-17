@@ -1,0 +1,51 @@
+[
+    {
+        "line": "43",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "45",
+        "column": "16",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "47",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'keyBytes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "48",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'valueBytes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "53",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'remain' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "57",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'keyBuffer' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "58",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'valueBuffer' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

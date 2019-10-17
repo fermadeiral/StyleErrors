@@ -1,0 +1,36 @@
+[
+    {
+        "line": "20",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the java.lang package - java.lang.InterruptedException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "20",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.lang.InterruptedException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "30",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "70",
+        "column": "25",
+        "severity": "error",
+        "message": "'9' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "73",
+        "column": "22",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

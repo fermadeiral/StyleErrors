@@ -1,0 +1,93 @@
+[
+    {
+        "line": "30",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.regex.Matcher.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "31",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.regex.Pattern.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "44",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapreduce.v2.hs.JobHistory.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "52",
+        "column": "16",
+        "severity": "error",
+        "message": "'private' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "56",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'topologyBuilder' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "57",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'traceWriter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "58",
+        "column": "36",
+        "severity": "error",
+        "message": "Variable 'topologyWriter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "61",
+        "column": "35",
+        "severity": "error",
+        "message": "Variable 'inputDemuxerClass' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "64",
+        "column": "32",
+        "severity": "error",
+        "message": "Variable 'clazzTraceOutputter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "65",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'traceOutput' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "66",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'topologyOutput' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "68",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'inputs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "274",
+        "column": "58",
+        "severity": "error",
+        "message": "',' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    }
+]

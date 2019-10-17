@@ -1,0 +1,1919 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File length is 5,141 lines (max allowed is 3,000).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"
+    },
+    {
+        "line": "145",
+        "column": "33",
+        "severity": "error",
+        "message": "Variable 'opCode' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "146",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'txid' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "147",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'rpcClientId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "148",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'rpcCallId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "159",
+        "column": "9",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "225",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "291",
+        "column": "3",
+        "severity": "error",
+        "message": "Redundant 'static' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "313",
+        "column": "55",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "316",
+        "column": "51",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "417",
+        "column": "10",
+        "severity": "error",
+        "message": "'abstract' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "418",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "419",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'inodeId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "420",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "421",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'replication' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "422",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'mtime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "423",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'atime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "424",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'blockSize' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "425",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'blocks' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "426",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'permissions' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "427",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'aclEntries' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "428",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'xAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "429",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "430",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientMachine' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "431",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'overwrite' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "432",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'storagePolicyId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "461",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "466",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "476",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "481",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "486",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "491",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "496",
+        "column": "73",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "500",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "510",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "515",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "520",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "525",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "530",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "535",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "540",
+        "column": "16",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "559",
+        "column": "52",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "560",
+        "column": "55",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "582",
+        "column": "12",
+        "severity": "error",
+        "message": "'-17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "582",
+        "column": "45",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "583",
+        "column": "26",
+        "severity": "error",
+        "message": "'-17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "585",
+        "column": "57",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "586",
+        "column": "62",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "587",
+        "column": "59",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "648",
+        "column": "18",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "657",
+        "column": "72",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "773",
+        "severity": "error",
+        "message": "Class AddOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "801",
+        "severity": "error",
+        "message": "Class CloseOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "807",
+        "column": "22",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "824",
+        "severity": "error",
+        "message": "Class AppendOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "825",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "826",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "827",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientMachine' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "828",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'newBlock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "915",
+        "severity": "error",
+        "message": "Class AddBlockOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1017",
+        "column": "41",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1028",
+        "severity": "error",
+        "message": "Class UpdateBlocksOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1029",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1030",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'blocks' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1037",
+        "column": "29",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1121",
+        "severity": "error",
+        "message": "Class SetReplicationOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1122",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1123",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'replication' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1130",
+        "column": "31",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1197",
+        "severity": "error",
+        "message": "Class ConcatDeleteOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1198",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1199",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'trg' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1200",
+        "column": "14",
+        "severity": "error",
+        "message": "Variable 'srcs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1201",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1202",
+        "column": "11",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "1209",
+        "column": "29",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1227",
+        "column": "68",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1244",
+        "column": "26",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "1246",
+        "column": "7",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1264",
+        "column": "58",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1278",
+        "column": "73",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1282",
+        "column": "69",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1286",
+        "column": "7",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1286",
+        "column": "29",
+        "severity": "error",
+        "message": "';' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1343",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1356",
+        "severity": "error",
+        "message": "Class RenameOldOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1357",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1358",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1359",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'dst' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1360",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1367",
+        "column": "26",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1469",
+        "severity": "error",
+        "message": "Class DeleteOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1470",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1471",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1472",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1479",
+        "column": "23",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1566",
+        "severity": "error",
+        "message": "Class MkdirOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1567",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1568",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'inodeId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1569",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1570",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1571",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'permissions' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1572",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'aclEntries' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1573",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'xAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1580",
+        "column": "22",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1644",
+        "column": "11",
+        "severity": "error",
+        "message": "'-17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1644",
+        "column": "43",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1645",
+        "column": "25",
+        "severity": "error",
+        "message": "'-17' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1745",
+        "severity": "error",
+        "message": "Class SetGenstampV1Op should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1746",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'genStampV1' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1753",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1803",
+        "severity": "error",
+        "message": "Class SetGenstampV2Op should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1804",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'genStampV2' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1811",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1861",
+        "severity": "error",
+        "message": "Class AllocateBlockIdOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1862",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'blockId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1869",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1919",
+        "severity": "error",
+        "message": "Class SetPermissionsOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1920",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1921",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'permissions' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1928",
+        "column": "31",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1991",
+        "severity": "error",
+        "message": "Class SetOwnerOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "1992",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1993",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'username' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1994",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'groupname' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2001",
+        "column": "25",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2072",
+        "column": "52",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "2074",
+        "column": "54",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "2079",
+        "severity": "error",
+        "message": "Class SetNSQuotaOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2080",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2081",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'nsQuota' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2088",
+        "column": "27",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2138",
+        "severity": "error",
+        "message": "Class ClearNSQuotaOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2139",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2146",
+        "column": "29",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2190",
+        "severity": "error",
+        "message": "Class SetQuotaOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2191",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2192",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'nsQuota' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2193",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'dsQuota' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2200",
+        "column": "25",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2275",
+        "severity": "error",
+        "message": "Class SetQuotaByStorageTypeOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2276",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2277",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'dsQuota' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2278",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'type' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2285",
+        "column": "38",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2357",
+        "severity": "error",
+        "message": "Class TimesOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2358",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2359",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2360",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'mtime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2361",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'atime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2368",
+        "column": "22",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2463",
+        "severity": "error",
+        "message": "Class SymlinkOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2464",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2465",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'inodeId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2466",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2467",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'value' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2468",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'mtime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2469",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'atime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2470",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'permissionStatus' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2477",
+        "column": "24",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2624",
+        "severity": "error",
+        "message": "Class RenameOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2625",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'length' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2626",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2627",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'dst' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2628",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2629",
+        "column": "14",
+        "severity": "error",
+        "message": "Variable 'options' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2636",
+        "column": "23",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2771",
+        "column": "15",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "2774",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "2788",
+        "severity": "error",
+        "message": "Class TruncateOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2789",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2790",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2791",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'clientMachine' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2792",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'newLength' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2793",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'timestamp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2794",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'truncateBlock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2801",
+        "column": "25",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2880",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "2880",
+        "column": "7",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "2891",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "2924",
+        "severity": "error",
+        "message": "Class ReassignLeaseOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "2925",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'leaseHolder' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2926",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2927",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'newHolder' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "2934",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3007",
+        "severity": "error",
+        "message": "Class GetDelegationTokenOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3008",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'token' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3009",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'expiryTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3016",
+        "column": "35",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3086",
+        "severity": "error",
+        "message": "Class RenewDelegationTokenOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3087",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'token' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3088",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'expiryTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3095",
+        "column": "37",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3165",
+        "severity": "error",
+        "message": "Class CancelDelegationTokenOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3166",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'token' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3173",
+        "column": "38",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3224",
+        "severity": "error",
+        "message": "Class UpdateMasterKeyOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3225",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'key' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3232",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3282",
+        "severity": "error",
+        "message": "Class LogSegmentOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3285",
+        "column": "43",
+        "severity": "error",
+        "message": "'||' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "3291",
+        "column": "27",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3332",
+        "severity": "error",
+        "message": "Class InvalidOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "3338",
+        "column": "24",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3381",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotRoot' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3382",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3384",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3389",
+        "column": "31",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3457",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotRoot' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3458",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3465",
+        "column": "31",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "3533",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotRoot' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3534",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotOldName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3535",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotNewName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3622",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotRoot' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3624",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3628",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3681",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'snapshotRoot' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3683",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3687",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3740",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'directive' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3742",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3811",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'directive' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3813",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3888",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'id' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3890",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "3946",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'info' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "3948",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "4012",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'info' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4014",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "4085",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'poolName' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4087",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "4140",
+        "severity": "error",
+        "message": "Class RemoveXAttrOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "4141",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'xAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4142",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4193",
+        "severity": "error",
+        "message": "Class SetXAttrOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "4194",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'xAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4195",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4246",
+        "severity": "error",
+        "message": "Class SetAclOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "4247",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'aclEntries' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4248",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'src' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4277",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "4299",
+        "column": "10",
+        "severity": "error",
+        "message": "'private' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "4303",
+        "column": "10",
+        "severity": "error",
+        "message": "'private' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "4312",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'blkid' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4313",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'len' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4317",
+        "column": "9",
+        "severity": "error",
+        "message": "'(' should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+    },
+    {
+        "line": "4320",
+        "column": "42",
+        "severity": "error",
+        "message": "'{' at column 42 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "4351",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "4410",
+        "severity": "error",
+        "message": "Class SetStoragePolicyOp should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "4411",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'path' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4412",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'policyId' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4514",
+        "column": "21",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4523",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'in' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4524",
+        "column": "25",
+        "severity": "error",
+        "message": "Variable 'limiter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4525",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'cache' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4526",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'temp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4526",
+        "column": "34",
+        "severity": "error",
+        "message": "'4096' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "4527",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'logVersion' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4528",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'maxOpSize' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "4603",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4632",
+        "column": "36",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4632",
+        "column": "62",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4633",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4768",
+        "column": "43",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4768",
+        "column": "70",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4771",
+        "column": "43",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4771",
+        "column": "70",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4786",
+        "column": "36",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4789",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4790",
+        "column": "56",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4837",
+        "column": "36",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "4841",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4842",
+        "column": "60",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4853",
+        "column": "25",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4906",
+        "column": "25",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "4977",
+        "column": "57",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "5015",
+        "column": "13",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "5062",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "5083",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    }
+]

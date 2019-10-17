@@ -1,0 +1,127 @@
+[
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "30",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.FileSystem.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "32",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.Path.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "33",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.hdfs.HdfsConfiguration.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "34",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.hdfs.MiniDFSCluster.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "38",
+        "column": "23",
+        "severity": "error",
+        "message": "Name 'EXPECTED_OUTPUT_SIZE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "38",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'EXPECTED_OUTPUT_SIZE' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "39",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'INPUT_FILE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "39",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'INPUT_FILE' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "40",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'OUTPUT_DIR' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "40",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'OUTPUT_DIR' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "42",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'input' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "43",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'map' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "49",
+        "column": "3",
+        "severity": "error",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "56",
+        "column": "3",
+        "severity": "error",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "59",
+        "column": "23",
+        "severity": "error",
+        "message": "'10000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "73",
+        "column": "72",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "79",
+        "column": "3",
+        "severity": "error",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    }
+]

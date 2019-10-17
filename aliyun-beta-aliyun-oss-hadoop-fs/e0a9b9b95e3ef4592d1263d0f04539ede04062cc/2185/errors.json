@@ -1,0 +1,92 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "40",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.nativetask.util.ReadWriteBuffer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "50",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'BUFFER_LENGTH' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "50",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'BUFFER_LENGTH' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "50",
+        "column": "37",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "51",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'INPUT_KV_COUNT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "51",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'INPUT_KV_COUNT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "145",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'out' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "167",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'count' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "186",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'in' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "236",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'count' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "237",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'key' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "238",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'value' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

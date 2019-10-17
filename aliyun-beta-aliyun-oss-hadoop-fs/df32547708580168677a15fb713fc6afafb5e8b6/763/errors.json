@@ -1,0 +1,21 @@
+[
+    {
+        "line": "23",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - com.google.common.base.Preconditions.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "28",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.metrics2.util.Contracts.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "45",
+        "column": "3",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    }
+]

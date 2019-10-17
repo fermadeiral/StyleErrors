@@ -1,0 +1,35 @@
+[
+    {
+        "line": "33",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "128",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "174",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'blah' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "197",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'count' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "203",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "line": "20",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.hdfs.server.namenode.AclTestHelpers.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.permission.AclEntryScope.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "22",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.permission.AclEntryType.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "23",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.permission.FsAction.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "24",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "32",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.hdfs.server.namenode.NameNode.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "33",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.hdfs.server.namenode.NameNodeAdapter.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    }
+]

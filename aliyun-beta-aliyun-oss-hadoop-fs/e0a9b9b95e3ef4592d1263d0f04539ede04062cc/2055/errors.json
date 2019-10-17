@@ -1,0 +1,88 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "22",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.ArrayList.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "23",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.List.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "24",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.Random.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "26",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "27",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "27",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "30",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.io.SequenceFile.Sorter.SegmentDescriptor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "31",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.io.compress.CompressionCodec.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "33",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.mapred.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "36",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.commons.logging.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "57",
+        "column": "61",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "73",
+        "column": "18",
+        "severity": "error",
+        "message": "'1234' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

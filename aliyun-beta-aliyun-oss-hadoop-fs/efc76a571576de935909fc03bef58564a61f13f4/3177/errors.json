@@ -1,0 +1,30 @@
+[
+    {
+        "line": "53",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'TestTimelineClientForATS1_5' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "55",
+        "column": "24",
+        "severity": "error",
+        "message": "Name 'LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "55",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'LOG' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "74",
+        "column": "63",
+        "severity": "error",
+        "message": "'1.5f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

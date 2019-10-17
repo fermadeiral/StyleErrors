@@ -1,0 +1,23 @@
+[
+    {
+        "line": "227",
+        "column": "28",
+        "severity": "error",
+        "message": "'3000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "239",
+        "column": "19",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "239",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'rotation' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    }
+]

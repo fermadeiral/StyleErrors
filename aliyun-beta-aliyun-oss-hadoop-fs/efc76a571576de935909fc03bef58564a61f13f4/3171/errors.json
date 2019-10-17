@@ -1,0 +1,43 @@
+[
+    {
+        "line": "55",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'api' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "61",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'addressType' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "67",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'protocolType' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "72",
+        "column": "36",
+        "severity": "error",
+        "message": "Variable 'addresses' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "240",
+        "severity": "error",
+        "message": "Class Marshal should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "246",
+        "column": "32",
+        "severity": "error",
+        "message": "Name 'marshalToString' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    }
+]

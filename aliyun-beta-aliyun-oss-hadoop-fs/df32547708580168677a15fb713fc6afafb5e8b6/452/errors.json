@@ -1,0 +1,29 @@
+[
+    {
+        "line": "20",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - java.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "21",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.nio.ByteBuffer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "25",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.apache.hadoop.fs.ZeroCopyUnavailableException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "25",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.ZeroCopyUnavailableException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    }
+]

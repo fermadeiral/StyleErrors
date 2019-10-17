@@ -1,0 +1,786 @@
+[
+    {
+        "line": "69",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'CLEAR' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "70",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'CLEAR_LINE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "71",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'SET_CURSOR_HOME' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "72",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'CHANGE_BACKGROUND' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "73",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'RESET_BACKGROUND' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "74",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'SET_CURSOR_LINE_7_COLUMN_0' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "78",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'applicationReportsCache' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "91",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'header' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "92",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'format' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "93",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'display' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "94",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'description' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "95",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'key' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "97",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "108",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'appid' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "109",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'user' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "110",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'type' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "111",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'priority' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "112",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'usedContainers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "113",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'reservedContainers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "114",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'usedMemory' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "115",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'reservedMemory' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "116",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'usedVirtualCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "117",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'reservedVirtualCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "118",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'attempts' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "119",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'progress' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "120",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'state' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "121",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'runningTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "122",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'time' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "123",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'name' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "124",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'nodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "125",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'queue' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "126",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'memorySeconds' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "127",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'vcoreSeconds' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "129",
+        "column": "36",
+        "severity": "error",
+        "message": "Variable 'displayStringsMap' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "174",
+        "column": "44",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "188",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'AppIDComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "196",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'UserComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "204",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'AppTypeComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "212",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'QueueNameComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "220",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'UsedContainersComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "228",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'ReservedContainersComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "236",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'UsedMemoryComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "244",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'ReservedMemoryComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "252",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'UsedVCoresComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "260",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'ReservedVCoresComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "268",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'VCoreSecondsComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "276",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'MemorySecondsComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "284",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'ProgressComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "292",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'RunningTimeComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "300",
+        "column": "58",
+        "severity": "error",
+        "message": "Name 'AppNameComparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "310",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'totalNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "311",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'runningNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "312",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'unhealthyNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "313",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'decommissionedNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "314",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'lostNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "315",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'rebootedNodes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "319",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsSubmitted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "320",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsRunning' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "321",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsPending' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "322",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsCompleted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "323",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsKilled' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "324",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsFailed' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "325",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'activeUsers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "326",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'availableMemoryGB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "327",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'allocatedMemoryGB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "328",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'pendingMemoryGB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "329",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'reservedMemoryGB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "330",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'availableVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "331",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'allocatedVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "332",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'pendingVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "333",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'reservedVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "334",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'allocatedContainers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "335",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'reservedContainers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "336",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'pendingContainers' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "362",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'refreshPeriod' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "363",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'terminalWidth' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "364",
+        "column": "7",
+        "severity": "error",
+        "message": "Variable 'terminalHeight' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "365",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'appsHeader' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "366",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'ascendingSort' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "367",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'rmStartTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "368",
+        "column": "38",
+        "severity": "error",
+        "message": "Variable 'comparator' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "369",
+        "column": "11",
+        "severity": "error",
+        "message": "Variable 'opts' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "370",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'cliParser' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "372",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'queues' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "373",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'users' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "374",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'types' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "376",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'displayScreen' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "377",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'showingTopScreen' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "378",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'runMainLoop' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "379",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'runKeyboardMonitor' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "380",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'lock' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "382",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'currentSortField' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "384",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'keyFieldsMap' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "385",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'sortedKeys' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "387",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'displayThread' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "389",
+        "column": "45",
+        "severity": "error",
+        "message": "Variable 'columnInformationEnumMap' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "455",
+        "column": "22",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "458",
+        "column": "22",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "549",
+        "column": "58",
+        "severity": "error",
+        "message": "':' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "579",
+        "column": "23",
+        "severity": "error",
+        "message": "'80' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "593",
+        "column": "24",
+        "severity": "error",
+        "message": "'24' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "599",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_cursor_home' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "600",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_clear' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "601",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_clear_line' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "602",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_set_cursor_line_7_column_0' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "603",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_change_background' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "604",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'tput_reset_background' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "648",
+        "column": "58",
+        "severity": "error",
+        "message": "':' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "813",
+        "column": "34",
+        "severity": "error",
+        "message": "'9' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "817",
+        "column": "7",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "820",
+        "column": "62",
+        "severity": "error",
+        "message": "':' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "848",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    }
+]

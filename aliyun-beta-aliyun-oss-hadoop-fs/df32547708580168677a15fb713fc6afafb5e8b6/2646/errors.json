@@ -1,0 +1,44 @@
+[
+    {
+        "line": "23",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.api.records.NodeState.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "42",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'numberOfRacks' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "43",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'numberOfNodesPerRack' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "46",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'numberOfLostNodesPerRack' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "50",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'numberOfThInMetricsTable' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "51",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'numberOfActualTableHeaders' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

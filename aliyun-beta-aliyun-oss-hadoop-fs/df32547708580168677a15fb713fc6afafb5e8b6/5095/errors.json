@@ -1,0 +1,78 @@
+[
+    {
+        "line": "35",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.mapred.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "44",
+        "column": "1",
+        "severity": "error",
+        "message": "'{' at column 1 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "48",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'INPUT_DIR' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "49",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'INPUT_FILE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "50",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'CACHE_ARCHIVE_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "51",
+        "column": "16",
+        "severity": "error",
+        "message": "Name 'CACHE_FILE_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "52",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'CACHE_ARCHIVE_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "53",
+        "column": "16",
+        "severity": "error",
+        "message": "Name 'CACHE_FILE_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "55",
+        "column": "18",
+        "severity": "error",
+        "message": "Name 'OUTPUT_DIR' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "84",
+        "column": "3",
+        "severity": "error",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "130",
+        "column": "44",
+        "severity": "error",
+        "message": "'256' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

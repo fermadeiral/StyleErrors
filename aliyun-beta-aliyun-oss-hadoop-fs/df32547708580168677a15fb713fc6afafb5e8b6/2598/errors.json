@@ -1,0 +1,231 @@
+[
+    {
+        "line": "20",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.yarn.api.records.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "23",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.mockito.Mockito.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "39",
+        "column": "31",
+        "severity": "error",
+        "message": "Name 'nodeId' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "67",
+        "column": "18",
+        "severity": "error",
+        "message": "'0x30000000001L' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "70",
+        "column": "55",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "85",
+        "column": "54",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "93",
+        "column": "41",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "93",
+        "column": "50",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "93",
+        "column": "59",
+        "severity": "error",
+        "message": "'3072' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "95",
+        "column": "44",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "95",
+        "column": "53",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "95",
+        "column": "62",
+        "severity": "error",
+        "message": "'3072' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "100",
+        "column": "41",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "100",
+        "column": "50",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "100",
+        "column": "59",
+        "severity": "error",
+        "message": "'3072' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "101",
+        "column": "44",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "101",
+        "column": "53",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "101",
+        "column": "62",
+        "severity": "error",
+        "message": "'3072' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "104",
+        "column": "16",
+        "severity": "error",
+        "message": "More than 8 parameters (found 9).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "189",
+        "column": "55",
+        "severity": "error",
+        "message": "'1536' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "192",
+        "column": "18",
+        "severity": "error",
+        "message": "'15.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "193",
+        "column": "9",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "194",
+        "column": "18",
+        "severity": "error",
+        "message": "'15.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "195",
+        "column": "67",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "197",
+        "column": "40",
+        "severity": "error",
+        "message": "'0.5f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "201",
+        "column": "18",
+        "severity": "error",
+        "message": "'30.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "202",
+        "column": "9",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "203",
+        "column": "18",
+        "severity": "error",
+        "message": "'15.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "204",
+        "column": "67",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "210",
+        "column": "18",
+        "severity": "error",
+        "message": "'120.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "211",
+        "column": "9",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "212",
+        "column": "18",
+        "severity": "error",
+        "message": "'60.0f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "213",
+        "column": "67",
+        "severity": "error",
+        "message": "'0.01f' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

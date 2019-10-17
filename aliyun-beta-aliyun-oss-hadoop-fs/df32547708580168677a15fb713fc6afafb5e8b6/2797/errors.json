@@ -1,0 +1,57 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "35",
+        "column": "19",
+        "severity": "error",
+        "message": "Name 'AMResourceLimitMB' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "35",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'AMResourceLimitMB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "37",
+        "column": "19",
+        "severity": "error",
+        "message": "Name 'AMResourceLimitVCores' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "37",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'AMResourceLimitVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "39",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'usedAMResourceMB' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "41",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'usedAMResourceVCores' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "94",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "line": "36",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'RAND' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "36",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'RAND' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "41",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'numDataUnits' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "42",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'numParityUnits' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "43",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'baseChunkSize' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "52",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'erasedDataIndexes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "55",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'erasedParityIndexes' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "59",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'usingDirectBuffer' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "61",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'usingFixedData' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "64",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'FIXED_DATA_GENERATOR' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "65",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'fixedData' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "67",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'allowChangeInputs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "118",
+        "column": "56",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "120",
+        "column": "60",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "191",
+        "column": "36",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "195",
+        "column": "36",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "214",
+        "column": "23",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "218",
+        "column": "23",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "234",
+        "column": "68",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "240",
+        "column": "25",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "245",
+        "column": "25",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "344",
+        "column": "49",
+        "severity": "error",
+        "message": "'11' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "427",
+        "column": "39",
+        "severity": "error",
+        "message": "'256' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "436",
+        "column": "35",
+        "severity": "error",
+        "message": "'256' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "462",
+        "column": "61",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    }
+]

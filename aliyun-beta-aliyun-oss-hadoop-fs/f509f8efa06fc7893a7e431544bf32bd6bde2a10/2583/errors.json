@@ -1,0 +1,79 @@
+[
+    {
+        "line": "53",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.util.Clock.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "56",
+        "column": "16",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "62",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'APP_ID' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "62",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'APP_ID' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "63",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'ATTEMPT_ID' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "63",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'ATTEMPT_ID' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "65",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'conf' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "66",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'scheduler' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "67",
+        "column": "29",
+        "severity": "error",
+        "message": "Variable 'resourceManager' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "78",
+        "column": "71",
+        "severity": "error",
+        "message": "'10240' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "193",
+        "column": "35",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    }
+]

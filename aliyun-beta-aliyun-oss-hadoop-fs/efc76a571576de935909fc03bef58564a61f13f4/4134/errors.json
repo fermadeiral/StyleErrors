@@ -1,0 +1,65 @@
+[
+    {
+        "line": "29",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.CommonConfigurationKeys.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "30",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.FSDataOutputStream.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "44",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'seed' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "45",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'blockSize' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "46",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'fileSize' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "47",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'numDatanodes' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "50",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'myrand' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "51",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'hostsFile' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "52",
+        "column": "8",
+        "severity": "error",
+        "message": "Variable 'excludeFile' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

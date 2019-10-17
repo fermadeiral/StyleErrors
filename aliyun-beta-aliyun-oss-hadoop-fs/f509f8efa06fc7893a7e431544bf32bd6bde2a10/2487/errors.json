@@ -1,0 +1,64 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "21",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.FileInputStream.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "23",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.InputStreamReader.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "24",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.Reader.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "28",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.commons.io.IOUtils.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "35",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.security.UserGroupInformation.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "45",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'configPrefix' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "46",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'kerberosPrincipalProperty' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "47",
+        "column": "10",
+        "severity": "error",
+        "message": "Variable 'cookiePath' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

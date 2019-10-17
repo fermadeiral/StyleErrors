@@ -1,0 +1,86 @@
+[
+    {
+        "line": "29",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.api.records.ResourceRequest.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "40",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.server.resourcemanager.rmapp.attempt.RMAppAttemptImpl.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "44",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.yarn.server.utils.BuilderUtils.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "56",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'configuration' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "57",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'rm1' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "58",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'rm2' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "59",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'confForRM1' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "60",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'confForRM2' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "73",
+        "column": "16",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "77",
+        "column": "21",
+        "severity": "error",
+        "message": "'20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "79",
+        "column": "21",
+        "severity": "error",
+        "message": "'40' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "148",
+        "column": "5",
+        "severity": "error",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    }
+]

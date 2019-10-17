@@ -1,0 +1,44 @@
+[
+    {
+        "line": "34",
+        "column": "1",
+        "severity": "error",
+        "message": "Utility classes should not have a public or default constructor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"
+    },
+    {
+        "line": "39",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'JOB_STATE_PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "50",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'PHASE_PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "61",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TACE_PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "72",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TASK_ATTEMPT_STATE_PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "83",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TASK_STATE_PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    }
+]

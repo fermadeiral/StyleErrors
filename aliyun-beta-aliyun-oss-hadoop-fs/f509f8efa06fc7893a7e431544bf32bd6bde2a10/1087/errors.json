@@ -1,0 +1,50 @@
+[
+    {
+        "line": "148",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "173",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'INT_BYTES' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "174",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'LONG_BYTES' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "175",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'DATA_VERSION' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "233",
+        "column": "24",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "235",
+        "column": "29",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "437",
+        "severity": "error",
+        "message": "Class SASLOwnerACLProvider should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    }
+]

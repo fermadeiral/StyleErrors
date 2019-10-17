@@ -1,0 +1,58 @@
+[
+    {
+        "line": "25",
+        "column": "13",
+        "severity": "error",
+        "message": "Name 'WINDOW_LEN' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "25",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'WINDOW_LEN' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "26",
+        "column": "13",
+        "severity": "error",
+        "message": "Name 'BUCKET_CNT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "26",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'BUCKET_CNT' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "27",
+        "column": "13",
+        "severity": "error",
+        "message": "Name 'BUCKET_LEN' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "27",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'BUCKET_LEN' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "47",
+        "column": "73",
+        "severity": "error",
+        "message": "'11' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "75",
+        "column": "76",
+        "severity": "error",
+        "message": "'11' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

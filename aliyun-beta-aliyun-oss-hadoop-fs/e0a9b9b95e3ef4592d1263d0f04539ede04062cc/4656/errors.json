@@ -1,0 +1,23 @@
+[
+    {
+        "line": "54",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'ZooKeeperDefaultPort' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "54",
+        "column": "45",
+        "severity": "error",
+        "message": "'2181' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "61",
+        "column": "45",
+        "severity": "error",
+        "message": "'3600' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

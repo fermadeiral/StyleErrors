@@ -1,0 +1,29 @@
+[
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Class AuditEvent should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "89",
+        "column": "10",
+        "severity": "error",
+        "message": "Redundant 'static' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "93",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'AGGREGATE_OPS_WHITELIST' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "104",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'AUDIT_LOG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    }
+]

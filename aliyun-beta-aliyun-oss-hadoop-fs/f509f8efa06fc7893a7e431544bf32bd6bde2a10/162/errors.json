@@ -1,0 +1,51 @@
+[
+    {
+        "line": "26",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.StringTokenizer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "37",
+        "column": "1",
+        "severity": "error",
+        "message": "Line contains a tab character.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "90",
+        "column": "35",
+        "severity": "error",
+        "message": "Redundant 'final' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "93",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'commandOutput' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "94",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'exitCode' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "95",
+        "column": "21",
+        "severity": "error",
+        "message": "Variable 'exception' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "96",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'cmdExecuted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

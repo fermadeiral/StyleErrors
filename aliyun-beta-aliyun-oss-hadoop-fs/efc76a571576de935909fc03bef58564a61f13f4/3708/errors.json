@@ -1,0 +1,37 @@
+[
+    {
+        "line": "20",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.conf.Configuration.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "49",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'webhdfsUrl' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "56",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'numBlocks' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "57",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'data' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "108",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'ClusterShutdownAtEnd' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

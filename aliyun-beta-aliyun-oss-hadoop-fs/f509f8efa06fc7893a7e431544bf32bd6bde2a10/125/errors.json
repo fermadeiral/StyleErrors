@@ -1,0 +1,402 @@
+[
+    {
+        "line": "34",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "38",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.FileContextTestHelper.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.apache.hadoop.fs.CreateFlag.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "56",
+        "column": "8",
+        "severity": "error",
+        "message": "Unknown tag 'BeforeClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "57",
+        "column": "8",
+        "severity": "error",
+        "message": "Unknown tag 'AfterClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "62",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TEST_DIR_AAA2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "63",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TEST_DIR_AAA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "64",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TEST_DIR_AXA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "65",
+        "column": "25",
+        "severity": "error",
+        "message": "Name 'TEST_DIR_AXX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "68",
+        "column": "15",
+        "severity": "error",
+        "message": "Variable 'localFsRootPath' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "70",
+        "column": "41",
+        "severity": "error",
+        "message": "Variable 'fileContextTestHelper' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "77",
+        "column": "32",
+        "severity": "error",
+        "message": "Variable 'fc' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "79",
+        "column": "9",
+        "severity": "error",
+        "message": "'private' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "87",
+        "column": "9",
+        "severity": "error",
+        "message": "'private' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "90",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "90",
+        "column": "7",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "90",
+        "column": "7",
+        "severity": "error",
+        "message": "Conditional logic can be removed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanReturnCheck"
+    },
+    {
+        "line": "92",
+        "severity": "error",
+        "message": "'else' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "97",
+        "column": "31",
+        "severity": "error",
+        "message": "Name 'data' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "165",
+        "column": "40",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "326",
+        "column": "5",
+        "severity": "error",
+        "message": "'while' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "351",
+        "column": "32",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "360",
+        "column": "26",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "371",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "381",
+        "column": "26",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "410",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "430",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "454",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "479",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "503",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "513",
+        "column": "26",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "525",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "553",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "581",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "607",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "617",
+        "column": "26",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "629",
+        "column": "33",
+        "severity": "error",
+        "message": "Expression can be simplified.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"
+    },
+    {
+        "line": "816",
+        "column": "20",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "849",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "869",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "892",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "914",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "925",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "945",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "966",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "990",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1010",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1039",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1062",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1086",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1115",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1167",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1175",
+        "column": "63",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "1195",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1203",
+        "column": "5",
+        "severity": "error",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1203",
+        "column": "48",
+        "severity": "error",
+        "message": "'++' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "1204",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "1218",
+        "column": "45",
+        "severity": "error",
+        "message": "'2048' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "1220",
+        "column": "32",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "1249",
+        "column": "30",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    }
+]

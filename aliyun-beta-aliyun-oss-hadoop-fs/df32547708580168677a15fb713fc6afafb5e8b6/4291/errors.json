@@ -1,0 +1,428 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "53",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'bytesWritten' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "55",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'totalWriteTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "56",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'bytesRead' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "58",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'totalReadTime' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "59",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksWritten' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "60",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksRead' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "61",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksReplicated' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "62",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksRemoved' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "63",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksVerified' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "64",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blockVerificationFailures' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "65",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksCached' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "66",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksUncached' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "67",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'readsFromLocalClient' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "68",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'readsFromRemoteClient' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "69",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'writesFromLocalClient' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "70",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'writesFromRemoteClient' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "71",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'blocksGetLocalPathInfo' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "73",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'remoteBytesRead' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "75",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'remoteBytesWritten' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "78",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksWrite' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "79",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksWriteFallback' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "80",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBytesWrite' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "81",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksReadHits' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "84",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksEvicted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "85",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksEvictedWithoutRead' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "86",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksEvictionWindowMs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "87",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksEvictionWindowMsQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "91",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksLazyPersisted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "92",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksDeletedBeforeLazyPersisted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "93",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBytesLazyPersisted' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "94",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksLazyPersistWindowMs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "95",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'ramDiskBlocksLazyPersistWindowMsQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "97",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'fsyncCount' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "99",
+        "column": "30",
+        "severity": "error",
+        "message": "Variable 'volumeFailures' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "102",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'datanodeNetworkErrors' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "104",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'readBlockOp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "105",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'writeBlockOp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "106",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'blockChecksumOp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "107",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'copyBlockOp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "108",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'replaceBlockOp' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "109",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'heartbeats' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "110",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'blockReports' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "111",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'incrementalBlockReports' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "112",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'cacheReports' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "113",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'packetAckRoundTripTimeNanos' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "114",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'packetAckRoundTripTimeNanosQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "116",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'flushNanos' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "117",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'flushNanosQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "119",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'fsyncNanos' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "120",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'fsyncNanosQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "122",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'sendDataPacketBlockedOnNetworkNanos' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "123",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'sendDataPacketBlockedOnNetworkNanosQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "124",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'sendDataPacketTransferNanos' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "125",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'sendDataPacketTransferNanosQuantiles' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "127",
+        "column": "25",
+        "severity": "error",
+        "message": "Variable 'registry' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "128",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'name' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "129",
+        "column": "14",
+        "severity": "error",
+        "message": "Variable 'jvmMetrics' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "163",
+        "column": "74",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "192",
+        "column": "24",
+        "severity": "error",
+        "message": "'{' at column 24 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "314",
+        "column": "5",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    }
+]

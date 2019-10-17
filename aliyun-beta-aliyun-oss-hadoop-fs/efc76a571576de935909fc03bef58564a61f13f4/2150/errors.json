@@ -1,0 +1,70 @@
+[
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - java.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "22",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - java.util.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "24",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.fs.Path.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "28",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.io.Writable.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "29",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.io.WritableComparable.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "30",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.JobClient.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "31",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.JobConf.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "33",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.OutputCollector.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "35",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.Reporter.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "36",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.apache.hadoop.mapred.MapReduceBase.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    }
+]

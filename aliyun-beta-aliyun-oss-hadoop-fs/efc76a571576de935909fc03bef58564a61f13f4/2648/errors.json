@@ -1,0 +1,30 @@
+[
+    {
+        "line": "52",
+        "column": "29",
+        "severity": "error",
+        "message": "Name 'testRootDir' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "64",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'method' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "65",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'requestBody' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "184",
+        "column": "33",
+        "severity": "error",
+        "message": "Inner assignments should be avoided.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"
+    }
+]

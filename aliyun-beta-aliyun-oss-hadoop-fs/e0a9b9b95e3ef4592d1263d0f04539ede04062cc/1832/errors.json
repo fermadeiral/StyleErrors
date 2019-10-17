@@ -1,0 +1,23 @@
+[
+    {
+        "line": "49",
+        "column": "29",
+        "severity": "error",
+        "message": "Name 'testDir' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "102",
+        "column": "30",
+        "severity": "error",
+        "message": "'12345678' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "141",
+        "column": "30",
+        "severity": "error",
+        "message": "'12345679' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]
