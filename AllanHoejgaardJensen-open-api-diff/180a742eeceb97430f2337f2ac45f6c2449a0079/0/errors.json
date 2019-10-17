@@ -1,0 +1,71 @@
+[
+    {
+        "line": "11",
+        "severity": "error",
+        "message": "Wrong order for 'dk.hoejgaard.openapi.diff.compare.ResourceDiff' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "19",
+        "severity": "error",
+        "message": "Extra separation in import group before 'org.junit.Assert.assertTrue'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "19",
+        "severity": "error",
+        "message": "Using a static member import should be avoided - org.junit.Assert.assertTrue.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStaticImportCheck"
+    },
+    {
+        "line": "19",
+        "severity": "error",
+        "message": "Wrong order for 'org.junit.Assert.assertTrue' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "24",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'REFERENCE_API' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "25",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'SUBJECT_API' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "26",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'EMPTY_API' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "60",
+        "severity": "error",
+        "message": "Line matches the illegal pattern ' printStackTrace() never write to the console - use logging instead'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    },
+    {
+        "line": "82",
+        "severity": "error",
+        "message": "Line matches the illegal pattern ' printStackTrace() never write to the console - use logging instead'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    },
+    {
+        "line": "103",
+        "severity": "error",
+        "message": "Line matches the illegal pattern ' printStackTrace() never write to the console - use logging instead'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    },
+    {
+        "line": "121",
+        "severity": "error",
+        "message": "Line matches the illegal pattern ' printStackTrace() never write to the console - use logging instead'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    }
+]

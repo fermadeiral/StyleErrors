@@ -1,0 +1,71 @@
+[
+    {
+        "line": "8",
+        "severity": "error",
+        "message": "Wrong order for 'dk.hoejgaard.openapi.diff.compare.OperationDiff' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "11",
+        "severity": "error",
+        "message": "Wrong order for 'dk.hoejgaard.openapi.diff.criteria.Maturity' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "15",
+        "severity": "error",
+        "message": "Extra separation in import group before 'org.junit.Test'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Extra separation in import group before 'org.junit.Assert.*'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Using a static member import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStaticImportCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Wrong order for 'org.junit.Assert.*' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "21",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'REFERENCE_API' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "22",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'SUBJECT_API' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "120",
+        "column": "5",
+        "severity": "error",
+        "message": "Method length is 64 lines (max allowed is 50).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"
+    },
+    {
+        "line": "240",
+        "severity": "error",
+        "message": "Line is longer than 144 characters (found 145).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]
