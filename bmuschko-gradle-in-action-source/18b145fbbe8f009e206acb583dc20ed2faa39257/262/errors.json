@@ -1,0 +1,208 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "20",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "21",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "22",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "23",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "25",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoServlet' looks like designed for extension (can be subclassed), but the method 'init' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoServlet' final or making the method 'init' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "26",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoServlet' looks like designed for extension (can be subclassed), but the method 'service' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoServlet' final or making the method 'service' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "32",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 123).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "32",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter request should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "32",
+        "column": "56",
+        "severity": "error",
+        "message": "Parameter response should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 83).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "39",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter servletPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "39",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter request should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 84).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "56",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 85).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "68",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 100).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "77",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 100).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "85",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 100).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "88",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 95).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "88",
+        "column": "81",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "109",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 90).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "109",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter toDoItems should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "109",
+        "column": "74",
+        "severity": "error",
+        "message": "Parameter active should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "121",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter toDoItems should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "137",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "147",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ToDoListStats' looks like designed for extension (can be subclassed), but the method 'getActive' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoListStats' final or making the method 'getActive' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "151",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ToDoListStats' looks like designed for extension (can be subclassed), but the method 'getCompleted' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoListStats' final or making the method 'getCompleted' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "155",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ToDoListStats' looks like designed for extension (can be subclassed), but the method 'getAll' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoListStats' final or making the method 'getAll' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "6",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "7",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "9",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BuildInfo' looks like designed for extension (can be subclassed), but the method 'setVersion' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BuildInfo' final or making the method 'setVersion' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "9",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter version should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "9",
+        "column": "35",
+        "severity": "error",
+        "message": "'version' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "13",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BuildInfo' looks like designed for extension (can be subclassed), but the method 'getVersion' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BuildInfo' final or making the method 'getVersion' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "17",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BuildInfo' looks like designed for extension (can be subclassed), but the method 'setTimestamp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BuildInfo' final or making the method 'setTimestamp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "17",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter timestamp should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "17",
+        "column": "35",
+        "severity": "error",
+        "message": "'timestamp' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "21",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BuildInfo' looks like designed for extension (can be subclassed), but the method 'getTimestamp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BuildInfo' final or making the method 'getTimestamp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

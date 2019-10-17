@@ -1,0 +1,246 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "4",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "5",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "6",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "8",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'getId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'getId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "12",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'setId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'setId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "12",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter id should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "12",
+        "column": "28",
+        "severity": "error",
+        "message": "'id' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "16",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'getName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'getName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "20",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'setName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'setName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "20",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "20",
+        "column": "32",
+        "severity": "error",
+        "message": "'name' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "24",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'isCompleted' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'isCompleted' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "28",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'setCompleted' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'setCompleted' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "28",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter completed should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "28",
+        "column": "38",
+        "severity": "error",
+        "message": "'completed' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "32",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'equals' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'equals' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "33",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "34",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "35",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "40",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "40",
+        "column": "24",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "41",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "41",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 85).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "41",
+        "column": "26",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "46",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'hashCode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'hashCode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "33",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "49",
+        "column": "18",
+        "severity": "error",
+        "message": "'31' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "49",
+        "column": "46",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "50",
+        "column": "18",
+        "severity": "error",
+        "message": "'31' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "50",
+        "column": "43",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "54",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'compareTo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'compareTo' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "55",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter toDoItem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ToDoItem' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ToDoItem' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

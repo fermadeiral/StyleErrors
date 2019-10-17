@@ -1,0 +1,97 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "13",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "14",
+        "severity": "error",
+        "message": "Line is longer than 80 characters (found 90).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "14",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "16",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryToDoRepository' looks like designed for extension (can be subclassed), but the method 'findAll' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryToDoRepository' final or making the method 'findAll' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "23",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryToDoRepository' looks like designed for extension (can be subclassed), but the method 'findById' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryToDoRepository' final or making the method 'findById' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "24",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter id should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "28",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryToDoRepository' looks like designed for extension (can be subclassed), but the method 'insert' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryToDoRepository' final or making the method 'insert' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "29",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter toDoItem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryToDoRepository' looks like designed for extension (can be subclassed), but the method 'update' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryToDoRepository' final or making the method 'update' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter toDoItem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "41",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryToDoRepository' looks like designed for extension (can be subclassed), but the method 'delete' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryToDoRepository' final or making the method 'delete' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "42",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter toDoItem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]
