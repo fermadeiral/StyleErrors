@@ -1,0 +1,114 @@
+[
+    {
+        "line": "4",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.List.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "19",
+        "column": "21",
+        "severity": "error",
+        "message": "Parameter data should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "19",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter edittable should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "19",
+        "column": "48",
+        "severity": "error",
+        "message": "'edittable' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "28",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'getLines' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'getLines' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "34",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'getLine' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'getLine' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "35",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter i should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'setLine' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'setLine' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "41",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter i should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "41",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "24",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "45",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'isEditable' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'isEditable' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "50",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'setEditable' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'setEditable' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter b should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "55",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MockSign' looks like designed for extension (can be subclassed), but the method 'getLocation' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MockSign' final or making the method 'getLocation' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter loc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

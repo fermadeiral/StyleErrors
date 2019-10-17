@@ -1,0 +1,99 @@
+[
+    {
+        "line": "24",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 102).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "24",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter material should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "24",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "24",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter state should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "24",
+        "column": "79",
+        "severity": "error",
+        "message": "'state' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "24",
+        "column": "79",
+        "severity": "error",
+        "message": "Expected @param tag for 'state'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "24",
+        "column": "86",
+        "severity": "error",
+        "message": "Parameter data should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "24",
+        "column": "96",
+        "severity": "error",
+        "message": "'data' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "24",
+        "column": "96",
+        "severity": "error",
+        "message": "Expected @param tag for 'data'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SignBlockMock' looks like designed for extension (can be subclassed), but the method 'getBlockData' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SignBlockMock' final or making the method 'getBlockData' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SignBlockMock' looks like designed for extension (can be subclassed), but the method 'getState' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SignBlockMock' final or making the method 'getState' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SignBlockMock' looks like designed for extension (can be subclassed), but the method 'setBlockState' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SignBlockMock' final or making the method 'setBlockState' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "40",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter state should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "46",
+        "severity": "error",
+        "message": "'state' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    }
+]

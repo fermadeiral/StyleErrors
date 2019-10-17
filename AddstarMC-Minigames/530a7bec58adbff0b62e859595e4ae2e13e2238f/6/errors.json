@@ -1,0 +1,848 @@
+[
+    {
+        "line": "6",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.bukkit.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "23",
+        "column": "29",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "24",
+        "column": "32",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setPlayerWeather' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setPlayerWeather' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "36",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setPlayerTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setPlayerTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "41",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter time should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "41",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter relative should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "9",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "42",
+        "column": "21",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "44",
+        "column": "9",
+        "severity": "error",
+        "message": "'}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "45",
+        "severity": "error",
+        "message": "'else' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "49",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getPlayerTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getPlayerTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "26",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "51",
+        "column": "26",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "54",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getPlayerTimeOffset' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getPlayerTimeOffset' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "59",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'isPlayerTimeRelative' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'isPlayerTimeRelative' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "column": "33",
+        "severity": "error",
+        "message": "'>' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "64",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'resetPlayerTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'resetPlayerTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getPlayerWeather' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getPlayerWeather' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "76",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'resetPlayerWeather' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'resetPlayerWeather' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "81",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getNoDamageTicks' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getNoDamageTicks' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "86",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setNoDamageTicks' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setNoDamageTicks' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "87",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter ticks should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "93",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter server should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "93",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "93",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter uuid should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "95",
+        "column": "27",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "99",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getActivePotionEffects' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getActivePotionEffects' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "104",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'playSound' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'playSound' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "105",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter sound should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "59",
+        "severity": "error",
+        "message": "Parameter volume should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "73",
+        "severity": "error",
+        "message": "Parameter pitch should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "39",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "106",
+        "column": "45",
+        "severity": "error",
+        "message": "',' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "109",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'playSound' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'playSound' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "110",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter sound should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter volume should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "74",
+        "severity": "error",
+        "message": "Parameter pitch should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "39",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "111",
+        "column": "45",
+        "severity": "error",
+        "message": "',' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "114",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'playSound' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'playSound' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "115",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 110).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "115",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter sound should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "59",
+        "severity": "error",
+        "message": "Parameter category should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "83",
+        "severity": "error",
+        "message": "Parameter volume should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "97",
+        "severity": "error",
+        "message": "Parameter pitch should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "119",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'playSound' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'playSound' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "120",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 111).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "120",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter sound should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter category should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "84",
+        "severity": "error",
+        "message": "Parameter volume should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "98",
+        "severity": "error",
+        "message": "Parameter pitch should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "122",
+        "severity": "error",
+        "message": "'else' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "122",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "122",
+        "column": "9",
+        "severity": "error",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "122",
+        "column": "20",
+        "severity": "error",
+        "message": "'==' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "122",
+        "column": "20",
+        "severity": "error",
+        "message": "'==' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "122",
+        "column": "45",
+        "severity": "error",
+        "message": "';' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "122",
+        "column": "46",
+        "severity": "error",
+        "message": "'else' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "122",
+        "column": "61",
+        "severity": "error",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 116).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "123",
+        "column": "77",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "87",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "98",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "98",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "105",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "105",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "109",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "column": "109",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "126",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'updateInventory' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'updateInventory' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "131",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getSaturation' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getSaturation' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "136",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setSaturation' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setSaturation' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "137",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "141",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getFoodLevel' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getFoodLevel' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "146",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setFoodLevel' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setFoodLevel' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "147",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getScoreboard' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getScoreboard' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "156",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'giveExp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'giveExp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "157",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter amount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "158",
+        "column": "28",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "158",
+        "column": "28",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "161",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'giveExpLevels' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'giveExpLevels' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "162",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter amount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "166",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getExp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getExp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "171",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setExp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setExp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "172",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter exp should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "172",
+        "column": "30",
+        "severity": "error",
+        "message": "'exp' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "176",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getLevel' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getLevel' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "181",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setLevel' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setLevel' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "182",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter level should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "182",
+        "column": "30",
+        "severity": "error",
+        "message": "'level' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "183",
+        "column": "20",
+        "severity": "error",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "186",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getTotalExperience' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getTotalExperience' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "191",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setTotalExperience' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setTotalExperience' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "192",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter exp should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "192",
+        "column": "40",
+        "severity": "error",
+        "message": "'exp' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "196",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setScoreboard' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setScoreboard' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "197",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 109).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "197",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter scoreboard should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "197",
+        "column": "42",
+        "severity": "error",
+        "message": "'scoreboard' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "201",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setFlying' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setFlying' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "202",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "206",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setFlySpeed' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setFlySpeed' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "207",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setWalkSpeed' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setWalkSpeed' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "212",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "216",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getAllowFlight' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getAllowFlight' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "220",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setAllowFlight' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setAllowFlight' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "221",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter flight should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "225",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'getFlySpeed' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'getFlySpeed' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "230",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'teleport' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'teleport' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "231",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter location should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "232",
+        "column": "49",
+        "severity": "error",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "232",
+        "column": "49",
+        "severity": "error",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "236",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'setFallDistance' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'setFallDistance' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "237",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter distance should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "241",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestPlayer' looks like designed for extension (can be subclassed), but the method 'isDead' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestPlayer' final or making the method 'isDead' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "line": "12",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestWorld' looks like designed for extension (can be subclassed), but the method 'getTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestWorld' final or making the method 'getTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "17",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestWorld' looks like designed for extension (can be subclassed), but the method 'setTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestWorld' final or making the method 'setTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "18",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter time should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "22",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestWorld' looks like designed for extension (can be subclassed), but the method 'getFullTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestWorld' final or making the method 'getFullTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "27",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestWorld' looks like designed for extension (can be subclassed), but the method 'setFullTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestWorld' final or making the method 'setFullTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "28",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter time should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]
