@@ -1,0 +1,34 @@
+[
+    {
+        "line": "0",
+        "severity": "error",
+        "message": "Required pattern 'Cloudera copyright header' missing in file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    },
+    {
+        "line": "16",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Arrays'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "22",
+        "severity": "info",
+        "message": "Extra separation in import group before 'org.junit.Test'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "56",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testConstructor_NullValidators' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "61",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidation_EmptyValidators' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

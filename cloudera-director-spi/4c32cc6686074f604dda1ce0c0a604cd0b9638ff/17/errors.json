@@ -1,0 +1,33 @@
+[
+    {
+        "line": "35",
+        "severity": "info",
+        "message": "Wrong order for 'com.cloudera.director.spi.v2.model.ConfigurationPropertyValue' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "44",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Collection'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "44",
+        "severity": "info",
+        "message": "Wrong order for 'java.util.Collection' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "50",
+        "severity": "info",
+        "message": "Wrong order for 'com.cloudera.director.spi.v2.adapters.v1.fixtures.TestFixturesV2.SIMPLE_CONFIGURATION' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "61",
+        "column": "44",
+        "severity": "error",
+        "message": "Name 'lcontext' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    }
+]

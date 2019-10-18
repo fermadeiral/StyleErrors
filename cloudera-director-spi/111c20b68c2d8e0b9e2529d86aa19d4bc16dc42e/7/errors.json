@@ -1,0 +1,35 @@
+[
+    {
+        "line": "23",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Collections'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "27",
+        "severity": "info",
+        "message": "Extra separation in import group before 'org.assertj.core.util.Lists'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "75",
+        "column": "5",
+        "severity": "warning",
+        "message": "'assert' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "79",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testConfigKey_nullNotAllowed' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "86",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDefaultDescription_nullNotAllowed' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
