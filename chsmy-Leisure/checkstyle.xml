@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+    <module name="FileLength"/>
+    <module name="FileTabCharacter"/>
+
+    <module name="RegexpSingleline">
+        <property name="format" value="\s+$"/>
+        <property name="message" value="Line has trailing spaces."/>
+    </module>
+
+    <module name="TreeWalker">
+
+
+
+        <module name="MemberName"/>
+        <module name="PackageName"/>
+
+
+        <module name="AvoidStarImport"/>
+        <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
+
+
+
+
+
+
+
+
+
+
+        <module name="StringLiteralEquality"/>
+        <module name="CovariantEquals"/>
+        <module name="NoFinalizer"/>
+        <module name="PackageDeclaration"/>
+
+
+
+        <module name="UpperEll"/>
+    </module>
+</module>
+
