@@ -1,0 +1,37 @@
+[
+    {
+        "line": "10",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.junit.Ignore.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "16",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'RED' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "17",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'BLUE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "26",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'same_colour_circle_same_objects' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "34",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'different_colour_circle_different_objects' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

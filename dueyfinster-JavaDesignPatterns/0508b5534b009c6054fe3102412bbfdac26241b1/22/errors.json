@@ -1,0 +1,70 @@
+[
+    {
+        "line": "3",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - org.junit.Assert.assertFalse.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "10",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.junit.Ignore.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "16",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'INFO_CONTENT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "17",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 222).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "17",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'DEBUG_CONTENT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 159).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "18",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'ERROR_CONTENT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "29",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'test_info_logs_correct_levels' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "37",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'test_debug_logs_correct_levels' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "45",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'test_error_logs_correct_levels' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
