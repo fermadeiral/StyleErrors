@@ -1,0 +1,58 @@
+[
+    {
+        "line": "22",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.eclipse.jdt.internal.core.util.RecordedParsingInformation.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "41",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - com.datasalt.pangool.tuplemr.serialization.TupleDeserializer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "42",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - com.datasalt.pangool.tuplemr.serialization.TupleSerialization.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "43",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - com.datasalt.pangool.tuplemr.serialization.TupleSerializer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "50",
+        "column": "1",
+        "severity": "error",
+        "message": "File contains tab characters (this is the first instance).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"
+    },
+    {
+        "line": "52",
+        "column": "16",
+        "severity": "error",
+        "message": "Redundant 'static' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "83",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'NUM_ITERATIONS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "101",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'NUM_ITERATIONS' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    }
+]
