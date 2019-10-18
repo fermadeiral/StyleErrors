@@ -1,0 +1,22 @@
+[
+    {
+        "line": "24",
+        "column": "42",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "68",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 102).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "89",
+        "column": "41",
+        "severity": "error",
+        "message": "Name 'localeNamer' must match pattern '^((Is|Has|Match|Exist)[_A-Za-z0-9]+)|([A-Z][A-Z0-9]*(_[A-Z0-9]+)*)$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    }
+]
