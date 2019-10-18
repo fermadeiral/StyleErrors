@@ -1,0 +1,198 @@
+[
+    {
+        "line": "44",
+        "column": "12",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "46",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Server' looks like designed for extension (can be subclassed), but the method 'createLifeCycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Server' final or making the method 'createLifeCycle' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Server' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Server' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "53",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "53",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter ec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Server' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Server' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "60",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "60",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "65",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Server' looks like designed for extension (can be subclassed), but the method 'onClose' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Server' final or making the method 'onClose' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "66",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "66",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter reason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Server' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Server' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "71",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter thr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "77",
+        "column": "12",
+        "severity": "error",
+        "message": "'public' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "79",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Client' looks like designed for extension (can be subclassed), but the method 'createLifeCycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Client' final or making the method 'createLifeCycle' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "84",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Client' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Client' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "86",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "86",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter ec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "97",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Client' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Client' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "98",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "98",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "102",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Client' looks like designed for extension (can be subclassed), but the method 'onClose' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Client' final or making the method 'onClose' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "103",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter reason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Client' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Client' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "108",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter thr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

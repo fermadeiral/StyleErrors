@@ -1,0 +1,156 @@
+[
+    {
+        "line": "69",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "69",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "72",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "143",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'AnnotatedEndpoint' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AnnotatedEndpoint' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "144",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'TextAndBinaryDecoderEndpoint' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TextAndBinaryDecoderEndpoint' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "152",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "155",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "169",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'type' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "171",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "175",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Message' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Message' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "186",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'BinaryContainerDecoder' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryContainerDecoder' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "187",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter bytes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "191",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'BinaryContainerDecoder' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryContainerDecoder' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "192",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter bytes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "198",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'TextContainerDecoder' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TextContainerDecoder' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "199",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "203",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'TextContainerDecoder' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TextContainerDecoder' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "204",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

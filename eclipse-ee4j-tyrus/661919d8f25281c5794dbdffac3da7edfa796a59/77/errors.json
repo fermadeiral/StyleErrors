@@ -1,0 +1,177 @@
+[
+    {
+        "line": "54",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'EchoWholeEndpoint' looks like designed for extension (can be subclassed), but the method 'echo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EchoWholeEndpoint' final or making the method 'echo' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "55",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "55",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "60",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'EchoWholeEndpoint' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EchoWholeEndpoint' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "75",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "75",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "75",
+        "column": "68",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "86",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "86",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "104",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MethodReferenceTest' looks like designed for extension (can be subclassed), but the method 'onMessageWhole' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MethodReferenceTest' final or making the method 'onMessageWhole' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "104",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'EchoPartialEndpoint' looks like designed for extension (can be subclassed), but the method 'echo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EchoPartialEndpoint' final or making the method 'echo' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "116",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "116",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "122",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'EchoPartialEndpoint' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EchoPartialEndpoint' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "123",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "137",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "137",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "137",
+        "column": "68",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "148",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "148",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "166",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MethodReferenceTest' looks like designed for extension (can be subclassed), but the method 'onMessagePartial' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MethodReferenceTest' final or making the method 'onMessagePartial' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "166",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "166",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter last should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

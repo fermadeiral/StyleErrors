@@ -1,0 +1,149 @@
+[
+    {
+        "line": "214",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter readSystemProperties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "225",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter trustStoreProvider should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "234",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter keyStoreProvider should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "243",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter trustStoreType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "252",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter keyStoreType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "261",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter trustStorePassword should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "270",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter keyStorePassword should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "279",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter keyStorePassword should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter keyPassword should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "297",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter keyPassword should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "309",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter trustStoreFile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "321",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter trustStoreBytes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "334",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter keyStoreFile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "346",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter keyStoreBytes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "357",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter trustManagerFactoryAlgorithm should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "366",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter keyManagerFactoryAlgorithm should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "376",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter securityProtocol should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "397",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter needsKeyStore should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "522",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslContextConfigurator' looks like designed for extension (can be subclassed), but the method 'createSSLContext' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslContextConfigurator' final or making the method 'createSSLContext' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "649",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslContextConfigurator' looks like designed for extension (can be subclassed), but the method 'retrieve' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslContextConfigurator' final or making the method 'retrieve' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "649",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter props should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

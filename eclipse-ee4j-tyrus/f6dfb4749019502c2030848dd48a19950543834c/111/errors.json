@@ -1,0 +1,65 @@
+[
+    {
+        "line": "58",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnOpenErrorTestEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnOpenErrorTestEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "59",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "69",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'BinaryStreamEncoder' looks like designed for extension (can be subclassed), but the method 'encode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BinaryStreamEncoder' final or making the method 'encode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter object should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter os should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "87",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "87",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "90",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,625 @@
+[
+    {
+        "line": "50",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "50",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'session' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "52",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "53",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "53",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "53",
+        "column": "55",
+        "severity": "error",
+        "message": "'session' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "92",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "102",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "102",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "142",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "161",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "203",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "203",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "212",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "230",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "230",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'session' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "231",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "231",
+        "column": "44",
+        "severity": "error",
+        "message": "Variable 'closeReason' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "233",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseWithCustomReasonEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseWithCustomReasonEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "234",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "234",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "234",
+        "column": "55",
+        "severity": "error",
+        "message": "'session' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "250",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseWithCustomReasonEndpoint' looks like designed for extension (can be subclassed), but the method 'onClose' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseWithCustomReasonEndpoint' final or making the method 'onClose' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "251",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "251",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "255",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseWithCustomReasonEndpoint' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseWithCustomReasonEndpoint' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "256",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "278",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "297",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "330",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "348",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "365",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'closeReasons' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "369",
+        "column": "18",
+        "severity": "error",
+        "message": "Variable 'supportedClientCloseReasons' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "376",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "377",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "393",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsEndpoint' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsEndpoint' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "394",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "406",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OnCloseTest' looks like designed for extension (can be subclassed), but the method 'testOnCloseServerInitiated' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseTest' final or making the method 'testOnCloseServerInitiated' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "406",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter supportedCode should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "421",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "421",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter endpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "430",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "430",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "452",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "452",
+        "column": "44",
+        "severity": "error",
+        "message": "Variable 'closeReason' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "453",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "453",
+        "column": "47",
+        "severity": "error",
+        "message": "Variable 'closeLatch' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "455",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsClientInitEndpoint' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsClientInitEndpoint' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "460",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsClientInitEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsClientInitEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "461",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "465",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsClientInitEndpoint' looks like designed for extension (can be subclassed), but the method 'onClose' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsClientInitEndpoint' final or making the method 'onClose' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "466",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "466",
+        "column": "41",
+        "severity": "error",
+        "message": "'closeReason' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "466",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "472",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'OnCloseAllSupportedReasonsClientInitEndpoint' looks like designed for extension (can be subclassed), but the method 'onError' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OnCloseAllSupportedReasonsClientInitEndpoint' final or making the method 'onError' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "473",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "495",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "495",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter endpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "509",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "509",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "529",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ServiceEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServiceEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "530",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "530",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "574",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "574",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'exceptionThrown' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "576",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'DoubleCloseEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DoubleCloseEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "577",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "577",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "603",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "603",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "612",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "612",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "631",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "631",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'exceptionsThrown' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "633",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'SessionTestAllMethodsAfterCloseEndpoint' looks like designed for extension (can be subclassed), but the method 'message' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SessionTestAllMethodsAfterCloseEndpoint' final or making the method 'message' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "633",
+        "column": "9",
+        "severity": "error",
+        "message": "Method length is 204 lines (max allowed is 150).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"
+    },
+    {
+        "line": "634",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "634",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "832",
+        "column": "25",
+        "severity": "error",
+        "message": "Inner assignments should be avoided.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"
+    },
+    {
+        "line": "852",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "852",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "861",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "861",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "line": "30",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter reasonPhrase should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ProtocolException' looks like designed for extension (can be subclassed), but the method 'getCloseReason' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ProtocolException' final or making the method 'getCloseReason' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

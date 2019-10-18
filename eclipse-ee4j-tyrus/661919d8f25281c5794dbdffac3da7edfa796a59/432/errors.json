@@ -1,0 +1,156 @@
+[
+    {
+        "line": "43",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerEndpointConfigurator' looks like designed for extension (can be subclassed), but the method 'getNegotiatedSubprotocol' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerEndpointConfigurator' final or making the method 'getNegotiatedSubprotocol' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "44",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter supported should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "68",
+        "severity": "error",
+        "message": "Parameter requested should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerEndpointConfigurator' looks like designed for extension (can be subclassed), but the method 'getNegotiatedExtensions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerEndpointConfigurator' final or making the method 'getNegotiatedExtensions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "57",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter installed should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "79",
+        "severity": "error",
+        "message": "Parameter requested should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "91",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "91",
+        "column": "92",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "96",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "96",
+        "column": "92",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "83",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "column": "83",
+        "severity": "error",
+        "message": "Parameter requestedParameters should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "114",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter responseParameters should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "146",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerEndpointConfigurator' looks like designed for extension (can be subclassed), but the method 'checkOrigin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerEndpointConfigurator' final or making the method 'checkOrigin' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "147",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter originHeaderValue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter sec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "59",
+        "severity": "error",
+        "message": "Parameter request should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "85",
+        "severity": "error",
+        "message": "Parameter response should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "155",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerEndpointConfigurator' looks like designed for extension (can be subclassed), but the method 'getEndpointInstance' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerEndpointConfigurator' final or making the method 'getEndpointInstance' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "156",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

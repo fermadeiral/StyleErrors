@@ -1,0 +1,177 @@
+[
+    {
+        "line": "55",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyEndpointAnnotated' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyEndpointAnnotated' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "66",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'session' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "68",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyEndpointProgrammatic' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyEndpointProgrammatic' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "69",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "69",
+        "column": "36",
+        "severity": "error",
+        "message": "'session' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "69",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "74",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyEndpointProgrammatic' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyEndpointProgrammatic' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "89",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "89",
+        "column": "49",
+        "severity": "error",
+        "message": "Name 'testEndpoint1' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "90",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "90",
+        "column": "52",
+        "severity": "error",
+        "message": "Name 'testEndpoint2' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "92",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyServerConfigurator' looks like designed for extension (can be subclassed), but the method 'getEndpointInstance' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyServerConfigurator' final or making the method 'getEndpointInstance' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "93",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyApplication' looks like designed for extension (can be subclassed), but the method 'getEndpointConfigs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyApplication' final or making the method 'getEndpointConfigs' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "106",
+        "column": "61",
+        "severity": "error",
+        "message": "Parameter endpointClasses should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'MyApplication' looks like designed for extension (can be subclassed), but the method 'getAnnotatedEndpointClasses' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MyApplication' final or making the method 'getAnnotatedEndpointClasses' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "113",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter scanned should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "131",
+        "column": "59",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "131",
+        "column": "74",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "135",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "174",
+        "column": "59",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "174",
+        "column": "74",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "178",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "line": "49",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "93",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "109",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CloseFrame' looks like designed for extension (can be subclassed), but the method 'respond' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CloseFrame' final or making the method 'respond' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "110",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter socket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter data should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter closeCode should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

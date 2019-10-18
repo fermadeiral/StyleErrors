@@ -1,0 +1,184 @@
+[
+    {
+        "line": "55",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'receivedTextMessage' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "73",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "73",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "73",
+        "column": "68",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "110",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "68",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "121",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "121",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter thr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter EndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "68",
+        "severity": "error",
+        "message": "Name 'EndpointConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "178",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'CustomDecoder' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomDecoder' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "179",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "183",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'CustomDecoder' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomDecoder' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "184",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "192",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'CustomDecoderThrowingDecodeException' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomDecoderThrowingDecodeException' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "193",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "198",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'CustomDecoderThrowingDecodeException' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomDecoderThrowingDecodeException' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "199",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "206",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ExtendedDecoder' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExtendedDecoder' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "207",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ExtendedDecoder' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExtendedDecoder' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "212",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "218",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter string should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "226",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter customObject should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

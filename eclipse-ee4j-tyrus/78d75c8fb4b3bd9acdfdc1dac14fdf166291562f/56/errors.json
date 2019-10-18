@@ -1,0 +1,37 @@
+[
+    {
+        "line": "39",
+        "column": "20",
+        "severity": "error",
+        "message": "Parameter serverContainer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "39",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter contextPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'WebSocketAddOn' looks like designed for extension (can be subclassed), but the method 'setup' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WebSocketAddOn' final or making the method 'setup' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "45",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter networkListener should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "45",
+        "column": "56",
+        "severity": "error",
+        "message": "Parameter builder should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "line": "30",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter owner should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "30",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter timeoutCounter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AuctionTimeBroadcasterTask' looks like designed for extension (can be subclassed), but the method 'run' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AuctionTimeBroadcasterTask' final or making the method 'run' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

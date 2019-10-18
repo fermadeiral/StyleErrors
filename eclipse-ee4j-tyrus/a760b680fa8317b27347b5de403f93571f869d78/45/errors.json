@@ -1,0 +1,198 @@
+[
+    {
+        "line": "76",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JdkClientContainer' looks like designed for extension (can be subclassed), but the method 'openClientSocket' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JdkClientContainer' final or making the method 'openClientSocket' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "196",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "196",
+        "column": "65",
+        "severity": "error",
+        "message": "Parameter properties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "197",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter transportFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "197",
+        "column": "72",
+        "severity": "error",
+        "message": "Parameter uri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "279",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter sslInputBufferSize should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "279",
+        "column": "75",
+        "severity": "error",
+        "message": "Parameter threadPoolConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "280",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter containerIdleTimeout should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "284",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter downstreamFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter properties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter downstreamFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "289",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter clientEngine should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "289",
+        "column": "72",
+        "severity": "error",
+        "message": "Parameter jdkConnector should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "290",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter upgradeRequest should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "294",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter uri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "308",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter clientFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "308",
+        "column": "95",
+        "severity": "error",
+        "message": "Parameter proxy should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "316",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter result should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "321",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter exc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "342",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter properties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "342",
+        "column": "70",
+        "severity": "error",
+        "message": "Parameter uri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "404",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter proxySelector should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "404",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter uri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "404",
+        "column": "67",
+        "severity": "error",
+        "message": "Parameter scheme should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "404",
+        "column": "82",
+        "severity": "error",
+        "message": "Parameter proxies should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "423",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter wsUri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "423",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter scheme should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "444",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter handler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

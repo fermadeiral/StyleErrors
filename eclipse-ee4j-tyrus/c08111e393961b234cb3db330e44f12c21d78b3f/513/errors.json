@@ -1,0 +1,43 @@
+[
+    {
+        "line": "37",
+        "column": "41",
+        "severity": "error",
+        "message": "Name 'broadcaster' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "39",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SharedCollectionResource' looks like designed for extension (can be subclassed), but the method 'serverSentEventsSource' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SharedCollectionResource' final or making the method 'serverSentEventsSource' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "78",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SharedCollectionResource' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SharedCollectionResource' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "79",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "84",
+        "severity": "error",
+        "message": "switch without \"default\" clause.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"
+    },
+    {
+        "line": "100",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter object should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

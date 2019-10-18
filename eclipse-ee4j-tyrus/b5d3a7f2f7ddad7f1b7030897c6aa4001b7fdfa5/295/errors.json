@@ -1,0 +1,72 @@
+[
+    {
+        "line": "33",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "33",
+        "column": "35",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CustomConfiguratorProtocols' looks like designed for extension (can be subclassed), but the method 'getNegotiatedSubprotocol' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomConfiguratorProtocols' final or making the method 'getNegotiatedSubprotocol' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter supported should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "37",
+        "column": "68",
+        "severity": "error",
+        "message": "Parameter requested should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "41",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CustomConfiguratorProtocols' looks like designed for extension (can be subclassed), but the method 'getNegotiatedExtensions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomConfiguratorProtocols' final or making the method 'getNegotiatedExtensions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "42",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter installed should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "79",
+        "severity": "error",
+        "message": "Parameter requested should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "46",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CustomConfiguratorProtocols' looks like designed for extension (can be subclassed), but the method 'checkOrigin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CustomConfiguratorProtocols' final or making the method 'checkOrigin' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter originHeaderValue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

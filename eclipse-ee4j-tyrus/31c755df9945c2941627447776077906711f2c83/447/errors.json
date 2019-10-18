@@ -1,0 +1,58 @@
+[
+    {
+        "line": "28",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DefaultComponentProvider' looks like designed for extension (can be subclassed), but the method 'isApplicable' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DefaultComponentProvider' final or making the method 'isApplicable' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "29",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "33",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DefaultComponentProvider' looks like designed for extension (can be subclassed), but the method 'create' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DefaultComponentProvider' final or making the method 'create' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "34",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter toLoad should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DefaultComponentProvider' looks like designed for extension (can be subclassed), but the method 'destroy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DefaultComponentProvider' final or making the method 'destroy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "47",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DefaultComponentProvider' looks like designed for extension (can be subclassed), but the method 'getInvocableMethod' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DefaultComponentProvider' final or making the method 'getInvocableMethod' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter method should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

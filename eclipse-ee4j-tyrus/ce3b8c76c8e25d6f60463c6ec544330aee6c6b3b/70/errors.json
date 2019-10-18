@@ -1,0 +1,135 @@
+[
+    {
+        "line": "69",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ReaderEndpoint' looks like designed for extension (can be subclassed), but the method 'readReader' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ReaderEndpoint' final or making the method 'readReader' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter r should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "114",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ReaderWriterTest' looks like designed for extension (can be subclassed), but the method '_testReader' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ReaderWriterTest' final or making the method '_testReader' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "114",
+        "column": "17",
+        "severity": "error",
+        "message": "Name '_testReader' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "114",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter endpoint should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "114",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "125",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "125",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter configuration should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "129",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ReaderWriterTest' looks like designed for extension (can be subclassed), but the method '_testWriter' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ReaderWriterTest' final or making the method '_testWriter' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "152",
+        "column": "17",
+        "severity": "error",
+        "message": "Name '_testWriter' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "152",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter endpoint should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "162",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "162",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter configuration should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "166",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'ReaderProgrammaticEndpoint' looks like designed for extension (can be subclassed), but the method 'onOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ReaderProgrammaticEndpoint' final or making the method 'onOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "194",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "197",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter r should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

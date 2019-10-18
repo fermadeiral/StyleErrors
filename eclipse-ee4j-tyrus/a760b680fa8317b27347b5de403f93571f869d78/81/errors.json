@@ -1,0 +1,43 @@
+[
+    {
+        "line": "36",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "71",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'HelloTextEndpoint' looks like designed for extension (can be subclassed), but the method 'init' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HelloTextEndpoint' final or making the method 'init' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "72",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "76",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'HelloTextEndpoint' looks like designed for extension (can be subclassed), but the method 'sayHello' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HelloTextEndpoint' final or making the method 'sayHello' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "77",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "77",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

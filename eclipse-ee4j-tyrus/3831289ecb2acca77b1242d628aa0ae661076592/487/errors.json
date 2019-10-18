@@ -1,0 +1,135 @@
+[
+    {
+        "line": "45",
+        "column": "40",
+        "severity": "error",
+        "message": "Name 'idCounter' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "73",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "76",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "76",
+        "column": "22",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "76",
+        "column": "39",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "80",
+        "column": "20",
+        "severity": "error",
+        "message": "Parameter item should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "88",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'addArc' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'addArc' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "88",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter arc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "92",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'removeArc' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'removeArc' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter arc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "99",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter messsage should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "99",
+        "column": "61",
+        "severity": "error",
+        "message": "Parameter arc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "134",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'handleBidRequest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'handleBidRequest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "134",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "134",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter arc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "162",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'switchStateToAuctionFinished' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'switchStateToAuctionFinished' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "217",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'getId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'getId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "221",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'getRemoteClients' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'getRemoteClients' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "225",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Auction' looks like designed for extension (can be subclassed), but the method 'getItem' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Auction' final or making the method 'getItem' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "line": "85",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter providers should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "95",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter componentProviderService should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter collector should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "160",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "160",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "160",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter endpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "161",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter collector should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "205",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ComponentProviderService' looks like designed for extension (can be subclassed), but the method 'getInvocableMethod' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ComponentProviderService' final or making the method 'getInvocableMethod' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "205",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter method should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "215",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "233",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "278",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

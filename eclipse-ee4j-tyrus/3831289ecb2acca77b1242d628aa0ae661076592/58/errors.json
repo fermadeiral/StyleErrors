@@ -1,0 +1,57 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "32",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getEncoders' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getEncoders' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getDecoders' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getDecoders' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getSubprotocols' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getSubprotocols' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "53",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getExtensions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getExtensions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getUserProperties' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getUserProperties' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "63",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ServerEndpointConfigAdapter' looks like designed for extension (can be subclassed), but the method 'getConfigurator' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ServerEndpointConfigAdapter' final or making the method 'getConfigurator' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "line": "70",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CdiComponentProvider' looks like designed for extension (can be subclassed), but the method 'isApplicable' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CdiComponentProvider' final or making the method 'isApplicable' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "86",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CdiComponentProvider' looks like designed for extension (can be subclassed), but the method 'create' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CdiComponentProvider' final or making the method 'create' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "88",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'CdiComponentProvider' looks like designed for extension (can be subclassed), but the method 'destroy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CdiComponentProvider' final or making the method 'destroy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "108",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'it' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "121",
+        "column": "33",
+        "severity": "error",
+        "message": "Variable 'cc' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "123",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter it should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "123",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter cc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "129",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter instance should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

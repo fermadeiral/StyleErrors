@@ -1,0 +1,51 @@
+[
+    {
+        "line": "49",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'EXECUTORS_CLEAN_UP_LOCK' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "142",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter shutDownCondition should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "36",
+        "severity": "error",
+        "message": "Name 'poolNumber' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "194",
+        "column": "29",
+        "severity": "error",
+        "message": "Variable 'threadNumber' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "195",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'namePrefix' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "202",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter r should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "214",
+        "column": "15",
+        "severity": "error",
+        "message": "Redundant 'static' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    }
+]

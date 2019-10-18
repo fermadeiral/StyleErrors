@@ -1,0 +1,188 @@
+[
+    {
+        "line": "37",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "61",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'processIncoming' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'processIncoming' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "62",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "62",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter decompresser should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter compressed should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter partialResults should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'processOutgoing' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'processOutgoing' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "136",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "194",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "204",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'onExtensionNegotiation' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'onExtensionNegotiation' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "205",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "205",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter requestedParameters should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "210",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'onHandshakeResponse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'onHandshakeResponse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "211",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter responseParameters should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "215",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'destroy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'destroy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "216",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter context should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "232",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'getName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'getName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "237",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PerMessageDeflateExtension' looks like designed for extension (can be subclassed), but the method 'getParameters' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PerMessageDeflateExtension' final or making the method 'getParameters' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "295",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter t should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "300",
+        "severity": "error",
+        "message": "Class PartialResultWithLength should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "304",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "304",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter result should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

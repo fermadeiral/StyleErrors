@@ -1,0 +1,224 @@
+[
+    {
+        "line": "30",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.openqa.selenium.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "51",
+        "column": "5",
+        "severity": "error",
+        "message": "';' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "52",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'WIN_FIREFOX_BIN' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "53",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "58",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter browser should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "77",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'getDriver' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'getDriver' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "81",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'getEnv' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'getEnv' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "81",
+        "column": "19",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'setUpSafari' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'setUpSafari' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "125",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'setUpChrome' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'setUpChrome' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "147",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'setUpExplorer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'setUpExplorer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "150",
+        "column": "112",
+        "severity": "error",
+        "message": "':' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "163",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'setUpFirefox' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'setUpFirefox' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "185",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'date_format' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "193",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "193",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter driver should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "44",
+        "severity": "error",
+        "message": "'driver' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "193",
+        "column": "44",
+        "severity": "error",
+        "message": "Expected @param tag for 'driver'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "208",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'get' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'get' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "208",
+        "column": "21",
+        "severity": "error",
+        "message": "Parameter url should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "217",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'click' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'click' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "217",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter by should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "227",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'sendKeys' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'sendKeys' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "227",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter by should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "227",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter text should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "238",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'bodyText' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'bodyText' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "248",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'getTextById' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'getTextById' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "248",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter id should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "252",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'getValue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'getValue' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "252",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter by should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "256",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SeleniumToolkit' looks like designed for extension (can be subclassed), but the method 'getTextByTagName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeleniumToolkit' final or making the method 'getTextByTagName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "256",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,351 @@
+[
+    {
+        "line": "49",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "49",
+        "column": "47",
+        "severity": "error",
+        "message": "Variable 'sslContextConfiguration' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "51",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "51",
+        "column": "35",
+        "severity": "error",
+        "message": "Variable 'sslContext' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "56",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'enabledCipherSuites' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "60",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'enabledProtocols' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "64",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'clientMode' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "68",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'needClientAuth' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "72",
+        "column": "23",
+        "severity": "error",
+        "message": "Variable 'wantClientAuth' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "87",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter sslContext should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter sslContextConfiguration should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "134",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter sslContextConfiguration should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "134",
+        "column": "82",
+        "severity": "error",
+        "message": "Parameter clientMode should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter needClientAuth should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter wantClientAuth should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "146",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter pattern should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "238",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter clientMode should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "238",
+        "column": "56",
+        "severity": "error",
+        "message": "'clientMode' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "244",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'isNeedClientAuth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'isNeedClientAuth' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "248",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setNeedClientAuth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setNeedClientAuth' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "248",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter needClientAuth should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "248",
+        "column": "60",
+        "severity": "error",
+        "message": "'needClientAuth' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "253",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'isWantClientAuth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'isWantClientAuth' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "257",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setWantClientAuth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setWantClientAuth' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "257",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter wantClientAuth should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "257",
+        "column": "60",
+        "severity": "error",
+        "message": "'wantClientAuth' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "262",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'getEnabledCipherSuites' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'getEnabledCipherSuites' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "266",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setEnabledCipherSuites' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setEnabledCipherSuites' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "266",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter enabledCipherSuites should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "266",
+        "column": "66",
+        "severity": "error",
+        "message": "'enabledCipherSuites' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "271",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'getEnabledProtocols' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'getEnabledProtocols' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "275",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setEnabledProtocols' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setEnabledProtocols' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "275",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter enabledProtocols should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "275",
+        "column": "63",
+        "severity": "error",
+        "message": "'enabledProtocols' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "280",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'isCipherConfigured' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'isCipherConfigured' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "284",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setCipherConfigured' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setCipherConfigured' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "284",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter isCipherConfigured should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "284",
+        "column": "62",
+        "severity": "error",
+        "message": "'isCipherConfigured' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "289",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'isProtocolConfigured' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'isProtocolConfigured' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "293",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'setProtocolConfigured' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'setProtocolConfigured' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "293",
+        "column": "56",
+        "severity": "error",
+        "message": "Parameter isProtocolConfigured should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "293",
+        "column": "64",
+        "severity": "error",
+        "message": "'isProtocolConfigured' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "298",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'getSslContext' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'getSslContext' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "315",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter sslEngine should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "315",
+        "column": "76",
+        "severity": "error",
+        "message": "Parameter requestedProtocols should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "350",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter sslEngine should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "350",
+        "column": "74",
+        "severity": "error",
+        "message": "Parameter requestedCiphers should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "379",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "396",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SslEngineConfigurator' looks like designed for extension (can be subclassed), but the method 'copy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SslEngineConfigurator' final or making the method 'copy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

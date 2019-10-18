@@ -1,0 +1,202 @@
+[
+    {
+        "line": "105",
+        "column": "19",
+        "severity": "error",
+        "message": "More than 7 parameters (found 9).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "105",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter engine should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter proxy should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter sslFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter httpCodecFilter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter uri should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter sharedTransport should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter proxyHeaders should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "109",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter grizzlyConnector should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter upgradeRequest should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "148",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "148",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter upgradeRequest should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "148",
+        "column": "75",
+        "severity": "error",
+        "message": "'upgradeRequest' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "191",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "217",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "272",
+        "column": "42",
+        "severity": "error",
+        "message": "'upgradeRequest' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "296",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "303",
+        "column": "70",
+        "severity": "error",
+        "message": "Parameter content should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "327",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter reason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "360",
+        "column": "22",
+        "severity": "error",
+        "message": "Name 'ATTR_NAME' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"
+    },
+    {
+        "line": "382",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter httpResponsePacket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "408",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter request should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "441",
+        "severity": "error",
+        "message": "Class ProcessTask should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "445",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter buffer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "445",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter readHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "456",
+        "severity": "error",
+        "message": "Class CloseTask should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "461",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter connection should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "461",
+        "column": "74",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "462",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter grizzlyConnection should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

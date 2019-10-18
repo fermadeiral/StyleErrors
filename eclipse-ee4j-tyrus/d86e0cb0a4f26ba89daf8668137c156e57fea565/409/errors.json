@@ -1,0 +1,618 @@
+[
+    {
+        "line": "104",
+        "column": "5",
+        "severity": "error",
+        "message": "More than 7 parameters (found 15).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"
+    },
+    {
+        "line": "104",
+        "column": "18",
+        "severity": "error",
+        "message": "Parameter container should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "104",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter socket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "104",
+        "column": "71",
+        "severity": "error",
+        "message": "Parameter endpointWrapper should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "18",
+        "severity": "error",
+        "message": "Parameter subprotocol should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter extensions should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter isSecure should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "18",
+        "severity": "error",
+        "message": "Parameter requestURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter queryString should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter pathParameters should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "90",
+        "severity": "error",
+        "message": "Parameter principal should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "18",
+        "severity": "error",
+        "message": "Parameter requestParameterMap should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "column": "18",
+        "severity": "error",
+        "message": "Parameter connectionId should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter debugContext should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "171",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getProtocolVersion' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getProtocolVersion' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "176",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getNegotiatedSubprotocol' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getNegotiatedSubprotocol' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "181",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getAsyncRemote' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getAsyncRemote' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "187",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getBasicRemote' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getBasicRemote' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "193",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isOpen' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isOpen' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "198",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'close' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'close' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "205",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'close' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'close' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "206",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter closeReason should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "213",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getMaxBinaryMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getMaxBinaryMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "218",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'setMaxBinaryMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'setMaxBinaryMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "219",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter maxBinaryMessageBufferSize should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "228",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getMaxTextMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getMaxTextMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "233",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'setMaxTextMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'setMaxTextMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "234",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter maxTextMessageBufferSize should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "243",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getOpenSessions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getOpenSessions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "279",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getNegotiatedExtensions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getNegotiatedExtensions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "284",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getMaxIdleTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getMaxIdleTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "289",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'setMaxIdleTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'setMaxIdleTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "290",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter maxIdleTimeout should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "299",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isSecure' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isSecure' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "304",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getContainer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getContainer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "316",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter handler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "340",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "340",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter handler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "364",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "364",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter handler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "371",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getMessageHandlers' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getMessageHandlers' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "378",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'removeMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'removeMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "379",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter handler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "386",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getRequestURI' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getRequestURI' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "391",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getRequestParameterMap' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getRequestParameterMap' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "396",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getPathParameters' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getPathParameters' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "401",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getUserProperties' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getUserProperties' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "406",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getDistributedProperties' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getDistributedProperties' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "411",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getQueryString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getQueryString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "416",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "421",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getUserPrincipal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getUserPrincipal' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "436",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "450",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "470",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter heartbeatInterval should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "483",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'restartIdleTimeoutExecutor' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'restartIdleTimeoutExecutor' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "503",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter states should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "512",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "512",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter maxMessageSize should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "524",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'notifyMessageHandlers' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'notifyMessageHandlers' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "524",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "524",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter availableDecoders should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "566",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "566",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "581",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'notifyMessageHandlers' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'notifyMessageHandlers' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "581",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "581",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter last should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "611",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'notifyPongHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'notifyPongHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "611",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter pongMessage should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "620",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isWholeTextHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isWholeTextHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "624",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isWholeBinaryHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isWholeBinaryHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "628",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isPartialTextHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isPartialTextHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "632",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isPartialBinaryHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isPartialBinaryHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "636",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isReaderHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isReaderHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "640",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isInputStreamHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isInputStreamHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "644",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'isPongHandlerPresent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'isPongHandlerPresent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "648",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getState' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getState' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "652",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getConnectionId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getConnectionId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "656",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getDebugContext' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getDebugContext' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "665",
+        "column": "19",
+        "severity": "error",
+        "message": "Parameter state should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "676",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getTextBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getTextBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "680",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getBinaryBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getBinaryBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "684",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getReaderBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getReaderBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "688",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'setReaderBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'setReaderBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "688",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter readerBuffer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "692",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'getInputStreamBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'getInputStreamBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "696",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'setInputStreamBuffer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'setInputStreamBuffer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "696",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter inputStreamBuffer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "700",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusSession' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusSession' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "line": "31",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter frame should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter payload should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'PongFrame' looks like designed for extension (can be subclassed), but the method 'respond' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PongFrame' final or making the method 'respond' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "45",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter socket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

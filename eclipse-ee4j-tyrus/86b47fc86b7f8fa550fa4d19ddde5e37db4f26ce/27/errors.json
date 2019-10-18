@@ -1,0 +1,71 @@
+[
+    {
+        "line": "60",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'InMemoryClientContainer' looks like designed for extension (can be subclassed), but the method 'openClientSocket' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InMemoryClientContainer' final or making the method 'openClientSocket' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "61",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter properties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "72",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "77",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter serverEndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "118",
+        "severity": "error",
+        "message": "switch without \"default\" clause.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"
+    },
+    {
+        "line": "154",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter clientEndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "170",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter buffer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "170",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter completionHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "182",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter readHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestServerApplicationConfig' looks like designed for extension (can be subclassed), but the method 'getEndpointConfigs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestServerApplicationConfig' final or making the method 'getEndpointConfigs' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "32",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter endpointClasses should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TestServerApplicationConfig' looks like designed for extension (can be subclassed), but the method 'getAnnotatedEndpointClasses' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TestServerApplicationConfig' final or making the method 'getAnnotatedEndpointClasses' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter scanned should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

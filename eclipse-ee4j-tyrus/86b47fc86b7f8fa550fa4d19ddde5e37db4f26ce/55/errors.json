@@ -1,0 +1,71 @@
+[
+    {
+        "line": "80",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GrizzlyServerContainer' looks like designed for extension (can be subclassed), but the method 'createContainer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GrizzlyServerContainer' final or making the method 'createContainer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "81",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter properties should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "130",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter serverEndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter port should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "223",
+        "severity": "error",
+        "message": "Class WsadlHttpHandler should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "230",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter engine should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "230",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter staticHttpHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "243",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter request should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "243",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter response should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

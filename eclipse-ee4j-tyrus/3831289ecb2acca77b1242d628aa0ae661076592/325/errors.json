@@ -1,0 +1,212 @@
+[
+    {
+        "line": "37",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'messageSize' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "38",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'messageToSend' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "39",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'gotPartial' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "40",
+        "column": "16",
+        "severity": "error",
+        "message": "Variable 'wholeMessage' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "43",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter messageSize should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "43",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter directIO should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "43",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter partial should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "21",
+        "severity": "error",
+        "message": "Name 'bb_equals' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "70",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter b1 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter b2 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "77",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'bb_equal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'bb_equal' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "77",
+        "column": "13",
+        "severity": "error",
+        "message": "Name 'bb_equal' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "91",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'onClientMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'onClientMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "92",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "98",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'startTalk' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'startTalk' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "105",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'onServerMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'onServerMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "106",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'onServerMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'onServerMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "111",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter last should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "115",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'getSessionConversation' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'getSessionConversation' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "116",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter partial should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'onClientMessageHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'onClientMessageHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "121",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "121",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "121",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter last should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "132",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ByteBufferSessionImpl' looks like designed for extension (can be subclassed), but the method 'startTalkPartial' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ByteBufferSessionImpl' final or making the method 'startTalkPartial' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

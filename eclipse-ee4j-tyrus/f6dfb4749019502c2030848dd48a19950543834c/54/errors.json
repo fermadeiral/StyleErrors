@@ -1,0 +1,86 @@
+[
+    {
+        "line": "65",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServletContainerInitializer' looks like designed for extension (can be subclassed), but the method 'onStartup' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServletContainerInitializer' final or making the method 'onStartup' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "66",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter classes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "100",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "105",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter serverEndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter paramName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "167",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "167",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter paramName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "75",
+        "severity": "error",
+        "message": "Parameter paramName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "93",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "108",
+        "severity": "error",
+        "message": "Parameter defaultValue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "19",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter usernames should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "27",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter usernames should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UserListUpdateMessage' looks like designed for extension (can be subclassed), but the method 'getUserList' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserListUpdateMessage' final or making the method 'getUserList' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UserListUpdateMessage' looks like designed for extension (can be subclassed), but the method 'fromString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserListUpdateMessage' final or making the method 'fromString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "36",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

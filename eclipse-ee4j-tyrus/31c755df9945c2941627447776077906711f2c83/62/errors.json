@@ -1,0 +1,324 @@
+[
+    {
+        "line": "71",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter classes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "84",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter serverApplicationConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "101",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter rootPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "101",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter port should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "101",
+        "column": "44",
+        "severity": "error",
+        "message": "'port' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "164",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'addEndpoint' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'addEndpoint' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "165",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "173",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'addEndpoint' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'addEndpoint' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "174",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter serverEndpointConfig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "205",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'connectToServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'connectToServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "206",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter annotatedEndpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "206",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "210",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'connectToServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'connectToServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "211",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "103",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "216",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'connectToServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'connectToServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "217",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter annotatedEndpointInstance should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "217",
+        "column": "70",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "221",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'connectToServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'connectToServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "222",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter endpointInstance should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "222",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "222",
+        "column": "89",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "238",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter annotatedEndpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "238",
+        "column": "82",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "257",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter endpointClass should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "257",
+        "column": "90",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "258",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "277",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter endpointInstance should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "277",
+        "column": "76",
+        "severity": "error",
+        "message": "Parameter cec should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "277",
+        "column": "102",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "294",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter obj should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "294",
+        "column": "61",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "298",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'getDefaultMaxBinaryMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'getDefaultMaxBinaryMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "303",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'setDefaultMaxBinaryMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'setDefaultMaxBinaryMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "304",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter max should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "308",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'getDefaultMaxTextMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'getDefaultMaxTextMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "313",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'setDefaultMaxTextMessageBufferSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'setDefaultMaxTextMessageBufferSize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "314",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter max should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "318",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'getInstalledExtensions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'getInstalledExtensions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "326",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'getDefaultAsyncSendTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'getDefaultAsyncSendTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "331",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'setAsyncSendTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'setAsyncSendTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "332",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter timeoutmillis should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "336",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'getDefaultMaxSessionIdleTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'getDefaultMaxSessionIdleTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "341",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TyrusServerContainer' looks like designed for extension (can be subclassed), but the method 'setDefaultMaxSessionIdleTimeout' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TyrusServerContainer' final or making the method 'setDefaultMaxSessionIdleTimeout' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "342",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter defaultMaxSessionIdleTimeout should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "line": "94",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "94",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter sslSession should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "117",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "117",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter sslSession should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "143",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'HostVerificationTest' looks like designed for extension (can be subclassed), but the method 'getHost' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HostVerificationTest' final or making the method 'getHost' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "148",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'HostVerificationTest' looks like designed for extension (can be subclassed), but the method 'getPort' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HostVerificationTest' final or making the method 'getPort' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

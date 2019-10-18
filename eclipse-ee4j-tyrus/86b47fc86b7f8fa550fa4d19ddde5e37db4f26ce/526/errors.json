@@ -1,0 +1,30 @@
+[
+    {
+        "line": "18",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter transcript should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "26",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ChatTranscriptUpdateMessage' looks like designed for extension (can be subclassed), but the method 'getLastLine' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChatTranscriptUpdateMessage' final or making the method 'getLastLine' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ChatTranscriptUpdateMessage' looks like designed for extension (can be subclassed), but the method 'fromString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChatTranscriptUpdateMessage' final or making the method 'fromString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "31",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "line": "78",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SharedContainerTimeoutTest' looks like designed for extension (can be subclassed), but the method '_testHello' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SharedContainerTimeoutTest' final or making the method '_testHello' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "78",
+        "column": "10",
+        "severity": "error",
+        "message": "Name '_testHello' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "96",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

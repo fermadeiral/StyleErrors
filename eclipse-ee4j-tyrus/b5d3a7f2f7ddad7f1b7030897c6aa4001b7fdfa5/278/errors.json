@@ -1,0 +1,345 @@
+[
+    {
+        "line": "27",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.nio.file.attribute.FileAttribute.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "59",
+        "column": "19",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "59",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "60",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'glassfishWeb' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "61",
+        "column": "117",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "74",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "81",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "82",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "83",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "84",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "85",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "86",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "87",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "88",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "89",
+        "column": "23",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "112",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminStartDomain' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminStartDomain' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "112",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter domain should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "116",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminStopDomain' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminStopDomain' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "116",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter domain should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "120",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminStartDomain1' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminStartDomain1' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "124",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminStopDomain1' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminStopDomain1' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "128",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminListApplications' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminListApplications' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "132",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminDeployCommand' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminDeployCommand' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "132",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter warfile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminDeployCommand' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminDeployCommand' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "136",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter warfile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "column": "75",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "141",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'getAsadminUnDeployCommand' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'getAsadminUnDeployCommand' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "141",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter appname should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'exec' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'exec' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "145",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter cmd should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "168",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'Asadmin' looks like designed for extension (can be subclassed), but the method 'exec' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Asadmin' final or making the method 'exec' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "168",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter commands should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "175",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "181",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "187",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "191",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "200",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "232",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "240",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GlassFishToolkit' looks like designed for extension (can be subclassed), but the method 'makeWar' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GlassFishToolkit' final or making the method 'makeWar' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "240",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter clazz should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "240",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "240",
+        "column": "63",
+        "severity": "error",
+        "message": "Throws count is 4 (max allowed is 3).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "271",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter file should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "278",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GlassFishToolkit' looks like designed for extension (can be subclassed), but the method 'startServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GlassFishToolkit' final or making the method 'startServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "300",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GlassFishToolkit' looks like designed for extension (can be subclassed), but the method 'stopServer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GlassFishToolkit' final or making the method 'stopServer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "323",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GlassFishToolkit' looks like designed for extension (can be subclassed), but the method 'registerEndpoint' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GlassFishToolkit' final or making the method 'registerEndpoint' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "324",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter endpoint should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

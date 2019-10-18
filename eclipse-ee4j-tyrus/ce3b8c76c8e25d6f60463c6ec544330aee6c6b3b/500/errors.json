@@ -1,0 +1,16 @@
+[
+    {
+        "line": "25",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LoggingInterceptor' looks like designed for extension (can be subclassed), but the method 'manageTransaction' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LoggingInterceptor' final or making the method 'manageTransaction' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "26",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter ctx should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

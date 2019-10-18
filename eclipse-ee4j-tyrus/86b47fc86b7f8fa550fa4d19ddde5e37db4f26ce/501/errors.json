@@ -1,0 +1,30 @@
+[
+    {
+        "line": "26",
+        "column": "9",
+        "severity": "error",
+        "message": "Variable 'counter' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'StatefulEndpoint' looks like designed for extension (can be subclassed), but the method 'echo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'StatefulEndpoint' final or making the method 'echo' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "31",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'StatefulEndpoint' looks like designed for extension (can be subclassed), but the method 'postConstruct' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'StatefulEndpoint' final or making the method 'postConstruct' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

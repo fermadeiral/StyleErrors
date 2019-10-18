@@ -1,0 +1,275 @@
+[
+    {
+        "line": "38",
+        "column": "37",
+        "severity": "error",
+        "message": "Variable 'store' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "49",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter store should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "71",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "71",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "93",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter values should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "109",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter values should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "125",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "125",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "151",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter newValues should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter valueList should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "206",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "228",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "228",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "250",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "259",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "288",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "292",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'values' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'values' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "297",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "302",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'remove' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'remove' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "303",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "307",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'putAll' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'putAll' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "308",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter m should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "312",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'put' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'put' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "313",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "313",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "317",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'keySet' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'keySet' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "322",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "327",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'get' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'get' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "328",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "332",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'entrySet' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'entrySet' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "337",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'containsValue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'containsValue' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "338",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "342",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'containsKey' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'containsKey' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "343",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "347",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'clear' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'clear' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "352",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractMultivaluedMap' looks like designed for extension (can be subclassed), but the method 'equalsIgnoreValueOrder' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractMultivaluedMap' final or making the method 'equalsIgnoreValueOrder' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "353",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter omap should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

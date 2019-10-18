@@ -1,0 +1,79 @@
+[
+    {
+        "line": "74",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "74",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "78",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'JsonTestEndpoint' looks like designed for extension (can be subclassed), but the method 'helloWorld' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JsonTestEndpoint' final or making the method 'helloWorld' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "112",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "123",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'JsonDecoder' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JsonDecoder' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "124",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "133",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'JsonDecoder' looks like designed for extension (can be subclassed), but the method 'willDecode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JsonDecoder' final or making the method 'willDecode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "134",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "144",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'JsonEncoder' looks like designed for extension (can be subclassed), but the method 'encode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JsonEncoder' final or making the method 'encode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "145",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

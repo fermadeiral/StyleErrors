@@ -1,0 +1,86 @@
+[
+    {
+        "line": "36",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter map should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter initialCapacity should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "40",
+        "column": "54",
+        "severity": "error",
+        "message": "Parameter loadFactor should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter initialCapacity should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "52",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MultivaluedStringMap' looks like designed for extension (can be subclassed), but the method 'addFirstNull' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MultivaluedStringMap' final or making the method 'addFirstNull' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "53",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter values should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'MultivaluedStringMap' looks like designed for extension (can be subclassed), but the method 'addNull' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'MultivaluedStringMap' final or making the method 'addNull' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter values should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "62",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "62",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "82",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter key should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "82",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter defaultValue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

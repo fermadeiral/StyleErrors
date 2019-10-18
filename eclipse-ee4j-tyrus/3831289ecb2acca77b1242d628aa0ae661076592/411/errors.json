@@ -1,0 +1,21 @@
+[
+    {
+        "line": "23",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "32",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "39",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Utf8DecodingException' looks like designed for extension (can be subclassed), but the method 'getCloseReason' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Utf8DecodingException' final or making the method 'getCloseReason' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TimeoutEndpointResultByHandler' looks like designed for extension (can be subclassed), but the method 'onMessage' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TimeoutEndpointResultByHandler' final or making the method 'onMessage' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "39",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "39",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter sendResult should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'TimeoutEndpointResultByHandler' looks like designed for extension (can be subclassed), but the method 'isTimeoutRaised' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TimeoutEndpointResultByHandler' final or making the method 'isTimeoutRaised' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

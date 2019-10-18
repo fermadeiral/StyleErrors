@@ -1,0 +1,51 @@
+[
+    {
+        "line": "32",
+        "column": "26",
+        "severity": "error",
+        "message": "Name '_locale' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "33",
+        "column": "51",
+        "severity": "error",
+        "message": "Name '_resourceBundles' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "39",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter l should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Localizer' looks like designed for extension (can be subclassed), but the method 'getLocale' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Localizer' final or making the method 'getLocale' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'Localizer' looks like designed for extension (can be subclassed), but the method 'localize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Localizer' final or making the method 'localize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter l should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "125",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter l should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

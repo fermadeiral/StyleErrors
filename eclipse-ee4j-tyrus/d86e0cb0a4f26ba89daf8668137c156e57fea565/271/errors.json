@@ -1,0 +1,204 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "31",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "34",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "35",
+        "column": "9",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "39",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "49",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter contextPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "49",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter endpointPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "49",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter commScheme should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "49",
+        "column": "82",
+        "severity": "error",
+        "message": "Parameter commHost should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "49",
+        "column": "99",
+        "severity": "error",
+        "message": "Parameter commPort should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "50",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter installRoot should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter installRoot should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "63",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getInstallRoot' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getInstallRoot' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getCommPort' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getCommPort' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getCommHost' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getCommHost' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "79",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getCommScheme' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getCommScheme' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "83",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter commPort should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "87",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter commHost should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "91",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter commScheme should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "95",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getContextPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getContextPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "99",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter contextPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getEndpointPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getEndpointPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "107",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter endpointPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getURI' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getURI' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "147",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getHost' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getHost' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "148",
+        "column": "22",
+        "severity": "error",
+        "message": "'host' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "155",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AppConfig' looks like designed for extension (can be subclassed), but the method 'getPort' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AppConfig' final or making the method 'getPort' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "156",
+        "column": "22",
+        "severity": "error",
+        "message": "'port' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    }
+]
