@@ -1,0 +1,307 @@
+[
+    {
+        "line": "55",
+        "column": "15",
+        "severity": "warning",
+        "message": "Unused import - com.cloudera.director.aws.ec2.EC2InstanceTemplateConfigurationValidator.INVALID_KMS_WHEN_ENCRYPTION_DISABLED_MSG.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "115",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Collection'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "121",
+        "severity": "info",
+        "message": "Extra separation in import group before 'org.junit.Before'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "162",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "252",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_NonAMI' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "259",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_NoAMI' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "269",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_DuplicateAMI' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "280",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_Not64Bit' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "291",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_Windows' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "302",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_InvalidPlatform' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "314",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_InvalidSpotPlatform' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "326",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_InvalidOwner' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "338",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_InvalidSpotOwner' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "352",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_InvalidState' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "363",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_IncompatibleInstanceType' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "377",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckImage_RootDeviceType' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "407",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckAvailabilityZone_NoZone' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "418",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckAvailabilityZone_DuplicateZone' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "449",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckPlacementGroup_NoGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "460",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckPlacementGroup_DuplicateGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "472",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckTenancy_Default' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "479",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckTenancy_Dedicated' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "486",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckTenancy_Invalid' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "512",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckIamProfileName_NoSuchEntity' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "544",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckSubnetId_NoSubnet' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "555",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckSubnetId_DuplicateSubnet' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "586",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckSecurityGroupsIds_NoSecurityGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "597",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testCheckSecurityGroupsIds_DuplicateSecurityGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "663",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testvalidateKeyName_NoKeyPair' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "674",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testvalidateKeyName_DuplicateKeyPair' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "708",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateSpotParameters_MissingSpotBid' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "714",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateSpotParameters_EmptySpotBid' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "720",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateSpotParameters_MalformedSpotBid' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "726",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateSpotParameters_NegativeSpotBid' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "732",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateSpotParameters_InvalidBlockDuration' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "766",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeCount_NotNumber' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "773",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeCount_Negative' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "780",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeCount_AboveMax' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "787",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeSize_NotNumber' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "795",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeSize_BelowMin' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "809",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsVolumeSize_AboveMax' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "823",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsEncryptionFlag_InvalidCount' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "829",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsKms_InvalidCount' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "835",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testValidateEbsKms_KeyNotFound' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

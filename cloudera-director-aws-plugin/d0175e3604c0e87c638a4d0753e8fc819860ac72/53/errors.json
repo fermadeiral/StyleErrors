@@ -1,0 +1,40 @@
+[
+    {
+        "line": "0",
+        "severity": "error",
+        "message": "Required pattern 'Cloudera copyright header' missing in file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"
+    },
+    {
+        "line": "4",
+        "severity": "info",
+        "message": "'com.cloudera.director.aws.ec2.DeviceNameUtils' should be separated from previous imports.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "8",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.List'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "8",
+        "severity": "info",
+        "message": "Wrong order for 'java.util.List' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "21",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testGetEbsDeviceNames_wrap' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "35",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testGetEbsDeviceNamesFail_NotInRange' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

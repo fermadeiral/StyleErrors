@@ -1,0 +1,160 @@
+[
+    {
+        "line": "47",
+        "column": "8",
+        "severity": "warning",
+        "message": "Unused import - com.cloudera.director.aws.shaded.com.amazonaws.services.autoscaling.model.DetachInstancesRequest.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "56",
+        "column": "8",
+        "severity": "warning",
+        "message": "Unused import - com.cloudera.director.aws.shaded.com.amazonaws.services.ec2.model.TerminateInstancesResult.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "57",
+        "severity": "info",
+        "message": "Wrong order for 'com.cloudera.director.aws.shaded.com.amazonaws.services.ec2.model.LaunchTemplate' import.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "70",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Collection'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "79",
+        "severity": "info",
+        "message": "Extra separation in import group before 'org.assertj.core.util.Maps'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "175",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_UnrecoverableExceptionCreatingLaunchTemplate' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "204",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_TransientExceptionCreatingLaunchTemplate' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "235",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_UnrecoverableExceptionCreatingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "268",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_TransientExceptionCreatingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "302",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_SympatheticFailureCreatingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "339",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_TransientExceptionDeletingLaunchTemplate' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "362",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_UnrecoverableExceptionDeletingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "387",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_TransientExceptionDeletingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "410",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testAllocate_SympatheticFailureDeletingASG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "457",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteGroup_UnrecoverableExceptionDeletingLaunchTemplate' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "504",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_ReduceMinCount' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "526",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_SomeInstancesNotInAutoScalingGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "552",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_UnrecoverableExceptionDescribingAutoScalingGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "577",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_TransientExceptionDescribingAutoScalingGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "602",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_UnrecoverableExceptionUpdatingAutoScalingGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "629",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_TransientExceptionUpdatingAutoScalingGroup' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "656",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_UnrecoverableExceptionDetachingAllInstances' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "683",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testDeleteInstances_TransientExceptionDetachingAllInstances' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "line": "23",
+        "severity": "info",
+        "message": "Extra separation in import group before 'java.util.Collections'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "27",
+        "severity": "info",
+        "message": "Extra separation in import group before 'org.junit.Test'",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"
+    },
+    {
+        "line": "41",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testGetEbsDeviceNames_wrap' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "56",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testGetEbsDeviceNamesFail_NotInRange' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "61",
+        "column": "15",
+        "severity": "error",
+        "message": "Name 'testGetEbsDeviceNames_filter' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
