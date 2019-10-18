@@ -1,0 +1,65 @@
+[
+    {
+        "line": "11",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - com.google.protobuf.GeneratedMessage.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "13",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - com.google.protobuf.Message.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "20",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - sun.misc.IOUtils.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "22",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.IOException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "23",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.InputStream.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "24",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.Random.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "41",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'CloseHandler_should_fire_an_end_event' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "72",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'CloseHandler_should_not_fire_an_end_event_for_non_yarn_app_tag' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "91",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'CloseHandler_should_not_fire_end_event_for_null_header' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

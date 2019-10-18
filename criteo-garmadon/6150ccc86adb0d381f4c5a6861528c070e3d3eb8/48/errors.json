@@ -1,0 +1,65 @@
+[
+    {
+        "line": "9",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - com.google.protobuf.GeneratedMessage.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "10",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - com.google.protobuf.Message.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "17",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - sun.misc.IOUtils.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "19",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.IOException.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "20",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.io.InputStream.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "21",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.Random.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "37",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'EventDecoder_should_read_event_sent_as_whole' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "62",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'EventDecoder_should_read_event_sent_as_chunks' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "90",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'EventDecoder_should_read_many_events_of_different_sizes' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

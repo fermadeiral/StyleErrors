@@ -1,0 +1,56 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "27",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.function.Consumer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "76",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'OutputFormatTracer_should_use_a_latent_type_definition_equivalent_to_the_ForLoadedType_one' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "76",
+        "column": "109",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "91",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 227).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "91",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'OutputFormatTracer_should_intercept_InputFormat_direct_implementor' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "91",
+        "column": "86",
+        "severity": "error",
+        "message": "Throws count is 6 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "122",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'OutputFormatTracer_should_get_deprecated_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

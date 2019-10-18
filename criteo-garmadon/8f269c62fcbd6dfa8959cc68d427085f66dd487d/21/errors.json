@@ -1,0 +1,36 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "51",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'PluginClassLoaderTracer_GarmadonLoadScope_should_add_garmadon_agent_package_to_spiPackages_field' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "52",
+        "column": "13",
+        "severity": "error",
+        "message": "Throws count is 7 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "71",
+        "column": "39",
+        "severity": "error",
+        "message": "Name 'SPI_PACKAGES' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "97",
+        "column": "9",
+        "severity": "error",
+        "message": "'}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    }
+]

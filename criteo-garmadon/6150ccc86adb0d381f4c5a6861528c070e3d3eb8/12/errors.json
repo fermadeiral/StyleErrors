@@ -1,0 +1,51 @@
+[
+    {
+        "line": "20",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'server' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "37",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'SocketAppender_should_establish_greetings_with_server' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "45",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'SocketAppender_should_retry_establishing_connection' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "58",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'SocketAppender_should_retry_establishing_connection_greet_response_not_expected' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "73",
+        "column": "11",
+        "severity": "error",
+        "message": "',' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "82",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'SocketAppender_should_retry_establishing_connection_if_no_response' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "87",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'SocketAppender_should_retry_appending_until_get_connection' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

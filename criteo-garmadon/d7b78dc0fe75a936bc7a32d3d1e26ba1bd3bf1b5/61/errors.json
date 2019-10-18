@@ -1,0 +1,55 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "7",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 176).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "7",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'Protocol_should_validate_version_of_server_via_greetings_frame' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "16",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 176).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "16",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'Protocol_should_invalidate_bad_version_of_server_via_greetings' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "22",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'Protocol_should_refuse_bad_greetings_frame_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "31",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'Protocol_should_refuse_bad_greetings_frame_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "40",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'Protocol_should_refuse_bad_greetings_frame_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

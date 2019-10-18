@@ -1,0 +1,37 @@
+[
+    {
+        "line": "7",
+        "column": "12",
+        "severity": "error",
+        "message": "Variable 'uri' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "10",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getUniformizedUri_should_return_uri_as_provided' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "15",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getUniformizedUri_should_return_uri_without_port' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "20",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getUniformizedUri_should_return_uri_with_env' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "26",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getUniformizedUri_should_return_uri_with_env_prefix' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

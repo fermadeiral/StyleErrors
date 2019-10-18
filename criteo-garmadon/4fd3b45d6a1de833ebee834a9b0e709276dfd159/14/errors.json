@@ -1,0 +1,318 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "41",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - com.criteo.hadoop.garmadon.agent.tracers.hadoop.hdfs.FileSystemTracer.getMethod.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "52",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "52",
+        "column": "31",
+        "severity": "error",
+        "message": "Name 'pathFolder' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "53",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "54",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "55",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "57",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "59",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "60",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "61",
+        "column": "5",
+        "severity": "error",
+        "message": "Static variable definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "61",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'hdfs_user' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "63",
+        "column": "5",
+        "severity": "error",
+        "message": "Variable access definition in wrong order.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"
+    },
+    {
+        "line": "67",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 196).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "67",
+        "column": "37",
+        "severity": "error",
+        "message": "Throws count is 7 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "139",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 181).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "185",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 185).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "185",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_write' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "185",
+        "column": "59",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "200",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "200",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_read' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "200",
+        "column": "58",
+        "severity": "error",
+        "message": "Throws count is 6 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "223",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 184).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "223",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_list' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "223",
+        "column": "58",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "232",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 191).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "232",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_get_content' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "232",
+        "column": "65",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "241",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 186).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "241",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_delete' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "241",
+        "column": "60",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "250",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "250",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_rename_deprecated' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "250",
+        "column": "71",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "259",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 186).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "259",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_attach_to_rename' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "259",
+        "column": "60",
+        "severity": "error",
+        "message": "Throws count is 5 (max allowed is 4).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"
+    },
+    {
+        "line": "268",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 166).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "268",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_indicate_if_event_is_failure_via_exception' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "281",
+        "severity": "error",
+        "message": "Empty catch block.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"
+    },
+    {
+        "line": "281",
+        "column": "35",
+        "severity": "error",
+        "message": "'{' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "281",
+        "column": "35",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "281",
+        "column": "36",
+        "severity": "error",
+        "message": "'}' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "289",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 172).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "289",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'FileSystemTracer_should_indicate_failure_if_method_returns_boolean_false' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

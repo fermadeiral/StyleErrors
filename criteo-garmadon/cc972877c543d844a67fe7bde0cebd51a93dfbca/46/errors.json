@@ -1,0 +1,78 @@
+[
+    {
+        "line": "37",
+        "severity": "error",
+        "message": "Line is longer than 160 characters (found 188).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "37",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_send_back_a_greeting_when_inout_greeting_is_correct' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "48",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_close_cnx_on_bad_greetings' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "56",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_remove_itself_on_good_greetings' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "56",
+        "column": "73",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "64",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_install_CloseHandler_before_KafkaHandler_after_receiving_good_greetings' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "64",
+        "column": "113",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "77",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_not_close_cnx_on_bad_version' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "85",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_send_back_a_greeting_with_agent_version_on_bad_version' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "100",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'GreetingHandler_should_install_Discarder_first_and_then_CloseHandler_after_receiving_bad_version' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "100",
+        "column": "115",
+        "severity": "error",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    }
+]
