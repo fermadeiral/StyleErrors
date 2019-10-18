@@ -1,0 +1,65 @@
+[
+    {
+        "line": "53",
+        "column": "14",
+        "severity": "error",
+        "message": "Type name 'ValidateWithFuncexec_Function_Test' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "83",
+        "severity": "error",
+        "message": "Distance between variable 'metaFunctionAccessor' declaration and its first usage is 5, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "117",
+        "column": "20",
+        "severity": "error",
+        "message": "Local variable name 'expected_set' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "133",
+        "column": "18",
+        "severity": "error",
+        "message": "Local variable name 'expected_val' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "158",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "160",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "162",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "164",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "166",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 197).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "172",
+        "severity": "error",
+        "message": "Line is longer than 180 characters (found 209).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]

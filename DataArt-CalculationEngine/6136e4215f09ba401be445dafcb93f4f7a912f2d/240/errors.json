@@ -1,0 +1,55 @@
+[
+    {
+        "line": "61",
+        "column": "16",
+        "severity": "error",
+        "message": "Local variable name 'a1_expected_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "62",
+        "column": "16",
+        "severity": "error",
+        "message": "Local variable name 'b2_expected_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "63",
+        "severity": "error",
+        "message": "Distance between variable 'c3_expected_value' declaration and its first usage is 4, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "63",
+        "column": "16",
+        "severity": "error",
+        "message": "Local variable name 'c3_expected_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "64",
+        "severity": "error",
+        "message": "Distance between variable 'd2_expected_value' declaration and its first usage is 5, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "64",
+        "column": "17",
+        "severity": "error",
+        "message": "Local variable name 'd2_expected_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "65",
+        "severity": "error",
+        "message": "Distance between variable 'd3_expected_value' declaration and its first usage is 6, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "65",
+        "column": "16",
+        "severity": "error",
+        "message": "Local variable name 'd3_expected_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    }
+]

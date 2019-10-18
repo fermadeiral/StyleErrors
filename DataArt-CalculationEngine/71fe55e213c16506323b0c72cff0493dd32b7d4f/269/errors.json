@@ -1,0 +1,35 @@
+[
+    {
+        "line": "28",
+        "severity": "error",
+        "message": "Abbreviation in name 'GRAPH_vs_EVALUATION_Test' must contain no more than '2' consecutive capital letters.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"
+    },
+    {
+        "line": "28",
+        "column": "14",
+        "severity": "error",
+        "message": "Type name 'GRAPH_vs_EVALUATION_Test' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "30",
+        "column": "51",
+        "severity": "error",
+        "message": "Member name 'cell_iterations' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "31",
+        "column": "49",
+        "severity": "error",
+        "message": "Member name 'formula_complexity' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "53",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    }
+]

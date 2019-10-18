@@ -1,0 +1,48 @@
+[
+    {
+        "line": "25",
+        "severity": "error",
+        "message": "Abbreviation in name 'DSLOOKUP_not_found_Test' must contain no more than '2' consecutive capital letters.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"
+    },
+    {
+        "line": "25",
+        "column": "14",
+        "severity": "error",
+        "message": "Type name 'DSLOOKUP_not_found_Test' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "27",
+        "column": "46",
+        "severity": "error",
+        "message": "Member name 'data_set_size' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "28",
+        "column": "50",
+        "severity": "error",
+        "message": "Member name 'data_set_type' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "35",
+        "column": "9",
+        "severity": "error",
+        "message": "Member name 'cell_iterations' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "55",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "59",
+        "severity": "error",
+        "message": "'for' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    }
+]
