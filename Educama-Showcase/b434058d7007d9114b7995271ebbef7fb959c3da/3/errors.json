@@ -1,0 +1,65 @@
+[
+    {
+        "line": "12",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.educama.airline.businessservice.AirlineBusinessService.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "49",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesByIataCode_retrievesAirlines_irrespectiveOfTheCaseOfIATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "59",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesSuggestionsByIataCode_retrievesAirlinses_irrespectiveOfTheCaseOfIATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "67",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesSuggestionsByIataCode_returnsAnEmptyList_whenNoTermSpecified' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "80",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesSuggestionsByCallsign_returnsAnEmptyList_whenNoTermSpecified' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "93",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesSuggestionsByIataCode_truncatesTheResultSet_whenMoreThanMaximumFound' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "111",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAirlinesSuggestionsByCallSign_truncatesTheResultSet_whenMoreThanMaximumFound' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "129",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'importAirlines_replacesTheContentOfRepository' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "144",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'findAllAirlines_returnsAllAirlines' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "line": "4",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - org.educama.airport.businessservice.AirportBusinessService.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "51",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getAirport_retrievesAirport_irrespectiveOfTheCaseOfIATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "61",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getAirportSuggestions_retrievesAirports_irrespectiveOfTheCaseOfIATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "69",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getSuggestions_returnsAnEmptyList_whenNoTermSpecified' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "82",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getSuggestions_truncatesTheResultSet_whenMoreThanMaximumFound' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "100",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'importAirport_replaceTheContentOfRepository' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "115",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'getAllAirports_returnsAllAirports' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
