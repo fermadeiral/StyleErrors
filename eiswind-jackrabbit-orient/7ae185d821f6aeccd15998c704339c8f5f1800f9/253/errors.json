@@ -1,0 +1,132 @@
+[
+    {
+        "line": "34",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "34",
+        "column": "36",
+        "severity": "error",
+        "message": "Variable 'acMgr' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "38",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "48",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 129).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "48",
+        "column": "67",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'privilegesFromName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'privilegesFromName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter privilegeName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "30",
+        "severity": "error",
+        "message": "'acMgr' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "61",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 123).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "61",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'privilegesFromNames' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'privilegesFromNames' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter privilegeNames should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "62",
+        "column": "30",
+        "severity": "error",
+        "message": "'acMgr' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "70",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'checkCanReadAc' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'checkCanReadAc' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "76",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'checkCanModifyAc' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'checkCanModifyAc' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "76",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "82",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'getPathToNonExistingNode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'getPathToNonExistingNode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "95",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractAccessControlTest' looks like designed for extension (can be subclassed), but the method 'getPathToProperty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractAccessControlTest' final or making the method 'getPathToProperty' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

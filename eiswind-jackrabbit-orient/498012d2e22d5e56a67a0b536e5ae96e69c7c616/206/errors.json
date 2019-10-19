@@ -1,0 +1,106 @@
+[
+    {
+        "line": "48",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "51",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractJoinTest' looks like designed for extension (can be subclassed), but the method 'checkQOM' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractJoinTest' final or making the method 'checkQOM' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter qom should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "51",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter nodes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractJoinTest' looks like designed for extension (can be subclassed), but the method 'checkResult' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractJoinTest' final or making the method 'checkResult' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter result should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter nodes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "61",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractJoinTest' looks like designed for extension (can be subclassed), but the method 'createQuery' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractJoinTest' final or making the method 'createQuery' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter joinType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "62",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter condition should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "67",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractJoinTest' looks like designed for extension (can be subclassed), but the method 'createQuery' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractJoinTest' final or making the method 'createQuery' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "67",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter joinType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "68",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter condition should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "69",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter left should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter right should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

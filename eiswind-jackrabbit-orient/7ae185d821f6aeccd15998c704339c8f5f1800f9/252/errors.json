@@ -1,0 +1,57 @@
+[
+    {
+        "line": "39",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "52",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "59",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'testGetPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'testGetPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "68",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'testGetEffectivePolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'testGetEffectivePolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "77",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'testGetApplicablePolicies' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'testGetApplicablePolicies' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "86",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'testSetPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'testSetPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "101",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlPolicyTest' looks like designed for extension (can be subclassed), but the method 'testSetInvalidPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlPolicyTest' final or making the method 'testSetInvalidPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

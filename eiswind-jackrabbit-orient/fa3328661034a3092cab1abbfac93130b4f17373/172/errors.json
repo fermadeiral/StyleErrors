@@ -1,0 +1,44 @@
+[
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByLocalNameTest' looks like designed for extension (can be subclassed), but the method 'testLocalName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByLocalNameTest' final or making the method 'testLocalName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "35",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter o1 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "35",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter o2 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByLocalNameTest' looks like designed for extension (can be subclassed), but the method 'createOrderingOperand' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByLocalNameTest' final or making the method 'createOrderingOperand' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "49",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByLocalNameTest' looks like designed for extension (can be subclassed), but the method 'createSQL' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByLocalNameTest' final or making the method 'createSQL' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "54",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByLocalNameTest' looks like designed for extension (can be subclassed), but the method 'createXPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByLocalNameTest' final or making the method 'createXPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

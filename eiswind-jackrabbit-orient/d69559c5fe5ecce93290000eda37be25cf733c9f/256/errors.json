@@ -1,0 +1,354 @@
+[
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testGetSupportedPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlDiscoveryTest' final or making the method 'testGetSupportedPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 126).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "57",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 132).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "58",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 130).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "60",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 134).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "61",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 138).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "66",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testPrivilegeFromName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlDiscoveryTest' final or making the method 'testPrivilegeFromName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testMandatoryPrivilegeFromName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlDiscoveryTest' final or making the method 'testMandatoryPrivilegeFromName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "94",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testUnknownPrivilegeFromName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlDiscoveryTest' final or making the method 'testUnknownPrivilegeFromName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "104",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testAllPrivilegeContainsAll' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlDiscoveryTest' final or making the method 'testAllPrivilegeContainsAll' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "112",
+        "column": "19",
+        "severity": "error",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "112",
+        "column": "19",
+        "severity": "error",
+        "message": "'=' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "125",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "129",
+        "column": "43",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "129",
+        "column": "64",
+        "severity": "error",
+        "message": "Expected @throws tag for 'NotExecutableException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "140",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "143",
+        "column": "45",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "155",
+        "column": "53",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "172",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 121).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "174",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 143).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "178",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "182",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "183",
+        "column": "9",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "185",
+        "column": "44",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "198",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 132).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "198",
+        "column": "94",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "199",
+        "column": "65",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "215",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "217",
+        "column": "44",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "223",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "225",
+        "column": "61",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "237",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "240",
+        "column": "54",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "252",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "254",
+        "column": "44",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "261",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "263",
+        "column": "54",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "274",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "277",
+        "column": "47",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "302",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "304",
+        "column": "61",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "316",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "319",
+        "column": "54",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "331",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "334",
+        "column": "54",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "347",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "347",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter privilegeNameConstant should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "347",
+        "column": "45",
+        "severity": "error",
+        "message": "Expected @param tag for 'privilegeNameConstant'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "347",
+        "column": "68",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "347",
+        "column": "76",
+        "severity": "error",
+        "message": "Expected @param tag for 'session'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "347",
+        "column": "92",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

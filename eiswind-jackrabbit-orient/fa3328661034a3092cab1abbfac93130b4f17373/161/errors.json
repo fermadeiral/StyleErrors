@@ -1,0 +1,44 @@
+[
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "46",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'testSingleValue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'testSingleValue' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'testSingleValueWithName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'testSingleValueWithName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'testMultiValues' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'testMultiValues' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "83",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'testMultiValuesWithName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'testMultiValuesWithName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "96",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetWeakReferencesTest' looks like designed for extension (can be subclassed), but the method 'testNonReferenceable' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetWeakReferencesTest' final or making the method 'testNonReferenceable' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

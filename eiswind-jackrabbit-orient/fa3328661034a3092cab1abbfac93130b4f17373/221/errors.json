@@ -1,0 +1,281 @@
+[
+    {
+        "line": "45",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testStringLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testStringLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "61",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "62",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testBinaryLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testBinaryLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "74",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLongLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLongLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "41",
+        "severity": "error",
+        "message": "'123' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "80",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testDoubleLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testDoubleLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "86",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testDateLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testDateLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testBooleanLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testBooleanLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "98",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testNameLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testNameLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "104",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testPathLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testPathLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "110",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testReferenceLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testReferenceLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "118",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testWeakReferenceLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testWeakReferenceLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "127",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testURILength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testURILength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "133",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testDecimalLength' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testDecimalLength' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "134",
+        "column": "56",
+        "severity": "error",
+        "message": "'123' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "141",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthStringLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthStringLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "149",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthBinaryLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthBinaryLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "163",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthDoubleLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthDoubleLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "171",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthDateLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthDateLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "180",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthBooleanLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthBooleanLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "189",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthNameLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthNameLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "199",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthPathLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthPathLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "209",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthReferenceLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthReferenceLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "220",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthWeakReferenceLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthWeakReferenceLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "231",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthURILiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthURILiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "241",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LengthTest' looks like designed for extension (can be subclassed), but the method 'testLengthDecimalLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LengthTest' final or making the method 'testLengthDecimalLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "251",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter propertyName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "252",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "272",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter propertyName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "273",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter operator should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "274",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "275",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter matches should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "288",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter propertyName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "289",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter operator should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "290",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "296",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter propertyName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "297",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter operator should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "298",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter length should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

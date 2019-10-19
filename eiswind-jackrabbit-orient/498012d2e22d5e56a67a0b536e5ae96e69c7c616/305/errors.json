@@ -1,0 +1,170 @@
+[
+    {
+        "line": "47",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter out should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter log should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "34",
+        "severity": "error",
+        "message": "'log' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "69",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter out should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "81",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter log should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "81",
+        "column": "34",
+        "severity": "error",
+        "message": "'log' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "89",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'close' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'close' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "94",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'flush' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'flush' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "99",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'write' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'write' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "99",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter c should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'write' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'write' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "103",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter cbuf should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "32",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "103",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter off should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "103",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter len should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'write' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'write' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "107",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter str should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter off should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter len should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'LogPrintWriter' looks like designed for extension (can be subclassed), but the method 'println' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LogPrintWriter' final or making the method 'println' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "153",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter cbuf should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "153",
+        "column": "36",
+        "severity": "error",
+        "message": "Array brackets at illegal position.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"
+    },
+    {
+        "line": "153",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter off should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "153",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter len should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testInnerJoin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testInnerJoin' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testInnerJoinWithPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testInnerJoinWithPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "53",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testLeftOuterJoin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testLeftOuterJoin' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "66",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testLeftOuterJoinWithPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testLeftOuterJoinWithPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testRightOuterJoin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testRightOuterJoin' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "84",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'SameNodeJoinConditionTest' looks like designed for extension (can be subclassed), but the method 'testRightOuterJoinWithPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SameNodeJoinConditionTest' final or making the method 'testRightOuterJoinWithPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "99",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter joinType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "99",
+        "column": "62",
+        "severity": "error",
+        "message": "Parameter relPath should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

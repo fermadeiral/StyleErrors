@@ -1,0 +1,210 @@
+[
+    {
+        "line": "36",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "59",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter orig should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "37",
+        "severity": "error",
+        "message": "'orig' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "59",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter log should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "59",
+        "column": "58",
+        "severity": "error",
+        "message": "'log' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "72",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "72",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter throwable should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "87",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "88",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter assertionFailedError should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "98",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'addListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'addListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "98",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter testListener should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "102",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'removeListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'removeListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "102",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter testListener should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'endTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'endTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "106",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'errorCount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'errorCount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "114",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'errors' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'errors' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "118",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'failureCount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'failureCount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "122",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'failures' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'failures' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "126",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'runCount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'runCount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "130",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'shouldStop' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'shouldStop' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "134",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'startTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'startTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "134",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "138",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'stop' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'stop' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "142",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JCRTestResult' looks like designed for extension (can be subclassed), but the method 'wasSuccessful' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JCRTestResult' final or making the method 'wasSuccessful' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "156",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "183",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter tokens should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "183",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "211",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "line": "32",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'sources'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "33",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'executeClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "34",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'keywords'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "41",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'PREFIX' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "47",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "76",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfiguration' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfiguration' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfigurationNotVersionableFails' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfigurationNotVersionableFails' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "101",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfigurationTwiceFails' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfigurationTwiceFails' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "111",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testConfigurationsPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testConfigurationsPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "117",
+        "column": "84",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "121",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCheckinConfigFailsWithUnversionedChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCheckinConfigFailsWithUnversionedChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "131",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCheckinConfig' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCheckinConfig' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "137",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfigWithBaseline' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfigWithBaseline' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "166",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfigWithNonExistentParentFails' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfigWithNonExistentParentFails' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "188",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testCreateConfigWithExistentConfigFromBaselineFails' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testCreateConfigWithExistentConfigFromBaselineFails' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "204",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testRestoreBaseline' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testRestoreBaseline' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "227",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConfigurationsTest' looks like designed for extension (can be subclassed), but the method 'testRestoreConfig' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConfigurationsTest' final or making the method 'testRestoreConfig' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

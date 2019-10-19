@@ -1,0 +1,1408 @@
+[
+    {
+        "line": "69",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'sources'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "70",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'executeClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "71",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'keywords'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "75",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'CONTENTHANDLER' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "75",
+        "column": "50",
+        "severity": "error",
+        "message": "Name 'STREAM' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "76",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'SKIPBINARY' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "76",
+        "column": "46",
+        "severity": "error",
+        "message": "Name 'SAVEBINARY' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "77",
+        "column": "27",
+        "severity": "error",
+        "message": "Name 'NORECURSE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "77",
+        "column": "45",
+        "severity": "error",
+        "message": "Name 'RECURSE' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "79",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "82",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'JCR_XMLTEXT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "83",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "86",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'JCR_XMLDATA' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "87",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "94",
+        "column": "19",
+        "severity": "error",
+        "message": "Variable 'textValues' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "96",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'position' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "121",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "135",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "146",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_handler_session_skipBinary_noRecurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_handler_session_skipBinary_noRecurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "146",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_handler_session_skipBinary_noRecurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "151",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_handler_session_skipBinary_recurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_handler_session_skipBinary_recurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "151",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_handler_session_skipBinary_recurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "156",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_handler_session_saveBinary_noRecurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_handler_session_saveBinary_noRecurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "156",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_handler_session_saveBinary_noRecurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "161",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_handler_session_saveBinary_recurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_handler_session_saveBinary_recurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "161",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_handler_session_saveBinary_recurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "166",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_stream_session_skipBinary_recurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_stream_session_skipBinary_recurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "166",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_stream_session_skipBinary_recurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "171",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_stream_session_skipBinary_noRecurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_stream_session_skipBinary_noRecurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "171",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_stream_session_skipBinary_noRecurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "176",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_stream_session_saveBinary_noRecurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_stream_session_saveBinary_noRecurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "176",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_stream_session_saveBinary_noRecurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "181",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ExportDocViewTest' looks like designed for extension (can be subclassed), but the method 'testExportDocView_stream_session_saveBinary_recurse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ExportDocViewTest' final or making the method 'testExportDocView_stream_session_saveBinary_recurse' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "181",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'testExportDocView_stream_session_saveBinary_recurse' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "201",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter withHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "201",
+        "column": "45",
+        "severity": "error",
+        "message": "'withHandler' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "201",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter skipBinary should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "201",
+        "column": "66",
+        "severity": "error",
+        "message": "'skipBinary' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "201",
+        "column": "66",
+        "severity": "error",
+        "message": "Expected @param tag for 'skipBinary'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "201",
+        "column": "78",
+        "severity": "error",
+        "message": "Parameter noRecurse should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "201",
+        "column": "86",
+        "severity": "error",
+        "message": "'noRecurse' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "201",
+        "column": "86",
+        "severity": "error",
+        "message": "Expected @param tag for 'noRecurse'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "202",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "202",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "202",
+        "column": "54",
+        "severity": "error",
+        "message": "Expected @throws tag for 'SAXException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "202",
+        "column": "68",
+        "severity": "error",
+        "message": "Expected @throws tag for 'TransformerException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "236",
+        "column": "39",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "236",
+        "column": "60",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "276",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "276",
+        "column": "40",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "276",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter root should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "276",
+        "column": "54",
+        "severity": "error",
+        "message": "Expected @param tag for 'root'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "276",
+        "column": "67",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "302",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "302",
+        "column": "39",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "302",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "302",
+        "column": "53",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "303",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "303",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "307",
+        "column": "83",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "352",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "352",
+        "column": "40",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "352",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter parentElem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "352",
+        "column": "54",
+        "severity": "error",
+        "message": "Expected @param tag for 'parentElem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "353",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "353",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "377",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "377",
+        "column": "35",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "377",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter parentElem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "377",
+        "column": "49",
+        "severity": "error",
+        "message": "Expected @param tag for 'parentElem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "377",
+        "column": "68",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "383",
+        "column": "29",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "390",
+        "column": "56",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "423",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "423",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "423",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "423",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "423",
+        "column": "55",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "424",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "430",
+        "column": "29",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "443",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "443",
+        "column": "42",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "443",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter attribute should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "443",
+        "column": "53",
+        "severity": "error",
+        "message": "Expected @param tag for 'attribute'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "443",
+        "column": "71",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "449",
+        "column": "75",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "452",
+        "column": "13",
+        "severity": "error",
+        "message": "'}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "457",
+        "column": "9",
+        "severity": "error",
+        "message": "'}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "461",
+        "column": "64",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "477",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "477",
+        "column": "44",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "477",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter attribute should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "477",
+        "column": "55",
+        "severity": "error",
+        "message": "Expected @param tag for 'attribute'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "478",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "497",
+        "column": "82",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "516",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "516",
+        "column": "35",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "516",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "516",
+        "column": "49",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "517",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "517",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "543",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "543",
+        "column": "43",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "543",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter attr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "543",
+        "column": "54",
+        "severity": "error",
+        "message": "Expected @param tag for 'attr'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "544",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "544",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "558",
+        "column": "72",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "559",
+        "column": "61",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "567",
+        "column": "71",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "569",
+        "column": "71",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "573",
+        "column": "62",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "586",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter root should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "586",
+        "column": "44",
+        "severity": "error",
+        "message": "Expected @param tag for 'root'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "586",
+        "column": "57",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "592",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'URI' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "608",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 124).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "621",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "621",
+        "column": "42",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "621",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "621",
+        "column": "56",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "621",
+        "column": "69",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "643",
+        "column": "77",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "655",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "655",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "655",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "655",
+        "column": "55",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "656",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "673",
+        "column": "84",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "687",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter nodes should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "687",
+        "column": "48",
+        "severity": "error",
+        "message": "Expected @param tag for 'nodes'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "687",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter parentElem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "687",
+        "column": "63",
+        "severity": "error",
+        "message": "Expected @param tag for 'parentElem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "688",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "708",
+        "column": "79",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "723",
+        "column": "83",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "724",
+        "column": "78",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "727",
+        "column": "21",
+        "severity": "error",
+        "message": "'}' at column 21 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "753",
+        "column": "89",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "774",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "774",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "774",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "774",
+        "column": "71",
+        "severity": "error",
+        "message": "Parameter isSet should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "774",
+        "column": "79",
+        "severity": "error",
+        "message": "Expected @param tag for 'isSet'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "775",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "825",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "825",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "825",
+        "column": "49",
+        "severity": "error",
+        "message": "Expected @param tag for 'node'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "825",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "825",
+        "column": "63",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "825",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter isSet should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "825",
+        "column": "77",
+        "severity": "error",
+        "message": "Expected @param tag for 'isSet'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "826",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "872",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "872",
+        "column": "62",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "896",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "896",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "896",
+        "column": "45",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "896",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "896",
+        "column": "59",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "896",
+        "column": "72",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "898",
+        "column": "52",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "912",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter node should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "912",
+        "column": "53",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "937",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "937",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter str should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "937",
+        "column": "47",
+        "severity": "error",
+        "message": "Expected @param tag for 'str'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "937",
+        "column": "59",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "951",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter in should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "966",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "966",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter prop should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "966",
+        "column": "49",
+        "severity": "error",
+        "message": "Expected @param tag for 'prop'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "966",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter isBinary should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "966",
+        "column": "63",
+        "severity": "error",
+        "message": "Expected @param tag for 'isBinary'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "967",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "967",
+        "column": "41",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1004",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1004",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1004",
+        "column": "46",
+        "severity": "error",
+        "message": "Expected @param tag for 'name'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1015",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1015",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1029",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1029",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1029",
+        "column": "45",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1029",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1029",
+        "column": "58",
+        "severity": "error",
+        "message": "Expected @param tag for 'name'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1049",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1049",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1049",
+        "column": "42",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1068",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1068",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1068",
+        "column": "54",
+        "severity": "error",
+        "message": "Expected @param tag for 'elem'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1094",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1096",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter xml should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1096",
+        "column": "59",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1115",
+        "column": "37",
+        "severity": "error",
+        "message": "Name 'xmlnsURI' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "1116",
+        "column": "37",
+        "severity": "error",
+        "message": "Name 'xmlnsPrefix' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "1118",
+        "column": "17",
+        "severity": "error",
+        "message": "Variable 'elem' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1119",
+        "column": "22",
+        "severity": "error",
+        "message": "Variable 'attrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1120",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'nsAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1121",
+        "column": "20",
+        "severity": "error",
+        "message": "Variable 'nonNsAttrs' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "1123",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter elem should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "1123",
+        "column": "36",
+        "severity": "error",
+        "message": "'elem' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    }
+]

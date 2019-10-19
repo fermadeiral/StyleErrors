@@ -1,0 +1,44 @@
+[
+    {
+        "line": "29",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'sources'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "30",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'executeClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "31",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'keywords'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'WorkspaceCopyReferenceableTest' looks like designed for extension (can be subclassed), but the method 'getOtherWorkspaceName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WorkspaceCopyReferenceableTest' final or making the method 'getOtherWorkspaceName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "47",
+        "severity": "error",
+        "message": "Expected @throws tag for 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "48",
+        "column": "13",
+        "severity": "error",
+        "message": "Expected @throws tag for 'NotExecutableException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

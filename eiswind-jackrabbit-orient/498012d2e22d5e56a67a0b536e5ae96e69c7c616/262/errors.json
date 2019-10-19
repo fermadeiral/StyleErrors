@@ -1,0 +1,23 @@
+[
+    {
+        "line": "33",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryFactoryTest' looks like designed for extension (can be subclassed), but the method 'testDefaultRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryFactoryTest' final or making the method 'testDefaultRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryFactoryTest' looks like designed for extension (can be subclassed), but the method 'testEmptyParameters' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryFactoryTest' final or making the method 'testEmptyParameters' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryFactoryTest' looks like designed for extension (can be subclassed), but the method 'getRepositoryFactory' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryFactoryTest' final or making the method 'getRepositoryFactory' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

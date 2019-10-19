@@ -1,0 +1,37 @@
+[
+    {
+        "line": "34",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'FullTextSearchScoreTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FullTextSearchScoreTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'FullTextSearchScoreTest' looks like designed for extension (can be subclassed), but the method 'testOrdering' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FullTextSearchScoreTest' final or making the method 'testOrdering' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "55",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter query should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'FullTextSearchScoreTest' looks like designed for extension (can be subclassed), but the method 'testConstraint' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FullTextSearchScoreTest' final or making the method 'testConstraint' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "88",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter query should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

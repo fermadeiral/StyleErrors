@@ -1,0 +1,56 @@
+[
+    {
+        "line": "29",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "48",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "55",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testGetSupportedPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'testGetSupportedPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 126).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "61",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testGetPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'testGetPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "68",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testHasPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'testHasPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "74",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RSessionAccessControlDiscoveryTest' looks like designed for extension (can be subclassed), but the method 'testNotHasPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RSessionAccessControlDiscoveryTest' final or making the method 'testNotHasPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

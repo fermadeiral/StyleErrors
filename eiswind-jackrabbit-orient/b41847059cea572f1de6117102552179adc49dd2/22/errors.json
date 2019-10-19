@@ -1,0 +1,23 @@
+[
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ThreeWayJoinTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ThreeWayJoinTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "67",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ThreeWayJoinTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ThreeWayJoinTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "98",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ThreeWayJoinTest' looks like designed for extension (can be subclassed), but the method 'afterSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ThreeWayJoinTest' final or making the method 'afterSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

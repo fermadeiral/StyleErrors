@@ -1,0 +1,23 @@
+[
+    {
+        "line": "34",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetDateTest' looks like designed for extension (can be subclassed), but the method 'testLinearTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetDateTest' final or making the method 'testLinearTime' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "60",
+        "severity": "error",
+        "message": "';' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyForIteratorPadCheck"
+    },
+    {
+        "line": "50",
+        "column": "30",
+        "severity": "error",
+        "message": "'100' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

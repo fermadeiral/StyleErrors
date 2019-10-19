@@ -1,0 +1,131 @@
+[
+    {
+        "line": "37",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "49",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "62",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "63",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "64",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "65",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'testTransientRententionPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'testTransientRententionPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "73",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'testTransientRententionPolicy2' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'testTransientRententionPolicy2' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "81",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'testRententionPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'testRententionPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "89",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RetentionPolicyEffectTest' looks like designed for extension (can be subclassed), but the method 'testRententionPolicy2' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RetentionPolicyEffectTest' final or making the method 'testRententionPolicy2' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "97",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter targetNode should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "97",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter childName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "98",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter propName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "98",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter childName2 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "99",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter propName2 should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "155",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter target should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "155",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter childName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "155",
+        "column": "64",
+        "severity": "error",
+        "message": "Parameter propName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "166",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter target should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

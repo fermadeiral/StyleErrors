@@ -1,0 +1,37 @@
+[
+    {
+        "line": "38",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetQueryTest' looks like designed for extension (can be subclassed), but the method 'testGetQuery' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetQueryTest' final or making the method 'testGetQuery' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "59",
+        "column": "62",
+        "severity": "error",
+        "message": "';' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyForIteratorPadCheck"
+    },
+    {
+        "line": "72",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'GetQueryTest' looks like designed for extension (can be subclassed), but the method 'testInvalidQueryException' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GetQueryTest' final or making the method 'testInvalidQueryException' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "86",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'javax.jcr.RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "88",
+        "column": "40",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

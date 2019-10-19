@@ -1,0 +1,30 @@
+[
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByNameTest' looks like designed for extension (can be subclassed), but the method 'testName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByNameTest' final or making the method 'testName' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByNameTest' looks like designed for extension (can be subclassed), but the method 'createOrderingOperand' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByNameTest' final or making the method 'createOrderingOperand' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByNameTest' looks like designed for extension (can be subclassed), but the method 'createSQL' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByNameTest' final or making the method 'createSQL' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OrderByNameTest' looks like designed for extension (can be subclassed), but the method 'createXPath' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OrderByNameTest' final or making the method 'createXPath' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

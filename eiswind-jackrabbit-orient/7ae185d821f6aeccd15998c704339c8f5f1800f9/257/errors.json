@@ -1,0 +1,334 @@
+[
+    {
+        "line": "55",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "60",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "62",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "74",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "83",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'tearDown' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'tearDown' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "95",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 144).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "99",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "107",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter acMgr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "107",
+        "column": "74",
+        "severity": "error",
+        "message": "Parameter path should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "118",
+        "column": "52",
+        "severity": "error",
+        "message": "';' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    },
+    {
+        "line": "124",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter acl should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "124",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter principal should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "136",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 121).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "136",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testGetAccessControlEntries' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testGetAccessControlEntries' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "145",
+        "column": "25",
+        "severity": "error",
+        "message": "'privs' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "150",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntry' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntry' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "160",
+        "column": "66",
+        "severity": "error",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "165",
+        "severity": "error",
+        "message": "'if' construct must use '{}'s.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"
+    },
+    {
+        "line": "170",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 157).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "171",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 144).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "174",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAggregatePrivilege' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAggregatePrivilege' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "192",
+        "column": "14",
+        "severity": "error",
+        "message": "'privs' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "193",
+        "column": "80",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "198",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAggregatedPrivilegesSeparately' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAggregatedPrivilegesSeparately' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "215",
+        "column": "21",
+        "severity": "error",
+        "message": "'privs' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "222",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAbstractPrivilege' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAbstractPrivilege' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "246",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddPrivilegesPresentInEntries' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddPrivilegesPresentInEntries' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "275",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 158).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "278",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryAndSetPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryAndSetPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "289",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 192).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "293",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 224).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "296",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryIsTransient' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryIsTransient' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "310",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 183).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "313",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryInvalidPrincipal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryInvalidPrincipal' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "327",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryEmptyPrivilegeArray' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryEmptyPrivilegeArray' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "342",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryInvalidPrivilege' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryInvalidPrivilege' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "362",
+        "column": "13",
+        "severity": "error",
+        "message": "'}' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "373",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testRemoveAccessControlEntry' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testRemoveAccessControlEntry' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "384",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 130).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "388",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testRemoveAddedAccessControlEntry' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testRemoveAddedAccessControlEntry' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "401",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testRemoveAccessControlEntryAndSetPolicy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testRemoveAccessControlEntryAndSetPolicy' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "425",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 164).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "429",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 207).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "432",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testRemoveAccessControlEntryIsTransient' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testRemoveAccessControlEntryIsTransient' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "456",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testRemoveIllegalAccessControlEntry' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testRemoveIllegalAccessControlEntry' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "469",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 123).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "475",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryTwice' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryTwice' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "484",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testAddAccessControlEntryAgain' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testAddAccessControlEntryAgain' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "497",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AccessControlListTest' looks like designed for extension (can be subclassed), but the method 'testExtendPrivileges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AccessControlListTest' final or making the method 'testExtendPrivileges' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "521",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 145).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]

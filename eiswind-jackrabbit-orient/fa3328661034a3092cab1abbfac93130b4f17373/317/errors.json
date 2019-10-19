@@ -1,0 +1,190 @@
+[
+    {
+        "line": "31",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - java.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "47",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractPerformanceTest' looks like designed for extension (can be subclassed), but the method 'testPerformance' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractPerformanceTest' final or making the method 'testPerformance' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "48",
+        "column": "38",
+        "severity": "error",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "49",
+        "column": "38",
+        "severity": "error",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "63",
+        "column": "70",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "71",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractPerformanceTest' looks like designed for extension (can be subclassed), but the method 'testPerformance' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractPerformanceTest' final or making the method 'testPerformance' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "71",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "71",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter xml should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "112",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter conf should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "23",
+        "severity": "error",
+        "message": "Must have at least one statement.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"
+    },
+    {
+        "line": "152",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "152",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter repository should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "159",
+        "column": "68",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "165",
+        "column": "70",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "177",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter test should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "177",
+        "column": "26",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "177",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter statistics should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "195",
+        "column": "46",
+        "severity": "error",
+        "message": "'10.0' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "196",
+        "column": "46",
+        "severity": "error",
+        "message": "'50.0' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "197",
+        "column": "46",
+        "severity": "error",
+        "message": "'90.0' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "204",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractPerformanceTest' looks like designed for extension (can be subclassed), but the method 'getDefaultConfig' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractPerformanceTest' final or making the method 'getDefaultConfig' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "208",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractPerformanceTest' looks like designed for extension (can be subclassed), but the method 'createRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractPerformanceTest' final or making the method 'createRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "208",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter dir should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "208",
+        "column": "57",
+        "severity": "error",
+        "message": "Parameter xml should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

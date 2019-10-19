@@ -1,0 +1,213 @@
+[
+    {
+        "line": "45",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'sources'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "46",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'executeClass'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "47",
+        "column": "4",
+        "severity": "error",
+        "message": "Unknown tag 'keywords'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "55",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "59",
+        "column": "35",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "71",
+        "column": "38",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "75",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testEmptyNodeTypeTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testEmptyNodeTypeTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "83",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "101",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "102",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testNonEmptyNodeTypeTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testNonEmptyNodeTypeTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "139",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testNewNodeTypeTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testNewNodeTypeTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "140",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "143",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "210",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testEmptyPropertyDefinitionTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testEmptyPropertyDefinitionTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "233",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testPropertyDefinitionTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testPropertyDefinitionTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "260",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testSetDefaultValues' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testSetDefaultValues' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "272",
+        "column": "42",
+        "severity": "error",
+        "message": "'{' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "272",
+        "column": "84",
+        "severity": "error",
+        "message": "'24' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "275",
+        "column": "22",
+        "severity": "error",
+        "message": "'24' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "279",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testEmptyNodeDefinitionTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testEmptyNodeDefinitionTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "296",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testNodeDefinitionTemplate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testNodeDefinitionTemplate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "349",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testResidualNames' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testResidualNames' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "361",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testInvalidJCRNames' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testInvalidJCRNames' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "416",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testRegisterNodeType' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testRegisterNodeType' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "443",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testUnregisterNodeType' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testUnregisterNodeType' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "459",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testUnregisterNodeTypes' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testUnregisterNodeTypes' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "461",
+        "column": "69",
+        "severity": "error",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "475",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'NodeTypeCreationTest' looks like designed for extension (can be subclassed), but the method 'testRegisterNodeTypes' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NodeTypeCreationTest' final or making the method 'testRegisterNodeTypes' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "476",
+        "column": "60",
+        "severity": "error",
+        "message": "'5' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "516",
+        "column": "53",
+        "severity": "error",
+        "message": "'{' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "521",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "line": "27",
+        "column": "29",
+        "severity": "error",
+        "message": "'50' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "28",
+        "column": "23",
+        "severity": "error",
+        "message": "'10000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConcurrentReadDeepTreeTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConcurrentReadDeepTreeTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "39",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'ConcurrentReadDeepTreeTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ConcurrentReadDeepTreeTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "severity": "error",
+        "message": "Class RandomRead should be declared as final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"
+    },
+    {
+        "line": "51",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter testSession should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "51",
+        "column": "36",
+        "severity": "error",
+        "message": "'testSession' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    }
+]

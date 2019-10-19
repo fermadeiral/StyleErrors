@@ -1,0 +1,36 @@
+[
+    {
+        "line": "24",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "35",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UpdateManyChildNodesTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UpdateManyChildNodesTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "46",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UpdateManyChildNodesTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UpdateManyChildNodesTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UpdateManyChildNodesTest' looks like designed for extension (can be subclassed), but the method 'afterTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UpdateManyChildNodesTest' final or making the method 'afterTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UpdateManyChildNodesTest' looks like designed for extension (can be subclassed), but the method 'afterSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UpdateManyChildNodesTest' final or making the method 'afterSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

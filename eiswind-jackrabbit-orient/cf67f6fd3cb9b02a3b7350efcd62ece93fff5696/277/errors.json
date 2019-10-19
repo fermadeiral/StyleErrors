@@ -1,0 +1,22 @@
+[
+    {
+        "line": "27",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OpenScopedLockTest' looks like designed for extension (can be subclassed), but the method 'isSessionScoped' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OpenScopedLockTest' final or making the method 'isSessionScoped' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'OpenScopedLockTest' looks like designed for extension (can be subclassed), but the method 'isDeep' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'OpenScopedLockTest' final or making the method 'isDeep' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "40",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    }
+]

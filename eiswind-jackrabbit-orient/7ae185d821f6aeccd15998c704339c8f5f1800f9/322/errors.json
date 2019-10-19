@@ -1,0 +1,44 @@
+[
+    {
+        "line": "40",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BigFileReadTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BigFileReadTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "47",
+        "column": "18",
+        "severity": "error",
+        "message": "'i' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "53",
+        "column": "65",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "53",
+        "column": "72",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BigFileReadTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BigFileReadTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "69",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'BigFileReadTest' looks like designed for extension (can be subclassed), but the method 'afterSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BigFileReadTest' final or making the method 'afterSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

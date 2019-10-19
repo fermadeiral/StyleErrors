@@ -1,0 +1,148 @@
+[
+    {
+        "line": "86",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter repository should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "108",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "113",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "122",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter settings should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "122",
+        "column": "48",
+        "severity": "error",
+        "message": "'settings' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "137",
+        "column": "8",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'org.apache.jackrabbit.test.RepositoryStubException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "141",
+        "column": "20",
+        "severity": "error",
+        "message": "Unable to get class information for @throws tag 'RepositoryStubException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "161",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JackrabbitRepositoryStub' looks like designed for extension (can be subclassed), but the method 'createRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JackrabbitRepositoryStub' final or making the method 'createRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "161",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter dir should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "161",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter xml should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "183",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JackrabbitRepositoryStub' looks like designed for extension (can be subclassed), but the method 'getOrCreateRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JackrabbitRepositoryStub' final or making the method 'getOrCreateRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "183",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter dir should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "183",
+        "column": "60",
+        "severity": "error",
+        "message": "Parameter xml should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "203",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JackrabbitRepositoryStub' looks like designed for extension (can be subclassed), but the method 'getKnownPrincipal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JackrabbitRepositoryStub' final or making the method 'getKnownPrincipal' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "204",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "209",
+        "column": "45",
+        "severity": "error",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "210",
+        "column": "21",
+        "severity": "error",
+        "message": "'!' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "218",
+        "column": "9",
+        "severity": "error",
+        "message": "'}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "224",
+        "column": "30",
+        "severity": "error",
+        "message": "Name 'UNKNOWN_PRINCIPAL' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "230",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'JackrabbitRepositoryStub' looks like designed for extension (can be subclassed), but the method 'getUnknownPrincipal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JackrabbitRepositoryStub' final or making the method 'getUnknownPrincipal' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "231",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter session should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

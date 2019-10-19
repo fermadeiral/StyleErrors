@@ -1,0 +1,44 @@
+[
+    {
+        "line": "37",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DescendantSearchTest' looks like designed for extension (can be subclassed), but the method 'createQuery' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DescendantSearchTest' final or making the method 'createQuery' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter manager should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "37",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter i should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DescendantSearchTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DescendantSearchTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DescendantSearchTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DescendantSearchTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "70",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DescendantSearchTest' looks like designed for extension (can be subclassed), but the method 'afterSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DescendantSearchTest' final or making the method 'afterSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "line": "26",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RefreshTest' looks like designed for extension (can be subclassed), but the method 'beforeSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RefreshTest' final or making the method 'beforeSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "30",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RefreshTest' looks like designed for extension (can be subclassed), but the method 'runTest' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RefreshTest' final or making the method 'runTest' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "31",
+        "column": "29",
+        "severity": "error",
+        "message": "'1000000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RefreshTest' looks like designed for extension (can be subclassed), but the method 'afterSuite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RefreshTest' final or making the method 'afterSuite' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

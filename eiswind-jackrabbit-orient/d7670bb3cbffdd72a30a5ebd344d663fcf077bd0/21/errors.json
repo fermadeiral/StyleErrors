@@ -1,0 +1,72 @@
+[
+    {
+        "line": "41",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter def should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "23",
+        "severity": "error",
+        "message": "Parameter repository should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "34",
+        "severity": "error",
+        "message": "'repository' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "56",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter credentials should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "58",
+        "severity": "error",
+        "message": "'credentials' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "135",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractTest' looks like designed for extension (can be subclassed), but the method 'failOnRepositoryVersions' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractTest' final or making the method 'failOnRepositoryVersions' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "135",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter versions should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "148",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractTest' looks like designed for extension (can be subclassed), but the method 'getRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractTest' final or making the method 'getRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "152",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractTest' looks like designed for extension (can be subclassed), but the method 'getCredentials' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractTest' final or making the method 'getCredentials' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "207",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AbstractTest' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractTest' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

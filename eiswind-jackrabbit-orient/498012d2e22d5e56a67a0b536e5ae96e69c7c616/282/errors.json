@@ -1,0 +1,70 @@
+[
+    {
+        "line": "33",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'isSessionScoped' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'isSessionScoped' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "37",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'isDeep' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'isDeep' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "41",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testGetNodeOnLockObtainedFromChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testGetNodeOnLockObtainedFromChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 148).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "46",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testGetNodeOnLockObtainedFromNewChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testGetNodeOnLockObtainedFromNewChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 148).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "52",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testParentChildDeepLock' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testParentChildDeepLock' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "73",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testDeepLockAboveLockedChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testDeepLockAboveLockedChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "98",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testShallowLockAboveLockedChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testShallowLockAboveLockedChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "117",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'DeepLockTest' looks like designed for extension (can be subclassed), but the method 'testRemoveLockedChild' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DeepLockTest' final or making the method 'testRemoveLockedChild' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

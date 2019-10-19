@@ -1,0 +1,44 @@
+[
+    {
+        "line": "47",
+        "column": "83",
+        "severity": "error",
+        "message": "';' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyForIteratorPadCheck"
+    },
+    {
+        "line": "75",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryHelperPoolImpl' looks like designed for extension (can be subclassed), but the method 'addHelper' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryHelperPoolImpl' final or making the method 'addHelper' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "40",
+        "severity": "error",
+        "message": "Parameter helper should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "79",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryHelperPoolImpl' looks like designed for extension (can be subclassed), but the method 'borrowHelper' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryHelperPoolImpl' final or making the method 'borrowHelper' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "87",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'RepositoryHelperPoolImpl' looks like designed for extension (can be subclassed), but the method 'returnHelper' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepositoryHelperPoolImpl' final or making the method 'returnHelper' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "87",
+        "column": "43",
+        "severity": "error",
+        "message": "Parameter helper should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]
