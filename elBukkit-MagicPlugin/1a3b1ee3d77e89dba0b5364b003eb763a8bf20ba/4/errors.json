@@ -1,0 +1,365 @@
+[
+    {
+        "line": "31",
+        "severity": "error",
+        "message": "Import statement for 'java.io.InputStream' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "32",
+        "severity": "error",
+        "message": "Import statement for 'java.lang.reflect.Array' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "33",
+        "severity": "error",
+        "message": "Import statement for 'java.lang.reflect.Constructor' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "34",
+        "severity": "error",
+        "message": "Import statement for 'java.lang.reflect.Field' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "35",
+        "severity": "error",
+        "message": "Import statement for 'java.lang.reflect.InvocationTargetException' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "36",
+        "severity": "error",
+        "message": "Import statement for 'java.lang.reflect.Method' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "37",
+        "severity": "error",
+        "message": "Import statement for 'java.util.Collection' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "38",
+        "severity": "error",
+        "message": "Import statement for 'java.util.HashMap' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "Import statement for 'java.util.List' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "40",
+        "severity": "error",
+        "message": "Import statement for 'java.util.Map' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "41",
+        "severity": "error",
+        "message": "Import statement for 'java.util.Set' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "42",
+        "severity": "error",
+        "message": "Import statement for 'java.util.UUID' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "43",
+        "severity": "error",
+        "message": "Import statement for 'java.util.logging.Level' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting group 'THIRD_PARTY_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Empty line should be followed by <p> tag on the next line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"
+    },
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "53",
+        "severity": "error",
+        "message": "Empty line should be followed by <p> tag on the next line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"
+    },
+    {
+        "line": "53",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "65",
+        "column": "21",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "66",
+        "column": "21",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "66",
+        "column": "50",
+        "severity": "error",
+        "message": "WhitespaceAround: '=' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "67",
+        "column": "21",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "68",
+        "column": "21",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "69",
+        "column": "21",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "472",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "541",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "544",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "584",
+        "column": "22",
+        "severity": "error",
+        "message": "Local variable name 'class_MinecraftKey' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "585",
+        "column": "22",
+        "severity": "error",
+        "message": "Local variable name 'class_Vec3D' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "600",
+        "column": "26",
+        "severity": "error",
+        "message": "Local variable name 'class_BlockData' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "744",
+        "column": "26",
+        "severity": "error",
+        "message": "Local variable name 'class_ItemBoneMeal' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "748",
+        "column": "30",
+        "severity": "error",
+        "message": "Local variable name 'class_ItemDye' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "789",
+        "column": "26",
+        "severity": "error",
+        "message": "Local variable name 'class_IBlockData' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "804",
+        "column": "23",
+        "severity": "error",
+        "message": "Local variable name 'damageSource_MagicField' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "835",
+        "column": "26",
+        "severity": "error",
+        "message": "Local variable name 'class_IBlockData' must match pattern '^[a-z]([a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "1319",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "1442",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,412'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1484",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "1503",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "1589",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,522'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1627",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,601'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1671",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,579'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1759",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1772",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1781",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1790",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1799",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1821",
+        "column": "25",
+        "severity": "error",
+        "message": "WhitespaceAround: '||' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "1897",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "1901",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,676'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1916",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,758'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1929",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,780'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1942",
+        "severity": "error",
+        "message": "Overload methods should not be split. Previous overloaded method located at line '1,747'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"
+    },
+    {
+        "line": "1996",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "2049",
+        "column": "66",
+        "severity": "error",
+        "message": "'?' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "2072",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "2274",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "2318",
+        "severity": "error",
+        "message": "Line matches the illegal pattern '\\s+$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    }
+]
