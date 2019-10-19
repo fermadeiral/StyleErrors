@@ -1,0 +1,26 @@
+[
+    {
+        "line": "6",
+        "severity": "warning",
+        "message": "'org.eclipse.vorto.mapping.engine.IDataMapper' should be separated from previous import group by one line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "16",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.google.gson.Gson' import. Should be before 'org.junit.Test'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "17",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.google.gson.GsonBuilder' import. Should be before 'org.junit.Test'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "89",
+        "severity": "warning",
+        "message": "Abbreviation in name 'sampleHomeConnectRESTResponse' must contain no more than '2' consecutive capital letters.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"
+    }
+]
