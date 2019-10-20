@@ -1,0 +1,22 @@
+[
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Line is longer than 120 characters (found 136).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "33",
+        "column": "10",
+        "severity": "error",
+        "message": "Name 'createAuthorizeUrl_withRedirectUri' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "51",
+        "column": "10",
+        "severity": "error",
+        "message": "Name 'createAuthorizeUrl_withoutRedirectUri' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
