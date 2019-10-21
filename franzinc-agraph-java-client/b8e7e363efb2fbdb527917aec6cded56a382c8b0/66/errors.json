@@ -1,0 +1,86 @@
+[
+    {
+        "line": "16",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "16",
+        "column": "31",
+        "severity": "error",
+        "message": "Variable 'util' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "17",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "18",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "18",
+        "column": "38",
+        "severity": "error",
+        "message": "Variable 'conn' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "19",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "19",
+        "column": "28",
+        "severity": "error",
+        "message": "Variable 'maker' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "21",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "29",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGModelTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGModelTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGModelTest' looks like designed for extension (can be subclassed), but the method 'getModel' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGModelTest' final or making the method 'getModel' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "44",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGModelTest' looks like designed for extension (can be subclassed), but the method 'testContainsResource' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGModelTest' final or making the method 'testContainsResource' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "58",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGModelTest' looks like designed for extension (can be subclassed), but the method 'testRemoveAll' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGModelTest' final or making the method 'testRemoveAll' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

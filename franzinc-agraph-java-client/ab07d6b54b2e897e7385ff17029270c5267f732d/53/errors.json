@@ -1,0 +1,294 @@
+[
+    {
+        "line": "71",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "82",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'createRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'createRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "87",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testDeleteDefaultGraph' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testDeleteDefaultGraph' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testDefaultContext' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testDefaultContext' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "97",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testDefaultInsertContext' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testDefaultInsertContext' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "108",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 103).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "111",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 101).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "113",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 120).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "114",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 135).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "115",
+        "column": "22",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "116",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 101).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "116",
+        "column": "22",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "117",
+        "column": "22",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "118",
+        "column": "22",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "127",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter defaultGraph should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "154",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "157",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "161",
+        "column": "61",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "164",
+        "column": "37",
+        "severity": "error",
+        "message": "'512' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "165",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 108).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "171",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 121).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "184",
+        "column": "35",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "184",
+        "column": "59",
+        "severity": "error",
+        "message": "'5000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "198",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testSES713' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testSES713' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "203",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testBaseURIInQueryString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testBaseURIInQueryString' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "204",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 107).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "205",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 133).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "213",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testBaseURIInParam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testBaseURIInParam' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "223",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testBaseURIInParamWithTrailingSlash' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testBaseURIInParamWithTrailingSlash' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "257",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 102).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "544",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testPreparedTupleQuery2' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testPreparedTupleQuery2' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "735",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testGetStatementsInMultipleContexts' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testGetStatementsInMultipleContexts' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "747",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 109).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "755",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 116).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "758",
+        "column": "62",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "822",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 116).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "824",
+        "column": "61",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "840",
+        "column": "61",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "846",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testOptionalFilter' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testOptionalFilter' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "855",
+        "column": "37",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "872",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testOrPredicate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testOrPredicate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "895",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testGraphSerialization' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testGraphSerialization' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "928",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'testGetNamespaces' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRepositoryConnectionTest' final or making the method 'testGetNamespaces' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "933",
+        "column": "43",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

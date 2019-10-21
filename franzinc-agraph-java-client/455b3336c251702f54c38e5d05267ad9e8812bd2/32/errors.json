@@ -1,0 +1,774 @@
+[
+    {
+        "line": "51",
+        "column": "1",
+        "severity": "error",
+        "message": "Utility classes should not have a public or default constructor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"
+    },
+    {
+        "line": "60",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 102).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "61",
+        "column": "14",
+        "severity": "error",
+        "message": "Redundant 'final' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "112",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter conn should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "113",
+        "column": "41",
+        "severity": "error",
+        "message": "Parameter subj should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "113",
+        "column": "56",
+        "severity": "error",
+        "message": "Parameter pred should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "113",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter obj should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "114",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @throws tag for 'QueryEvaluationException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "115",
+        "column": "43",
+        "severity": "error",
+        "message": "'+' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "135",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter arr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "44",
+        "severity": "error",
+        "message": "Parameter i should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "135",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter defaultVal should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "142",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "145",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "145",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter o should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "145",
+        "column": "39",
+        "severity": "error",
+        "message": "Expected @param tag for 'o'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "171",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter str should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "171",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter defaultValue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "179",
+        "column": "29",
+        "severity": "error",
+        "message": "Parameter in should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "179",
+        "column": "38",
+        "severity": "error",
+        "message": "Parameter out should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "180",
+        "column": "14",
+        "severity": "error",
+        "message": "Redundant 'final' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "186",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter in should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "186",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter out should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "187",
+        "column": "14",
+        "severity": "error",
+        "message": "Redundant 'final' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "193",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter elements should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "208",
+        "column": "31",
+        "severity": "error",
+        "message": "Parameter arr should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "208",
+        "column": "38",
+        "severity": "error",
+        "message": "Expected @param tag for 'arr'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "255",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter obj should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "273",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "280",
+        "column": "48",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "280",
+        "column": "52",
+        "severity": "error",
+        "message": "'6' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "282",
+        "column": "48",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "282",
+        "column": "52",
+        "severity": "error",
+        "message": "'9' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "284",
+        "column": "48",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "284",
+        "column": "52",
+        "severity": "error",
+        "message": "'12' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "291",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter num should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "291",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "294",
+        "column": "32",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "294",
+        "column": "38",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "294",
+        "column": "44",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "294",
+        "column": "50",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "294",
+        "column": "56",
+        "severity": "error",
+        "message": "'1024' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "295",
+        "column": "28",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "296",
+        "column": "32",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "296",
+        "column": "38",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "296",
+        "column": "44",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "296",
+        "column": "50",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "296",
+        "column": "56",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "297",
+        "column": "28",
+        "severity": "error",
+        "message": "'60' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "298",
+        "column": "9",
+        "severity": "error",
+        "message": "'{' at column 9 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "299",
+        "column": "32",
+        "severity": "error",
+        "message": "'1000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "299",
+        "column": "38",
+        "severity": "error",
+        "message": "'60' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "299",
+        "column": "42",
+        "severity": "error",
+        "message": "'60' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "299",
+        "column": "46",
+        "severity": "error",
+        "message": "'24' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "299",
+        "column": "50",
+        "severity": "error",
+        "message": "'30' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "306",
+        "column": "28",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "308",
+        "column": "28",
+        "severity": "error",
+        "message": "'60' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "309",
+        "column": "9",
+        "severity": "error",
+        "message": "'{' at column 9 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "315",
+        "column": "34",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "323",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter list should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "335",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 134).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "335",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @param tag for '<ReturnType>'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "335",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter unit should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "335",
+        "column": "60",
+        "severity": "error",
+        "message": "Expected @param tag for 'unit'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "335",
+        "column": "66",
+        "severity": "error",
+        "message": "Parameter sleep should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "335",
+        "column": "71",
+        "severity": "error",
+        "message": "Expected @param tag for 'sleep'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "335",
+        "column": "78",
+        "severity": "error",
+        "message": "Parameter maxWait should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "335",
+        "column": "83",
+        "severity": "error",
+        "message": "Expected @param tag for 'maxWait'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "335",
+        "column": "92",
+        "severity": "error",
+        "message": "Parameter fn should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "335",
+        "column": "113",
+        "severity": "error",
+        "message": "Expected @param tag for 'fn'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "335",
+        "column": "124",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 130).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "345",
+        "column": "20",
+        "severity": "error",
+        "message": "Expected @param tag for '<ReturnType>'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter sleepMillis should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "345",
+        "column": "56",
+        "severity": "error",
+        "message": "Expected @param tag for 'sleepMillis'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "column": "69",
+        "severity": "error",
+        "message": "Parameter maxWaitNanos should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "345",
+        "column": "74",
+        "severity": "error",
+        "message": "Expected @param tag for 'maxWaitNanos'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "column": "88",
+        "severity": "error",
+        "message": "Parameter fn should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "345",
+        "column": "109",
+        "severity": "error",
+        "message": "Expected @param tag for 'fn'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "345",
+        "column": "120",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "368",
+        "column": "49",
+        "severity": "error",
+        "message": "Expected @throws tag for 'IOException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "377",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter netstat should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "378",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 105).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "382",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 114).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "382",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter maxWaitSeconds should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "393",
+        "column": "42",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "399",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 108).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "404",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 120).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "408",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 126).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "408",
+        "column": "78",
+        "severity": "error",
+        "message": "Expected @param tag for 'server'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "408",
+        "column": "99",
+        "severity": "error",
+        "message": "Expected @param tag for 'repoName'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "408",
+        "column": "116",
+        "severity": "error",
+        "message": "Expected @throws tag for 'Exception'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "409",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 114).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "409",
+        "column": "74",
+        "severity": "error",
+        "message": "'30' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "416",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 105).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "427",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "432",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'GetLogDirFromAgraphCFG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "432",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter filename should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "453",
+        "column": "26",
+        "severity": "error",
+        "message": "Name 'GetAgraphCfgFilenameFromAgraphRoot' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "453",
+        "column": "61",
+        "severity": "error",
+        "message": "Parameter filename should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "465",
+        "column": "24",
+        "severity": "error",
+        "message": "Name 'DumpFile' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "465",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter filename should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "481",
+        "column": "24",
+        "severity": "error",
+        "message": "Name 'DumpAgraphLog' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "484",
+        "column": "16",
+        "severity": "error",
+        "message": "Name 'AgraphRootFilename' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "485",
+        "column": "14",
+        "severity": "error",
+        "message": "Name 'AgraphRootFile' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "488",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'AgraphCfgFilename' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "489",
+        "column": "20",
+        "severity": "error",
+        "message": "Name 'LogDir' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"
+    },
+    {
+        "line": "501",
+        "column": "9",
+        "severity": "error",
+        "message": "Class 'RandomLong' looks like designed for extension (can be subclassed), but the method 'nextLong' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RandomLong' final or making the method 'nextLong' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "501",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter max should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "508",
+        "column": "39",
+        "severity": "error",
+        "message": "'31' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "512",
+        "column": "58",
+        "severity": "error",
+        "message": "'31' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "512",
+        "column": "66",
+        "severity": "error",
+        "message": "'32' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

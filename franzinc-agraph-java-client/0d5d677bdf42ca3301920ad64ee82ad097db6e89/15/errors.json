@@ -1,0 +1,37 @@
+[
+    {
+        "line": "24",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "33",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGResultSetTest' looks like designed for extension (can be subclassed), but the method 'testResultSet' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGResultSetTest' final or making the method 'testResultSet' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "43",
+        "column": "62",
+        "severity": "error",
+        "message": "'3' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "64",
+        "column": "62",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "87",
+        "column": "37",
+        "severity": "error",
+        "message": "'4' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]

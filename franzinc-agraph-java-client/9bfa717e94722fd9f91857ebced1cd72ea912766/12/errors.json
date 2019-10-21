@@ -1,0 +1,112 @@
+[
+    {
+        "line": "42",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "43",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "76",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UnicodeTest' looks like designed for extension (can be subclassed), but the method 'testAddUnicodeLiteral' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UnicodeTest' final or making the method 'testAddUnicodeLiteral' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "76",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter format should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "97",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UnicodeTest' looks like designed for extension (can be subclassed), but the method 'testAddUnicodeSubject' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UnicodeTest' final or making the method 'testAddUnicodeSubject' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "97",
+        "column": "39",
+        "severity": "error",
+        "message": "Parameter format should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "119",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 106).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "119",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UnicodeTest' looks like designed for extension (can be subclassed), but the method 'testUnicodeCreate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UnicodeTest' final or making the method 'testUnicodeCreate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "119",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter format should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "138",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 119).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "138",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'UnicodeTest' looks like designed for extension (can be subclassed), but the method 'testUnicodeSelect' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UnicodeTest' final or making the method 'testUnicodeSelect' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "138",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter format should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "176",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter text should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "176",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter mimeType should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "176",
+        "column": "67",
+        "severity": "error",
+        "message": "Parameter encoding should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "193",
+        "column": "48",
+        "severity": "error",
+        "message": "Parameter headerName should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

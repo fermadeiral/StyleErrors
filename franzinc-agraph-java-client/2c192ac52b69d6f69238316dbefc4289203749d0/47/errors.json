@@ -1,0 +1,137 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "15",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter testURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "15",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "15",
+        "column": "71",
+        "severity": "error",
+        "message": "Parameter requestFile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "16",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 123).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "16",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter defaultGraphURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "16",
+        "column": "63",
+        "severity": "error",
+        "message": "Parameter inputNamedGraphs should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "16",
+        "column": "98",
+        "severity": "error",
+        "message": "Parameter resultDefaultGraphURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "17",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter resultNamedGraphs should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "26",
+        "column": "84",
+        "severity": "error",
+        "message": "Parameter testURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "27",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 171).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "27",
+        "column": "84",
+        "severity": "error",
+        "message": "Parameter name should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "27",
+        "column": "97",
+        "severity": "error",
+        "message": "Parameter requestFile should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "27",
+        "column": "117",
+        "severity": "error",
+        "message": "Parameter defaultGraphURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "27",
+        "column": "138",
+        "severity": "error",
+        "message": "Parameter inputNamedGraphs should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "28",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 147).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "28",
+        "column": "84",
+        "severity": "error",
+        "message": "Parameter resultDefaultGraphURI should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "28",
+        "column": "111",
+        "severity": "error",
+        "message": "Parameter resultNamedGraphs should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "29",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 101).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "36",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGSparqlUpdateConformanceTest' looks like designed for extension (can be subclassed), but the method 'newRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGSparqlUpdateConformanceTest' final or making the method 'newRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

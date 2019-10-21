@@ -1,0 +1,57 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "18",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "18",
+        "column": "25",
+        "severity": "error",
+        "message": "Variable 'repo' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "20",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "22",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "24",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "26",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRDFSchemaRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'createRepository' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRDFSchemaRepositoryConnectionTest' final or making the method 'createRepository' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "31",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGRDFSchemaRepositoryConnectionTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGRDFSchemaRepositoryConnectionTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "line": "12",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGServerTests' looks like designed for extension (can be subclassed), but the method 'verifyUserAndPassword' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGServerTests' final or making the method 'verifyUserAndPassword' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "12",
+        "column": "32",
+        "severity": "error",
+        "message": "Parameter server should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "12",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter anonymous should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "16",
+        "column": "41",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "17",
+        "column": "45",
+        "severity": "error",
+        "message": "Avoid inline conditionals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"
+    },
+    {
+        "line": "21",
+        "severity": "error",
+        "message": "Line is longer than 100 characters (found 112).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "26",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'AGServerConstructorTest1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "36",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'AGServerConstructorTest2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "37",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "39",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "48",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'AGServerConstructorTest3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "49",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "61",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'AGServerConstructorTest4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "62",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    },
+    {
+        "line": "70",
+        "severity": "error",
+        "message": "Line has trailing spaces.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"
+    }
+]

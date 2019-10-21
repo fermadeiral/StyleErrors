@@ -1,0 +1,30 @@
+[
+    {
+        "line": "17",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'AGExampleServletContextListener' looks like designed for extension (can be subclassed), but the method 'contextDestroyed' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AGExampleServletContextListener' final or making the method 'contextDestroyed' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "18",
+        "column": "34",
+        "severity": "error",
+        "message": "Parameter event should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "19",
+        "column": "14",
+        "severity": "error",
+        "message": "Redundant 'final' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "32",
+        "column": "36",
+        "severity": "error",
+        "message": "Parameter event should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]
