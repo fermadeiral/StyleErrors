@@ -1,0 +1,44 @@
+[
+    {
+        "line": "31",
+        "column": "54",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail\" appears 7 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "38",
+        "column": "17",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail/mail-session=*\" appears 4 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "39",
+        "column": "17",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail/mail-session=*/server=smtp\" appears 8 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "40",
+        "column": "17",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail/mail-session=*/server=pop3\" appears 8 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "41",
+        "column": "17",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail/mail-session=*/server=imap\" appears 8 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "42",
+        "column": "17",
+        "severity": "error",
+        "message": "The String \"/subsystem=mail/mail-session=*/custom=*\" appears 4 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    }
+]
