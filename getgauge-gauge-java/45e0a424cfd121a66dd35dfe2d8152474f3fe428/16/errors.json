@@ -1,0 +1,56 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "26",
+        "severity": "error",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "30",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'ShouldProcessRequest' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "37",
+        "column": "145",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "42",
+        "column": "83",
+        "severity": "error",
+        "message": "'6' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "46",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'ShouldProcessRequestForAliases' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "53",
+        "column": "145",
+        "severity": "error",
+        "message": "Should use uppercase 'L'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"
+    },
+    {
+        "line": "59",
+        "column": "83",
+        "severity": "error",
+        "message": "'6' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]
