@@ -1,0 +1,14 @@
+[
+    {
+        "line": "33",
+        "severity": "warning",
+        "message": "Distance between variable 'prefetch' declaration and its first usage is 12, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "35",
+        "severity": "warning",
+        "message": "Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 37.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"
+    }
+]
