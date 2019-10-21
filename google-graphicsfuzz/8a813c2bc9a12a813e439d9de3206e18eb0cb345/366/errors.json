@@ -1,0 +1,26 @@
+[
+    {
+        "line": "20",
+        "severity": "warning",
+        "message": "Import statement for 'java.nio.IntBuffer' is in the wrong order. Should be in the 'STANDARD_JAVA_PACKAGE' group, expecting not assigned imports on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "31",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.graphicsfuzz.repackaged.com.google.gson.JsonArray' import. Should be before 'org.lwjgl.opengl.GL43'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "32",
+        "severity": "warning",
+        "message": "Wrong lexicographical order for 'com.graphicsfuzz.repackaged.com.google.gson.JsonObject' import. Should be before 'org.lwjgl.opengl.GL43'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "122",
+        "severity": "warning",
+        "message": "Line is longer than 100 characters (found 110).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]

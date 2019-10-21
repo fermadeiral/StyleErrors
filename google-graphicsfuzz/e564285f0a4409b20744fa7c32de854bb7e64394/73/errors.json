@@ -1,0 +1,50 @@
+[
+    {
+        "line": "21",
+        "severity": "warning",
+        "message": "Import statement for 'com.graphicsfuzz.common.tool.PrettyPrinterVisitor' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting group 'STANDARD_JAVA_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "22",
+        "severity": "warning",
+        "message": "Import statement for 'com.graphicsfuzz.common.util.GlslParserException' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting group 'STANDARD_JAVA_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "23",
+        "severity": "warning",
+        "message": "Import statement for 'com.graphicsfuzz.common.util.ParseHelper' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting group 'STANDARD_JAVA_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "24",
+        "severity": "warning",
+        "message": "Import statement for 'com.graphicsfuzz.common.util.ParseTimeoutException' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting group 'STANDARD_JAVA_PACKAGE' on this line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "25",
+        "severity": "warning",
+        "message": "'java.io.IOException' should be separated from previous import group by one line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"
+    },
+    {
+        "line": "38",
+        "severity": "warning",
+        "message": "'PrettyPrinterVisitor' has incorrect indentation level 10, expected level should be 8.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+    },
+    {
+        "line": "39",
+        "severity": "warning",
+        "message": "'PrettyPrinterVisitor' has incorrect indentation level 10, expected level should be 8.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+    },
+    {
+        "line": "51",
+        "severity": "warning",
+        "message": "'PrettyPrinterVisitor' has incorrect indentation level 10, expected level should be 8.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+    }
+]
