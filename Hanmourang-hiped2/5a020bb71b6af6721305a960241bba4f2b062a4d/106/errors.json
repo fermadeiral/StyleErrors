@@ -1,0 +1,72 @@
+[
+    {
+        "line": "17",
+        "column": "17",
+        "severity": "error",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "17",
+        "column": "41",
+        "severity": "error",
+        "message": "Name 'sdf' must match pattern '^log$|^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "19",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "19",
+        "column": "24",
+        "severity": "error",
+        "message": "'String' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "19",
+        "column": "27",
+        "severity": "error",
+        "message": "Variable 'fields' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "19",
+        "column": "36",
+        "severity": "error",
+        "message": "'{' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "25",
+        "column": "12",
+        "severity": "error",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "25",
+        "column": "12",
+        "severity": "error",
+        "message": "'=' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "38",
+        "column": "12",
+        "severity": "error",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "38",
+        "column": "12",
+        "severity": "error",
+        "message": "'=' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    }
+]

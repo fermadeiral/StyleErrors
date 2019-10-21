@@ -1,0 +1,23 @@
+[
+    {
+        "line": "26",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "26",
+        "column": "24",
+        "severity": "error",
+        "message": "Name 'STOCKS_IMPORT_TABLE_NAME' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "26",
+        "column": "24",
+        "severity": "error",
+        "message": "Variable 'STOCKS_IMPORT_TABLE_NAME' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    }
+]

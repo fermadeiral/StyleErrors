@@ -1,0 +1,37 @@
+[
+    {
+        "line": "5",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'from' explicitly initialized to 'null' (default value for its type).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"
+    },
+    {
+        "line": "6",
+        "column": "13",
+        "severity": "error",
+        "message": "Variable 'to' explicitly initialized to 'null' (default value for its type).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"
+    },
+    {
+        "line": "8",
+        "column": "16",
+        "severity": "error",
+        "message": "Parameter start should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "8",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter end should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "15",
+        "column": "36",
+        "severity": "error",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    }
+]
