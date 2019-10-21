@@ -1,0 +1,22 @@
+[
+    {
+        "line": "80",
+        "column": "47",
+        "severity": "warning",
+        "message": "Unable to get class information for @throws tag 'JFugueException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "1454",
+        "column": "21",
+        "severity": "warning",
+        "message": "'{' at column 6 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "1951",
+        "severity": "warning",
+        "message": "Distance between variable 'startTime' declaration and its first usage is 108, but allowed 7.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    }
+]

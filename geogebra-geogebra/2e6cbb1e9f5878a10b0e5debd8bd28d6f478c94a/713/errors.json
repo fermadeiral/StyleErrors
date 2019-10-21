@@ -1,0 +1,22 @@
+[
+    {
+        "line": "80",
+        "severity": "warning",
+        "message": "Distance between variable 'g' declaration and its first usage is 9, but allowed 7.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "212",
+        "column": "27",
+        "severity": "warning",
+        "message": "Method name 'HUEtoRGB' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "319",
+        "column": "23",
+        "severity": "warning",
+        "message": "Method name 'HSBtoRGB' must match pattern '^[a-z][a-zA-Z0-9_]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
