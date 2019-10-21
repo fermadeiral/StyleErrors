@@ -1,0 +1,198 @@
+[
+    {
+        "line": "22",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "25",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "27",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "29",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "31",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "39",
+        "column": "63",
+        "severity": "error",
+        "message": "'amountToDeliver' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "52",
+        "column": "26",
+        "severity": "error",
+        "message": "'amountToDeliver' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "52",
+        "column": "72",
+        "severity": "error",
+        "message": "'rateCalculator' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "62",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getOriginalAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getOriginalAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "67",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getOriginalAmountMode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getOriginalAmountMode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "72",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getOriginalAmountLeft' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getOriginalAmountLeft' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "77",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getAmountSent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getAmountSent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "82",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getDeliveredAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getDeliveredAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "87",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'getSendPacketAmounts' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'getSendPacketAmounts' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "89",
+        "column": "7",
+        "severity": "error",
+        "message": "Parameter congestionLimit should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "89",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "89",
+        "column": "68",
+        "severity": "error",
+        "message": "Parameter receiverDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "106",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'auth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'auth' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "107",
+        "column": "20",
+        "severity": "error",
+        "message": "Parameter prepareAmounts should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "111",
+        "column": "42",
+        "severity": "error",
+        "message": "Parameter amountToReduce should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "122",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'rollback' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'rollback' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "123",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter prepareAmounts should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "123",
+        "column": "55",
+        "severity": "error",
+        "message": "Parameter packetRejected should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "127",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'commit' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'commit' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "128",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter prepareAmounts should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "128",
+        "column": "53",
+        "severity": "error",
+        "message": "Parameter deliveredAmount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "128",
+        "column": "66",
+        "severity": "error",
+        "message": "'deliveredAmount' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "137",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'FixedReceiverAmountPaymentTracker' looks like designed for extension (can be subclassed), but the method 'moreToSend' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FixedReceiverAmountPaymentTracker' final or making the method 'moreToSend' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "line": "42",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AsnStreamDataFrameDataCodec' looks like designed for extension (can be subclassed), but the method 'decode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AsnStreamDataFrameDataCodec' final or making the method 'decode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AsnStreamDataFrameDataCodec' looks like designed for extension (can be subclassed), but the method 'encode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AsnStreamDataFrameDataCodec' final or making the method 'encode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "52",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

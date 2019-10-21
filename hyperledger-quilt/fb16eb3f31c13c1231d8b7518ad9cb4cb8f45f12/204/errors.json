@@ -1,0 +1,29 @@
+[
+    {
+        "line": "162",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "162",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AsnObjectSerializationContext' looks like designed for extension (can be subclassed), but the method 'getSerializer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AsnObjectSerializationContext' final or making the method 'getSerializer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "162",
+        "column": "4",
+        "severity": "error",
+        "message": "Expected @param tag for '<T>'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "175",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AsnObjectSerializationContext' looks like designed for extension (can be subclassed), but the method 'tryGetSerializerForCodec' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AsnObjectSerializationContext' final or making the method 'tryGetSerializerForCodec' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

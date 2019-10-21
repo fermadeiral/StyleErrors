@@ -1,0 +1,50 @@
+[
+    {
+        "line": "25",
+        "severity": "error",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "32",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "40",
+        "column": "69",
+        "severity": "error",
+        "message": "'interledgerRejectPacket' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "53",
+        "column": "69",
+        "severity": "error",
+        "message": "'interledgerRejectPacket' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "73",
+        "column": "37",
+        "severity": "error",
+        "message": "'interledgerRejectPacket' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "78",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'InterledgerProtocolException' looks like designed for extension (can be subclassed), but the method 'getInterledgerRejectPacket' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InterledgerProtocolException' final or making the method 'getInterledgerRejectPacket' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "83",
+        "column": "37",
+        "severity": "error",
+        "message": "'interledgerRejectPacket' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "13",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'HalfsiesExchangeRateCalculator' looks like designed for extension (can be subclassed), but the method 'calculateAmountToSend' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HalfsiesExchangeRateCalculator' final or making the method 'calculateAmountToSend' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "14",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter amountToReceive should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "14",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "15",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter receiveDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "19",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'HalfsiesExchangeRateCalculator' looks like designed for extension (can be subclassed), but the method 'calculateMinAmountToAccept' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'HalfsiesExchangeRateCalculator' final or making the method 'calculateMinAmountToAccept' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "20",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter sendAmount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "20",
+        "column": "77",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "21",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter expectedReceivedDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "line": "4",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.interledger.core.InterledgerPreparePacket.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "5",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.interledger.core.InterledgerResponsePacket.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "18",
+        "severity": "error",
+        "message": "Type Javadoc comment is missing @param <L> tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "20",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "75",
+        "column": "60",
+        "severity": "error",
+        "message": "Expected @throws tag for 'LinkHandlerAlreadyRegisteredException'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

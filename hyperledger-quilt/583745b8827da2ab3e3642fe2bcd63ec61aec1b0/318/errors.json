@@ -1,0 +1,30 @@
+[
+    {
+        "line": "9",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'NoOpExchangeRateCalculator' looks like designed for extension (can be subclassed), but the method 'calculate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NoOpExchangeRateCalculator' final or making the method 'calculate' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "10",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter sendAmount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "10",
+        "column": "58",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "11",
+        "column": "33",
+        "severity": "error",
+        "message": "Parameter expectedReceivedDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

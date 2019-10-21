@@ -1,0 +1,106 @@
+[
+    {
+        "line": "17",
+        "severity": "error",
+        "message": "Type Javadoc comment is missing @param <L> tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "19",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "19",
+        "column": "26",
+        "severity": "error",
+        "message": "Variable 'logger' must be private and have accessor methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"
+    },
+    {
+        "line": "33",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "36",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "48",
+        "column": "42",
+        "severity": "error",
+        "message": "'operatorAddressSupplier' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "49",
+        "column": "15",
+        "severity": "error",
+        "message": "'linkSettings' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "55",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'getLinkId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'getLinkId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "63",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'setLinkId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'setLinkId' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "64",
+        "column": "38",
+        "severity": "error",
+        "message": "'linkId' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "70",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'getOperatorAddressSupplier' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'getOperatorAddressSupplier' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "75",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'getLinkSettings' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'getLinkSettings' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "80",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'registerLinkHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'registerLinkHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'unregisterLinkHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'unregisterLinkHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "97",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractLink' looks like designed for extension (can be subclassed), but the method 'getLinkHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractLink' final or making the method 'getLinkHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

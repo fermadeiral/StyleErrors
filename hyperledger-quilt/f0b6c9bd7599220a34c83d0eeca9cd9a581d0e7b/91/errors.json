@@ -1,0 +1,99 @@
+[
+    {
+        "line": "19",
+        "severity": "error",
+        "message": "Type Javadoc comment is missing @param <L> tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "22",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "25",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "40",
+        "column": "40",
+        "severity": "error",
+        "message": "'linkConnectionEventEmitter' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "105",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractStatefulLink' looks like designed for extension (can be subclassed), but the method 'close' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractStatefulLink' final or making the method 'close' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "168",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractStatefulLink' looks like designed for extension (can be subclassed), but the method 'isConnected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractStatefulLink' final or making the method 'isConnected' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "173",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractStatefulLink' looks like designed for extension (can be subclassed), but the method 'addLinkEventListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractStatefulLink' final or making the method 'addLinkEventListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "179",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractStatefulLink' looks like designed for extension (can be subclassed), but the method 'removeLinkEventListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractStatefulLink' final or making the method 'removeLinkEventListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "201",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "203",
+        "column": "58",
+        "severity": "error",
+        "message": "'eventBus' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "211",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'EventBusConnectionEventEmitter' looks like designed for extension (can be subclassed), but the method 'emitEvent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EventBusConnectionEventEmitter' final or making the method 'emitEvent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "216",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'EventBusConnectionEventEmitter' looks like designed for extension (can be subclassed), but the method 'emitEvent' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EventBusConnectionEventEmitter' final or making the method 'emitEvent' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "221",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'EventBusConnectionEventEmitter' looks like designed for extension (can be subclassed), but the method 'addLinkConnectionEventListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EventBusConnectionEventEmitter' final or making the method 'addLinkConnectionEventListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "227",
+        "column": "5",
+        "severity": "error",
+        "message": "Class 'EventBusConnectionEventEmitter' looks like designed for extension (can be subclassed), but the method 'removeLinkConnectionEventListener' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EventBusConnectionEventEmitter' final or making the method 'removeLinkConnectionEventListener' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

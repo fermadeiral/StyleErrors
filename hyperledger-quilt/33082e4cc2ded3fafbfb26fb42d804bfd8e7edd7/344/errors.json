@@ -1,0 +1,149 @@
+[
+    {
+        "line": "32",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "33",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "50",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter code should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "50",
+        "column": "43",
+        "severity": "error",
+        "message": "'code' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "50",
+        "column": "43",
+        "severity": "error",
+        "message": "Expected @param tag for 'code'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "50",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "50",
+        "column": "56",
+        "severity": "error",
+        "message": "Expected @param tag for 'message'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "66",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter code should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "66",
+        "column": "43",
+        "severity": "error",
+        "message": "'code' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "66",
+        "column": "43",
+        "severity": "error",
+        "message": "Expected @param tag for 'code'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "66",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter message should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "66",
+        "column": "65",
+        "severity": "error",
+        "message": "Parameter cause should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "82",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter cause should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "88",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'BtpRuntimeException' looks like designed for extension (can be subclassed), but the method 'getCode' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BtpRuntimeException' final or making the method 'getCode' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "92",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'BtpRuntimeException' looks like designed for extension (can be subclassed), but the method 'getTriggeredAt' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BtpRuntimeException' final or making the method 'getTriggeredAt' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "101",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter requestId should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "101",
+        "column": "35",
+        "severity": "error",
+        "message": "Expected @param tag for 'requestId'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "110",
+        "column": "30",
+        "severity": "error",
+        "message": "Parameter requestId should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "35",
+        "severity": "error",
+        "message": "Expected @param tag for 'requestId'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    },
+    {
+        "line": "110",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter subProtocols should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "110",
+        "column": "62",
+        "severity": "error",
+        "message": "Expected @param tag for 'subProtocols'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

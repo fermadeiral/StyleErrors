@@ -1,0 +1,238 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "5",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.interledger.core.InterledgerPreparePacket.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "31",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "32",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "34",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "36",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "37",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "38",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "40",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "41",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "56",
+        "column": "30",
+        "severity": "error",
+        "message": "'1000L' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "56",
+        "column": "59",
+        "severity": "error",
+        "message": "'1000L' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "74",
+        "column": "58",
+        "severity": "error",
+        "message": "'increaseAmount' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "74",
+        "column": "91",
+        "severity": "error",
+        "message": "'decreaseFactor' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "75",
+        "column": "26",
+        "severity": "error",
+        "message": "'streamCodecContext' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "108",
+        "column": "14",
+        "severity": "error",
+        "message": "'maxPacketAmount' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "112",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'prepare' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'prepare' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "118",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'fulfill' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'fulfill' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "129",
+        "column": "39",
+        "severity": "error",
+        "message": "'maxInFlight' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "136",
+        "column": "39",
+        "severity": "error",
+        "message": "'maxInFlight' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "143",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'reject' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'reject' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "155",
+        "column": "66",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "174",
+        "column": "60",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "178",
+        "column": "16",
+        "severity": "error",
+        "message": "Avoid nested blocks.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"
+    },
+    {
+        "line": "238",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "262",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'halvePrepareAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'halvePrepareAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "283",
+        "column": "56",
+        "severity": "error",
+        "message": "'congestionState' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "288",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'getMaxPacketAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'getMaxPacketAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "293",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'setMaxPacketAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'setMaxPacketAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "293",
+        "column": "53",
+        "severity": "error",
+        "message": "'maxPacketAmount' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "297",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AimdCongestionController' looks like designed for extension (can be subclassed), but the method 'setMaxPacketAmount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AimdCongestionController' final or making the method 'setMaxPacketAmount' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "297",
+        "column": "63",
+        "severity": "error",
+        "message": "'maxPacketAmount' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "305",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "306",
+        "column": "5",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "line": "1",
+        "severity": "error",
+        "message": "Missing package-info.java file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"
+    },
+    {
+        "line": "54",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "55",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "57",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "58",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "60",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "71",
+        "column": "37",
+        "severity": "error",
+        "message": "'leftToRightNetworkConditions' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "72",
+        "column": "37",
+        "severity": "error",
+        "message": "'rightToLeftNetworkConditions' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "100",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'SimulatedIlpv4Network' looks like designed for extension (can be subclassed), but the method 'sendPacketToRight' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SimulatedIlpv4Network' final or making the method 'sendPacketToRight' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "130",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'SimulatedIlpv4Network' looks like designed for extension (can be subclassed), but the method 'sendPacketToLeft' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SimulatedIlpv4Network' final or making the method 'sendPacketToLeft' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "171",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'SimulatedIlpv4Network' looks like designed for extension (can be subclassed), but the method 'getLeftToRightLink' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SimulatedIlpv4Network' final or making the method 'getLeftToRightLink' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "175",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'SimulatedIlpv4Network' looks like designed for extension (can be subclassed), but the method 'getRightToLeftLink' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SimulatedIlpv4Network' final or making the method 'getRightToLeftLink' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "194",
+        "column": "5",
+        "severity": "error",
+        "message": "Conditional logic can be removed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanReturnCheck"
+    },
+    {
+        "line": "210",
+        "severity": "error",
+        "message": "Expected @return tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"
+    }
+]

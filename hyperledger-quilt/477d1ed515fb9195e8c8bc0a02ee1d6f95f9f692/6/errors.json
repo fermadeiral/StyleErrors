@@ -1,0 +1,37 @@
+[
+    {
+        "line": "36",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "45",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'InterledgerAddressSerializer' looks like designed for extension (can be subclassed), but the method 'serialize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InterledgerAddressSerializer' final or making the method 'serialize' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "46",
+        "column": "25",
+        "severity": "error",
+        "message": "Parameter value should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "46",
+        "column": "51",
+        "severity": "error",
+        "message": "Parameter gen should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "46",
+        "column": "70",
+        "severity": "error",
+        "message": "Parameter provider should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

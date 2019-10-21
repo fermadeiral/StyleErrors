@@ -1,0 +1,79 @@
+[
+    {
+        "line": "55",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "56",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "57",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "58",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "59",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "62",
+        "column": "34",
+        "severity": "error",
+        "message": "'serverSecretSupplier' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "62",
+        "column": "88",
+        "severity": "error",
+        "message": "'streamConnectionGenerator' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "63",
+        "column": "37",
+        "severity": "error",
+        "message": "'streamEncryptionService' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "63",
+        "column": "81",
+        "severity": "error",
+        "message": "'streamCodecContext' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "73",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'StatelessStreamReceiver' looks like designed for extension (can be subclassed), but the method 'setupStream' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'StatelessStreamReceiver' final or making the method 'setupStream' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "79",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'StatelessStreamReceiver' looks like designed for extension (can be subclassed), but the method 'receiveMoney' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'StatelessStreamReceiver' final or making the method 'receiveMoney' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

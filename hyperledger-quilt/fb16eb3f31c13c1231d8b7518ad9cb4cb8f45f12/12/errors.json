@@ -1,0 +1,44 @@
+[
+    {
+        "line": "32",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - org.interledger.quilt.jackson.sharedsecret.SharedSecretSerializer.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "49",
+        "column": "50",
+        "severity": "error",
+        "message": "'cryptoConditionEncoding' hides a field.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"
+    },
+    {
+        "line": "53",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'InterledgerDeserializers' looks like designed for extension (can be subclassed), but the method 'findBeanDeserializer' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InterledgerDeserializers' final or making the method 'findBeanDeserializer' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "55",
+        "column": "7",
+        "severity": "error",
+        "message": "Parameter type should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "55",
+        "column": "22",
+        "severity": "error",
+        "message": "Parameter config should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "55",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter beanDesc should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "line": "15",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'NoOpExchangeRateCalculator' looks like designed for extension (can be subclassed), but the method 'calculateAmountToSend' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NoOpExchangeRateCalculator' final or making the method 'calculateAmountToSend' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "16",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter amountToReceive should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "17",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "18",
+        "column": "45",
+        "severity": "error",
+        "message": "Parameter receiveDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "22",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'NoOpExchangeRateCalculator' looks like designed for extension (can be subclassed), but the method 'calculateMinAmountToAccept' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NoOpExchangeRateCalculator' final or making the method 'calculateMinAmountToAccept' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "23",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter sendAmount should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "23",
+        "column": "75",
+        "severity": "error",
+        "message": "Parameter sendDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "24",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter expectedReceivedDenomination should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

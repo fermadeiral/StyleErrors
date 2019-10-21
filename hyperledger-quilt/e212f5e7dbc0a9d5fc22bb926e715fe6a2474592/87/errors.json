@@ -1,0 +1,51 @@
+[
+    {
+        "line": "27",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "28",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "30",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "32",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "50",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'PingLoopbackLink' looks like designed for extension (can be subclassed), but the method 'registerLinkHandler' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PingLoopbackLink' final or making the method 'registerLinkHandler' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "35",
+        "severity": "error",
+        "message": "Parameter ilpDataHandler should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "57",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'PingLoopbackLink' looks like designed for extension (can be subclassed), but the method 'sendPacket' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PingLoopbackLink' final or making the method 'sendPacket' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]

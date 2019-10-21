@@ -1,0 +1,63 @@
+[
+    {
+        "line": "37",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "39",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "41",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "42",
+        "column": "3",
+        "severity": "error",
+        "message": "Missing a Javadoc comment.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"
+    },
+    {
+        "line": "44",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'JavaxStreamEncryptionService' looks like designed for extension (can be subclassed), but the method 'encrypt' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JavaxStreamEncryptionService' final or making the method 'encrypt' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "56",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'JavaxStreamEncryptionService' looks like designed for extension (can be subclassed), but the method 'encryptWithIv' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JavaxStreamEncryptionService' final or making the method 'encryptWithIv' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "74",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "109",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'JavaxStreamEncryptionService' looks like designed for extension (can be subclassed), but the method 'decrypt' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'JavaxStreamEncryptionService' final or making the method 'decrypt' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "124",
+        "severity": "error",
+        "message": "Comment matches to-do format 'TODO:'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "line": "33",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractHttpLinkSettingsTest' looks like designed for extension (can be subclassed), but the method 'customSettingsFlat' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractHttpLinkSettingsTest' final or making the method 'customSettingsFlat' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    },
+    {
+        "line": "51",
+        "column": "3",
+        "severity": "error",
+        "message": "Class 'AbstractHttpLinkSettingsTest' looks like designed for extension (can be subclassed), but the method 'customSettingsHeirarchical' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AbstractHttpLinkSettingsTest' final or making the method 'customSettingsHeirarchical' static/final/abstract/empty, or adding allowed annotation for the method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"
+    }
+]
