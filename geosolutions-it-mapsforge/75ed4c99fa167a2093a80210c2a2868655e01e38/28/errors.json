@@ -1,0 +1,29 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "30",
+        "column": "35",
+        "severity": "warning",
+        "message": "The String \"invalid-polygon.wkt\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "44",
+        "column": "35",
+        "severity": "warning",
+        "message": "The String \"invalid-polygon-2-inner-rings.wkt\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "58",
+        "column": "35",
+        "severity": "warning",
+        "message": "The String \"valid-polygon.wkt\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    }
+]
