@@ -1,0 +1,58 @@
+[
+    {
+        "line": "26",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - java.util.concurrent.LinkedBlockingQueue.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "29",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - org.mockito.Matchers.any.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "30",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - org.mockito.Mockito.mock.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "64",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'test_ExceptionWhenNoMySqlConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "71",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'test_ExceptionWhenNoZkConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "78",
+        "column": "17",
+        "severity": "error",
+        "message": "Name 'test_OpenAndLastEmittedBeginTxPosition' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "87",
+        "column": "69",
+        "severity": "error",
+        "message": "'1121' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "90",
+        "column": "76",
+        "severity": "error",
+        "message": "'1121' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]
