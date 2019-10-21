@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+
+<module name="Checker">
+
+	<!-- <module name="JavadocPackage"> <property name="allowLegacy" value="true"/> 
+		</module> --> 
+
+
+	<module name="Translation" />
+
+	<module name="FileLength" />
+
+
+	<module name="FileTabCharacter">
+		<property name="eachLine" value="true" />
+	</module>
+
+	<!-- <module name="RegexpSingleline"> <property name="format" value="\s+$"/>
+		<property name="message" value="Line has trailing spaces."/> </module> -->
+
+	<module name="RegexpMultiline">
+		<property name="format" value="(?s:(\r\n|\r).*)"/>
+		<property name="message" value="Only LF (linux style) end of line are accepted"/>
+	</module>
+
+	<module name="TreeWalker">
+
+
+		<!-- <module name="JavadocMethod"/> <module name="JavadocType"/> <module
+			name="JavadocVariable"/> <module name="JavadocStyle"/> -->
+
+
+		<module name="ConstantName" />
+		<module name="LocalFinalVariableName" />
+		<module name="LocalVariableName" />
+		<module name="MemberName" />
+		<module name="MethodName" />
+		<module name="PackageName" />
+		<module name="ParameterName" />
+		<module name="StaticVariableName" />
+		<module name="TypeName" />
+
+
+
+
+		<module name="AvoidStarImport" />
+		<module name="RedundantImport" />
+		<module name="UnusedImports" />
+
+
+
+
+		<module name="EmptyForIteratorPad" />
+		<module name="NoWhitespaceBefore" />
+		<module name="OperatorWrap" />
+		<module name="WhitespaceAround" />
+
+
+		<module name="ModifierOrder" />
+		<module name="RedundantModifier" />
+
+
+		<module name="AvoidNestedBlocks" />
+		<module name="LeftCurly" />
+		<module name="NeedBraces" />
+		<module name="RightCurly" />
+
+
+		<module name="EmptyStatement" />
+		<module name="EqualsHashCode" />
+		<module name="IllegalInstantiation" />
+		<module name="InnerAssignment" />
+		<module name="SimplifyBooleanExpression" />
+		<module name="SimplifyBooleanReturn" />
+
+		<module name="FinalClass" />
+		<module name="InterfaceIsType" />
+
+
+		<module name="ArrayTypeStyle" />
+		<module name="UpperEll" />
+
+	</module>
+
+</module>
+

@@ -1,0 +1,23 @@
+[
+    {
+        "line": "3",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - org.junit.Assert.assertEquals.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "4",
+        "column": "15",
+        "severity": "error",
+        "message": "Unused import - org.junit.Assert.fail.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "8",
+        "column": "1",
+        "severity": "error",
+        "message": "Redundant import from the same package - com.example.SomeCode.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    }
+]
