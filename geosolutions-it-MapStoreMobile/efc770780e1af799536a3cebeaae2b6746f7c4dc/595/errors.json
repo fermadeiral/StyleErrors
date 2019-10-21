@@ -1,0 +1,74 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "3",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.algorithm.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "4",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.geom.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "5",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.geom.util.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "6",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - java.util.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "17",
+        "column": "1",
+        "severity": "warning",
+        "message": "'{' at column 1 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "19",
+        "column": "9",
+        "severity": "warning",
+        "message": "'{' at column 2 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "29",
+        "column": "9",
+        "severity": "warning",
+        "message": "'{' at column 2 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "36",
+        "column": "9",
+        "severity": "warning",
+        "message": "'{' at column 2 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "41",
+        "column": "28",
+        "severity": "warning",
+        "message": "'=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "41",
+        "column": "31",
+        "severity": "warning",
+        "message": "';' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "38",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.operation.valid.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "54",
+        "column": "1",
+        "severity": "warning",
+        "message": "'{' at column 1 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "72",
+        "column": "74",
+        "severity": "warning",
+        "message": "Name 'SRID' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "88",
+        "column": "3",
+        "severity": "warning",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "90",
+        "column": "19",
+        "severity": "warning",
+        "message": "Assignment of parameter 'coordinates' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "137",
+        "column": "66",
+        "severity": "warning",
+        "message": "':' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "179",
+        "column": "28",
+        "severity": "warning",
+        "message": "'{' at column 21 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "184",
+        "column": "3",
+        "severity": "warning",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "206",
+        "severity": "warning",
+        "message": "Avoid using clone method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.NoCloneCheck"
+    },
+    {
+        "line": "209",
+        "column": "13",
+        "severity": "warning",
+        "message": "';' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "213",
+        "column": "3",
+        "severity": "warning",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "218",
+        "column": "3",
+        "severity": "warning",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "228",
+        "column": "3",
+        "severity": "warning",
+        "message": "'{' at column 3 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    }
+]

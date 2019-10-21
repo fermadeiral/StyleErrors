@@ -1,0 +1,43 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "39",
+        "column": "28",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "39",
+        "column": "62",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "42",
+        "column": "11",
+        "severity": "warning",
+        "message": "Catching 'Exception' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"
+    },
+    {
+        "line": "53",
+        "column": "11",
+        "severity": "warning",
+        "message": "Catching 'Exception' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"
+    },
+    {
+        "line": "67",
+        "column": "11",
+        "severity": "warning",
+        "message": "Catching 'java.lang.Exception' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"
+    }
+]

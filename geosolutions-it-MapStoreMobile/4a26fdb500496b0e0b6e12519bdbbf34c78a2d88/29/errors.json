@@ -1,0 +1,63 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "27",
+        "column": "1",
+        "severity": "warning",
+        "message": "Utility classes should not have a public or default constructor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"
+    },
+    {
+        "line": "34",
+        "column": "56",
+        "severity": "warning",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "34",
+        "column": "72",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "35",
+        "column": "34",
+        "severity": "warning",
+        "message": "'!=' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "38",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "44",
+        "column": "66",
+        "severity": "warning",
+        "message": "',' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "44",
+        "column": "82",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "45",
+        "column": "24",
+        "severity": "warning",
+        "message": "Unnecessary parentheses around return value.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"
+    }
+]

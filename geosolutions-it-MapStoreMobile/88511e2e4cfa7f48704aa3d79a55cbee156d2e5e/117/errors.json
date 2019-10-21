@@ -1,0 +1,64 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "File does not end with a newline.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"
+    },
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "45",
+        "column": "5",
+        "severity": "warning",
+        "message": "Name 'features_loaded' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "52",
+        "column": "20",
+        "severity": "warning",
+        "message": "Name 'MAX_FEATURES' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "54",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "82",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "106",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "153",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "188",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "200",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    }
+]

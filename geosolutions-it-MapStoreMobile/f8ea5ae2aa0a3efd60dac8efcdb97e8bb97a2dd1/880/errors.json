@@ -1,0 +1,47 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "22",
+        "column": "23",
+        "severity": "warning",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "34",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "62",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "86",
+        "column": "32",
+        "severity": "warning",
+        "message": "Assignment of parameter 'bitmap' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "109",
+        "column": "36",
+        "severity": "warning",
+        "message": "The String \"SQLiteException getStartPoint\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "182",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "35",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - java.io.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "37",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.geom.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "55",
+        "column": "6",
+        "severity": "warning",
+        "message": "Extra HTML tag found: </gml:coordinates>",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "56",
+        "column": "4",
+        "severity": "warning",
+        "message": "Extra HTML tag found: </gml:LineString>",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "66",
+        "column": "30",
+        "severity": "warning",
+        "message": "Name 'INDENT' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "86",
+        "column": "40",
+        "severity": "warning",
+        "message": "Unclosed HTML tag found: <tt>gml:<//t>",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "86",
+        "column": "48",
+        "severity": "warning",
+        "message": "Extra HTML tag found: <//t>",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "161",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "168",
+        "column": "32",
+        "severity": "warning",
+        "message": "Assignment of parameter 'indent' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "192",
+        "column": "9",
+        "severity": "warning",
+        "message": "'{' at column 2 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "196",
+        "column": "17",
+        "severity": "warning",
+        "message": "'}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+    },
+    {
+        "line": "216",
+        "column": "25",
+        "severity": "warning",
+        "message": "'{' at column 4 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "374",
+        "column": "37",
+        "severity": "warning",
+        "message": "Name 'coordinateSeparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "376",
+        "column": "37",
+        "severity": "warning",
+        "message": "Name 'tupleSeparator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "376",
+        "column": "54",
+        "severity": "warning",
+        "message": "The String \" \" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "418",
+        "column": "46",
+        "severity": "warning",
+        "message": "The String \"\\n\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "437",
+        "column": "90",
+        "severity": "warning",
+        "message": "The String \":\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "440",
+        "column": "30",
+        "severity": "warning",
+        "message": "The String \">\\n\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "448",
+        "column": "21",
+        "severity": "warning",
+        "message": "'!' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "453",
+        "column": "92",
+        "severity": "warning",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "453",
+        "column": "92",
+        "severity": "warning",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "453",
+        "column": "100",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "454",
+        "column": "43",
+        "severity": "warning",
+        "message": "The String \"='\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "454",
+        "column": "62",
+        "severity": "warning",
+        "message": "The String \"'\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "465",
+        "column": "21",
+        "severity": "warning",
+        "message": "'!' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "482",
+        "column": "9",
+        "severity": "warning",
+        "message": "'{' at column 2 should be on the previous line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    }
+]

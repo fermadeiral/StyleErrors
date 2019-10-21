@@ -1,0 +1,439 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "29",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "33",
+        "column": "1",
+        "severity": "warning",
+        "message": "Utility classes should not have a public or default constructor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"
+    },
+    {
+        "line": "35",
+        "column": "30",
+        "severity": "warning",
+        "message": "Name 'TAG' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"
+    },
+    {
+        "line": "37",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "42",
+        "column": "56",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "46",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"integer\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "49",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"float\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "52",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"text\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "55",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"blob\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "58",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"null\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "61",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"numeric\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "68",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "73",
+        "column": "77",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "75",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "75",
+        "column": "44",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "80",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "80",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "80",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "81",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "82",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "83",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "84",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "85",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "86",
+        "column": "26",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "90",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "90",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "90",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "90",
+        "column": "40",
+        "severity": "warning",
+        "message": "The String \"double\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "91",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "92",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "93",
+        "column": "47",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "94",
+        "column": "26",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "98",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "98",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "98",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "99",
+        "column": "55",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "100",
+        "column": "34",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "104",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "104",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "104",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "105",
+        "column": "26",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "109",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "109",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "109",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "110",
+        "column": "26",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "114",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "114",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "114",
+        "column": "39",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "115",
+        "column": "34",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "123",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "127",
+        "column": "80",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "129",
+        "column": "17",
+        "severity": "warning",
+        "message": "'if' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "129",
+        "column": "19",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "131",
+        "column": "51",
+        "severity": "warning",
+        "message": "'{' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "155",
+        "column": "11",
+        "severity": "warning",
+        "message": "Catching 'Exception' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"
+    },
+    {
+        "line": "163",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "176",
+        "column": "23",
+        "severity": "warning",
+        "message": "The String \"\\t\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "177",
+        "column": "23",
+        "severity": "warning",
+        "message": "The String \"\\n\" appears 3 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "200",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "234",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "263",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "269",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "273",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    }
+]

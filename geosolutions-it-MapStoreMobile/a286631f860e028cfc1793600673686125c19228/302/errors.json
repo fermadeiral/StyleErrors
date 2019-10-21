@@ -1,0 +1,70 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "36",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - com.vividsolutions.jts.util.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "59",
+        "column": "29",
+        "severity": "warning",
+        "message": "'{' at column 29 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    },
+    {
+        "line": "59",
+        "column": "42",
+        "severity": "warning",
+        "message": "'+' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "59",
+        "column": "42",
+        "severity": "warning",
+        "message": "'+' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "59",
+        "column": "47",
+        "severity": "warning",
+        "message": "'/' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "59",
+        "column": "47",
+        "severity": "warning",
+        "message": "'/' is not preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "73",
+        "column": "3",
+        "severity": "warning",
+        "message": "Definition of 'equals()' without corresponding definition of 'hashCode()'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsHashCodeCheck"
+    },
+    {
+        "line": "74",
+        "column": "9",
+        "severity": "warning",
+        "message": "'!' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+    },
+    {
+        "line": "74",
+        "column": "36",
+        "severity": "warning",
+        "message": "'{' at column 36 should have line break after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+    }
+]

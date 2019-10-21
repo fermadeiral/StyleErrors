@@ -1,0 +1,21 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Missing a header - not enough lines in file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "5",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "12",
+        "column": "29",
+        "severity": "warning",
+        "message": "Name 'ResourceList' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "25",
+        "severity": "warning",
+        "message": "interfaces should describe a type and hence have methods.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.InterfaceIsTypeCheck"
+    },
+    {
+        "line": "26",
+        "column": "5",
+        "severity": "warning",
+        "message": "Redundant 'public' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    }
+]

@@ -1,0 +1,351 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "25",
+        "column": "50",
+        "severity": "warning",
+        "message": "Name 'metadataValidatorFactory' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "27",
+        "column": "27",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "28",
+        "column": "69",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "57",
+        "column": "51",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "57",
+        "column": "67",
+        "severity": "warning",
+        "message": "Name 'idx_col_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "57",
+        "column": "84",
+        "severity": "warning",
+        "message": "Name 'idx_col_value' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "57",
+        "column": "127",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "63",
+        "column": "11",
+        "severity": "warning",
+        "message": "'while' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "63",
+        "column": "16",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "63",
+        "column": "33",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "68",
+        "column": "12",
+        "severity": "warning",
+        "message": "Redundant 'static' modifier.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"
+    },
+    {
+        "line": "69",
+        "column": "33",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "69",
+        "column": "62",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "74",
+        "column": "38",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "74",
+        "column": "60",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "82",
+        "column": "23",
+        "severity": "warning",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "83",
+        "column": "23",
+        "severity": "warning",
+        "message": "'static' modifier out of order with the JLS suggestions.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"
+    },
+    {
+        "line": "85",
+        "column": "72",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "85",
+        "column": "89",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "86",
+        "column": "31",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "86",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"1.0\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "88",
+        "column": "31",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "88",
+        "column": "32",
+        "severity": "warning",
+        "message": "The String \"1.1\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "95",
+        "column": "25",
+        "severity": "warning",
+        "message": "Name 'MetadataValidator_1_1' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "98",
+        "column": "40",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "98",
+        "column": "69",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "101",
+        "column": "37",
+        "severity": "warning",
+        "message": "The String \"name\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "103",
+        "column": "50",
+        "severity": "warning",
+        "message": "The String \"No mandatory field 'name'.\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "105",
+        "column": "44",
+        "severity": "warning",
+        "message": "The String \"description\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "107",
+        "column": "50",
+        "severity": "warning",
+        "message": "The String \"No mandatory field 'description'.\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "109",
+        "column": "37",
+        "severity": "warning",
+        "message": "The String \"type\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "110",
+        "column": "46",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "110",
+        "column": "47",
+        "severity": "warning",
+        "message": "The String \"overlay\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "110",
+        "column": "72",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "110",
+        "column": "73",
+        "severity": "warning",
+        "message": "The String \"baselayer\" appears 4 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "130",
+        "column": "48",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "130",
+        "column": "70",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "144",
+        "column": "43",
+        "severity": "warning",
+        "message": "The String \"minzoom\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "149",
+        "column": "43",
+        "severity": "warning",
+        "message": "The String \"maxzoom\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "160",
+        "column": "25",
+        "severity": "warning",
+        "message": "Name 'MetadataValidator_1_0' must match pattern '^[A-Z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"
+    },
+    {
+        "line": "163",
+        "column": "40",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "163",
+        "column": "69",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "173",
+        "column": "46",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "173",
+        "column": "72",
+        "severity": "warning",
+        "message": "String literal expressions should be on the left side of an equals comparison.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"
+    },
+    {
+        "line": "208",
+        "column": "42",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "208",
+        "column": "55",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "220",
+        "column": "17",
+        "severity": "warning",
+        "message": "'for' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+    },
+    {
+        "line": "220",
+        "column": "20",
+        "severity": "warning",
+        "message": "'(' is followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    },
+    {
+        "line": "220",
+        "column": "58",
+        "severity": "warning",
+        "message": "')' is preceded with whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+    }
+]

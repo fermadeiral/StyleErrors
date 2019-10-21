@@ -1,0 +1,28 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "19",
+        "column": "19",
+        "severity": "warning",
+        "message": "Name 'error_code' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"
+    },
+    {
+        "line": "67",
+        "severity": "warning",
+        "message": "Avoid using finalizer method.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheck"
+    },
+    {
+        "line": "73",
+        "column": "32",
+        "severity": "warning",
+        "message": "Name 'internal_init' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

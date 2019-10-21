@@ -1,0 +1,55 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "Line does not match expected header line of '/*'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "22",
+        "column": "32",
+        "severity": "warning",
+        "message": "Name 'R_styleable_LinearLayout' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "27",
+        "column": "30",
+        "severity": "warning",
+        "message": "Name 'LinearLayout_divider' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "28",
+        "column": "30",
+        "severity": "warning",
+        "message": "Name 'LinearLayout_showDividers' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "29",
+        "column": "30",
+        "severity": "warning",
+        "message": "Name 'LinearLayout_dividerPadding' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "67",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    },
+    {
+        "line": "102",
+        "column": "21",
+        "severity": "warning",
+        "message": "Assignment of parameter 'divider' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "130",
+        "severity": "warning",
+        "message": "First sentence should end with a period.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"
+    }
+]

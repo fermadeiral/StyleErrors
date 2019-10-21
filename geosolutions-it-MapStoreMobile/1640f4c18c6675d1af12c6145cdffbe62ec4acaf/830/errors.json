@@ -1,0 +1,56 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "64",
+        "column": "47",
+        "severity": "warning",
+        "message": "Name 'sAlphaInterpolator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "91",
+        "column": "28",
+        "severity": "warning",
+        "message": "'&&' should be on a new line.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"
+    },
+    {
+        "line": "102",
+        "column": "27",
+        "severity": "warning",
+        "message": "Assignment of parameter 'heightMeasureSpec' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "226",
+        "column": "64",
+        "severity": "warning",
+        "message": "The String \"alpha\" appears 2 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "276",
+        "column": "41",
+        "severity": "warning",
+        "message": "'typecast' is not followed by whitespace.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+    },
+    {
+        "line": "372",
+        "severity": "warning",
+        "message": "Comment matches to-do format '(FIXME|TODO)'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"
+    },
+    {
+        "line": "493",
+        "column": "29",
+        "severity": "warning",
+        "message": "Assignment of parameter 'convertView' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    }
+]

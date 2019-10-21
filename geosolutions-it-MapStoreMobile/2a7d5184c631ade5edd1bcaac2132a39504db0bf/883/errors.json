@@ -1,0 +1,36 @@
+[
+    {
+        "line": "2",
+        "severity": "warning",
+        "message": "Line does not match expected header line of ' * Copyright 2010, 2011, 2012 mapsforge.org'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"
+    },
+    {
+        "line": "50",
+        "column": "47",
+        "severity": "warning",
+        "message": "Name 'sAlphaInterpolator' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "145",
+        "column": "64",
+        "severity": "warning",
+        "message": "The String \"alpha\" appears 4 times in the file.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"
+    },
+    {
+        "line": "229",
+        "column": "24",
+        "severity": "warning",
+        "message": "Assignment of parameter 'availableWidth' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    },
+    {
+        "line": "230",
+        "column": "24",
+        "severity": "warning",
+        "message": "Assignment of parameter 'availableWidth' is not allowed.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.ParameterAssignmentCheck"
+    }
+]
