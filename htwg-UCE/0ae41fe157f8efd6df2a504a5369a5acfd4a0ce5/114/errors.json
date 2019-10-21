@@ -1,0 +1,51 @@
+[
+    {
+        "line": "47",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "69",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter socketToPeer should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "69",
+        "column": "49",
+        "severity": "error",
+        "message": "Parameter connIDToQueue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter controlConnection should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "70",
+        "column": "46",
+        "severity": "error",
+        "message": "Parameter relayExecutor should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "147",
+        "column": "28",
+        "severity": "error",
+        "message": "Parameter peerSocket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "147",
+        "column": "47",
+        "severity": "error",
+        "message": "Parameter clientSocket should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "line": "41",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "56",
+        "column": "27",
+        "severity": "error",
+        "message": "Parameter s should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "37",
+        "severity": "error",
+        "message": "Parameter connBindMessage should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "56",
+        "column": "62",
+        "severity": "error",
+        "message": "Parameter connIDToQueue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]

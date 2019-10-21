@@ -1,0 +1,44 @@
+[
+    {
+        "line": "59",
+        "column": "33",
+        "severity": "error",
+        "message": "Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"
+    },
+    {
+        "line": "84",
+        "column": "24",
+        "severity": "error",
+        "message": "Parameter controlConnection should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "84",
+        "column": "50",
+        "severity": "error",
+        "message": "Parameter controlConnectionWriter should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "85",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter relayServerEndpoint should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "85",
+        "column": "52",
+        "severity": "error",
+        "message": "Parameter socketQueue should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    },
+    {
+        "line": "86",
+        "column": "13",
+        "severity": "error",
+        "message": "Parameter refreshExecutor should be final.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"
+    }
+]
