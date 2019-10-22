@@ -1,0 +1,39 @@
+[
+    {
+        "line": "32",
+        "severity": "warning",
+        "message": "<p> tag should be placed immediately before the first word, with no space after.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"
+    },
+    {
+        "line": "32",
+        "severity": "warning",
+        "message": "Redundant <p> tag.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"
+    },
+    {
+        "line": "33",
+        "severity": "warning",
+        "message": "Line is longer than 100 characters (found 101).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "44",
+        "severity": "warning",
+        "message": "Line is longer than 100 characters (found 103).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    },
+    {
+        "line": "48",
+        "severity": "warning",
+        "message": "Javadoc comment at column 0 has parse error. Details: no viable alternative at input '   *' while parsing JAVADOC_TAG",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"
+    },
+    {
+        "line": "64",
+        "column": "7",
+        "severity": "warning",
+        "message": "'}' at column 7 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
+        "source": "RightCurlySame"
+    }
+]

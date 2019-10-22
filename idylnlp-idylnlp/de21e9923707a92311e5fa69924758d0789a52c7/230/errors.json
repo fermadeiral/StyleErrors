@@ -1,0 +1,22 @@
+[
+    {
+        "line": "31",
+        "severity": "warning",
+        "message": "Abbreviation in name 'POSTaggerNameFeatureGenerator' must contain no more than '2' consecutive capital letters.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"
+    },
+    {
+        "line": "43",
+        "column": "50",
+        "severity": "warning",
+        "message": "Parameter name 'aPosTagger' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    },
+    {
+        "line": "52",
+        "column": "49",
+        "severity": "warning",
+        "message": "Parameter name 'aPosModel' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"
+    }
+]

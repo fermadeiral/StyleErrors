@@ -1,0 +1,27 @@
+[
+    {
+        "line": "36",
+        "column": "31",
+        "severity": "warning",
+        "message": "'}' at column 31 should be alone on a line.",
+        "source": "RightCurlyAlone"
+    },
+    {
+        "line": "41",
+        "severity": "warning",
+        "message": "Distance between variable 'sort' declaration and its first usage is 7, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "43",
+        "severity": "warning",
+        "message": "Distance between variable 'start' declaration and its first usage is 8, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"
+    },
+    {
+        "line": "60",
+        "severity": "warning",
+        "message": "Line is longer than 100 characters (found 103).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+    }
+]

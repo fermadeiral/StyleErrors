@@ -1,0 +1,197 @@
+/*******************************************************************************
+ * Copyright 2019 Mountain Fog, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License.  You may obtain a copy
+ * of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ ******************************************************************************/
+package ai.idylnlp.nlp.recognizer.deep;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+import org.deeplearning4j.models.embeddings.wordvectors.WordVectors;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.dataset.DataSet;
+import org.nd4j.linalg.dataset.api.DataSetPreProcessor;
+import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
+import org.nd4j.linalg.factory.Nd4j;
+import org.nd4j.linalg.indexing.INDArrayIndex;
+import org.nd4j.linalg.indexing.NDArrayIndex;
+
+import opennlp.tools.namefind.NameSample;
+import opennlp.tools.util.ObjectStream;
+
+public class NameSampleDataSetIterator implements DataSetIterator {
+
+  private static final long serialVersionUID = 1L;
+
+  private final int windowSize;
+  private final String[] labels;
+  private final int batchSize;
+  private final int vectorSize;
+  private final int totalSamples;
+  private int cursor = 0;
+  private final ObjectStream<DataSet> samples;
+
+  public NameSampleDataSetIterator(ObjectStream<NameSample> samples, WordVectors wordVectors, int vectorSize,
+      int windowSize, String labels[], int batchSize) throws IOException {
+
+    this.windowSize = windowSize;
+    this.labels = labels;
+    this.vectorSize = vectorSize;
+    this.batchSize = batchSize;
+
+    this.samples = new NameSampleToDataSetStream(samples, wordVectors, windowSize, vectorSize, labels);
+
+    int total = 0;
+
+    DataSet sample;
+    while ((sample = this.samples.read()) != null) {
+      total++;
+    }
+
+    totalSamples = total;
+
+    samples.reset();
+
+  }
+
+  @Override
+  public DataSet next(int num) {
+
+    if (cursor >= totalExamples()) {
+      throw new NoSuchElementException();
+    }
+
+    INDArray features = Nd4j.create(num, vectorSize, windowSize);
+    INDArray featuresMask = Nd4j.zeros(num, windowSize);
+
+    INDArray labels = Nd4j.create(num, 3, windowSize);
+    INDArray labelsMask = Nd4j.zeros(num, windowSize);
+
+    // iterate stream and copy to arrays
+
+    for (int i = 0; i < num; i++) {
+
+      DataSet sample;
+
+      try {
+        sample = samples.read();
+      } catch (IOException e) {
+        throw new RuntimeException(e);
+      }
+
+      if (sample != null) {
+
+        INDArray feature = sample.getFeatureMatrix();
+        features.put(new INDArrayIndex[] { NDArrayIndex.point(i) }, feature.get(NDArrayIndex.point(0)));
+
+        feature.get(new INDArrayIndex[] { NDArrayIndex.point(0), NDArrayIndex.all(), NDArrayIndex.point(0) });
+
+        for (int j = 0; j < windowSize; j++) {
+          featuresMask.putScalar(new int[] { i, j }, 1.0);
+        }
+
+        INDArray label = sample.getLabels();
+        labels.put(new INDArrayIndex[] { NDArrayIndex.point(i) }, label.get(NDArrayIndex.point(0)));
+        labelsMask.putScalar(new int[] { i, windowSize - 1 }, 1.0);
+
+      }
+
+      cursor++;
+
+    }
+
+    return new DataSet(features, labels, featuresMask, labelsMask);
+
+  }
+
+  @Override
+  public int totalExamples() {
+    return totalSamples;
+  }
+
+  @Override
+  public int inputColumns() {
+    return vectorSize;
+  }
+
+  @Override
+  public int totalOutcomes() {
+    return getLabels().size();
+  }
+
+  @Override
+  public boolean resetSupported() {
+    return true;
+  }
+
+  @Override
+  public boolean asyncSupported() {
+    return false;
+  }
+
+  @Override
+  public void reset() {
+    cursor = 0;
+
+    try {
+      samples.reset();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
+
+  }
+
+  @Override
+  public int batch() {
+    return batchSize;
+  }
+
+  @Override
+  public int cursor() {
+    return cursor;
+  }
+
+  @Override
+  public int numExamples() {
+    return totalExamples();
+  }
+
+  @Override
+  public void setPreProcessor(DataSetPreProcessor dataSetPreProcessor) {
+    throw new UnsupportedOperationException();
+  }
+
+  @Override
+  public DataSetPreProcessor getPreProcessor() {
+    throw new UnsupportedOperationException();
+  }
+
+  @Override
+  public List<String> getLabels() {
+    return Arrays.asList("start", "cont", "other");
+  }
+
+  @Override
+  public boolean hasNext() {
+    return cursor < numExamples();
+  }
+
+  @Override
+  public DataSet next() {
+    return next(batchSize);
+  }
+
+}
