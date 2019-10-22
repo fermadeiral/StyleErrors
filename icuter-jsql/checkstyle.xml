@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <property name="charset" value="GB18030" />
+
+    <module name="FileLength">
+        <property name="max" value="2300" />
+        <property name="fileExtensions" value="java, kt" />
+    </module>
+
+    <module name="TreeWalker">
+
+        <!--
+        <module name="JavadocMethod"/>
+        <module name="JavadocType"/>
+        <module name="JavadocVariable"/>
+        <module name="JavadocStyle"/>
+        -->
+
+        <module name="ConstantName" />
+        <module name="LocalFinalVariableName" />
+        <module name="LocalVariableName" />
+        <module name="MemberName" />
+        <module name="MethodName">
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$|^(get|set|test)[A-Z]" />
+        </module>
+        <module name="PackageName" />
+        <module name="ParameterName" />
+        <module name="StaticVariableName" />
+        <module name="TypeName">
+            <property name="format" value="^[A-Z][a-zA-Z0-9]*$|^(Test)[A-Z]" />
+        </module>
+
+        <module name="AvoidStarImport">
+            <property name="excludes" value="java.io,java.util,java.net,org.junit.Assert,org.junit.Assume" />
+        </module>
+
+        <module name="IllegalImport" />
+        <module name="RedundantImport" />
+        <module name="UnusedImports" />
+
+        <module name="LineLength">
+            <property name="max" value="150" />
+        </module>
+        <module name="MethodLength">
+            <property name="max" value="350" />
+        </module>
+        <module name="ParameterNumber" />
+
+        <module name="EmptyForInitializerPad" />
+        <module name="MethodParamPad">
+            <property name="allowLineBreaks" value="true" />
+        </module>
+        <module name="NoWhitespaceAfter">
+            <property name="tokens" value="ARRAY_INIT, INC, DEC, UNARY_MINUS, UNARY_PLUS, BNOT, LNOT, DOT, INDEX_OP" />
+        </module>
+        <module name="NoWhitespaceBefore">
+            <property name="allowLineBreaks" value="true" />
+            <property name="tokens" value="DOT, POST_DEC, POST_INC" />
+        </module>
+        <module name="OperatorWrap" />
+        <module name="ParenPad" />
+        <module name="TypecastParenPad" />
+        <module name="WhitespaceAfter" />
+        <module name="WhitespaceAround">
+            <property name="allowEmptyConstructors" value="true" />
+            <property name="allowEmptyMethods" value="true" />
+            <!-- Remove 'RCURLY' for CheckStyle's report for annotations: @Annotation({"val1", "val2"}) with message:
+                 ~~~~~~  '}' is not proceeded with whitespace. ~~~~~~
+            -->
+            <property name="tokens" value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR, BXOR_ASSIGN,
+                                           COLON, DIV, DIV_ASSIGN, EQUAL, GE, GT, LAND, LCURLY, LE,
+                                           LITERAL_ASSERT, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE,
+                                           LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF, LITERAL_RETURN,
+                                           LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE,
+                                           LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN, NOT_EQUAL, PLUS, PLUS_ASSIGN,
+                                           QUESTION, SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR, STAR_ASSIGN, TYPE_EXTENSION_AND" />
+        </module>
+
+        <module name="ModifierOrder" />
+        <module name="RedundantModifier" />
+
+        <module name="AvoidNestedBlocks" />
+        <module name="EmptyBlock">
+            <property name="option" value="text" />
+        </module>
+        <module name="LeftCurly" />
+        <module name="NeedBraces" />
+        <module name="RightCurly" />
+
+        <module name="CovariantEquals" />
+        <module name="EmptyStatement" />
+        <module name="EqualsHashCode" />
+        <module name="IllegalInstantiation" />
+        <module name="InnerAssignment" />
+        <!--
+        <module name="MagicNumber">
+            <property name="ignoreNumbers" value="-2, -1, 0, 1, 2"/>
+        </module>
+        -->
+
+        <!--
+        <module name="MissingSwitchDefault"/>
+        -->
+        <!--
+            <property name="allowUnchecked" value="true"/>
+            <property name="allowSubclasses" value="true"/>
+        </module>
+        -->
+        <!--
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+        -->
+
+        <module name="HideUtilityClassConstructor" />
+        <module name="InterfaceIsType" />
+        <module name="VisibilityModifier">
+            <property name="protectedAllowed" value="true" />
+            <property name="packageAllowed" value="true" />
+        </module>
+
+
+        <module name="ArrayTypeStyle" />
+        <module name="UpperEll" />
+        <module name="Indentation">
+            <property name="basicOffset" value="4" />
+            <property name="braceAdjustment" value="0" />
+            <property name="caseIndent" value="0" />
+            <property name="lineWrappingIndentation" value="8" />
+        </module>
+
+        <module name="SuppressWarningsHolder" />
+
+        <module name="IllegalType">
+        </module>
+
+        <module name="Regexp">
+            <property name="format" value="System\.out\.println" />
+            <property name="illegalPattern" value="true" />
+            <property name="ignoreComments" value="true" />
+            <property name="message" value="Line has System.out.println call." />
+        </module>
+
+        <module name="SuppressionCommentFilter">
+            <property name="offCommentFormat" value="CS:AllowPrintln" />
+            <property name="onCommentFormat" value="CS:RejectPrintln" />
+            <property name="checkFormat" value="Regexp" />
+            <property name="messageFormat" value="has System\.out\.println" />
+        </module>
+    </module>
+
+    <module name="SuppressWarningsFilter" />
+
+    <module name="SuppressWithPlainTextCommentFilter ">
+        <property name="offCommentFormat" value="CSOFF: *([\w|]+)" />
+        <property name="onCommentFormat" value="CSON: *([\w|]+)" />
+        <property name="checkFormat" value="$1" />
+    </module>
+
+    <property name="fileExtensions" value="
+            xml, xhtml, pom, iml, json, jsp, jspx, jspf, tag, tagx, php, asp, aspx,
+            java, kt, js, mjs, es6, css, scss, less, yaml, yml, md, markdown, txt, res, cf, ini, htm, html,
+            properties, editorconfig, ignore, gitignore, npmignore, eslintignore" />
+
+    <module name="NewlineAtEndOfFile">
+        <property name="fileExtensions" value="
+            java, kt, js, mjs, es6, css, scss, less, yaml, yml, md, markdown, txt, res, cf, ini, htm, html,
+            properties, editorconfig, ignore, gitignore, npmignore, eslintignore" />
+    </module>
+    <module name="FileTabCharacter" />
+    <module name="RegexpMultiline">
+        <property name="format" value="[ \t][\n\r]" />
+        <property name="message" value="Trailing whitespace" />
+    </module>
+
+</module>
+
