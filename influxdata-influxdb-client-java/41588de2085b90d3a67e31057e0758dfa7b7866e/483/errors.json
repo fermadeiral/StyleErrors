@@ -1,0 +1,44 @@
+[
+    {
+        "line": "33",
+        "column": "8",
+        "severity": "error",
+        "message": "Unused import - com.influxdb.client.reactive.QueryReactiveApi.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "38",
+        "column": "1",
+        "severity": "error",
+        "message": "Utility classes should not have a public or default constructor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"
+    },
+    {
+        "line": "51",
+        "column": "64",
+        "severity": "error",
+        "message": "'10' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "63",
+        "column": "22",
+        "severity": "error",
+        "message": "'30_000' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "72",
+        "column": "16",
+        "severity": "error",
+        "message": "'-20' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    },
+    {
+        "line": "72",
+        "column": "22",
+        "severity": "error",
+        "message": "'70' is a magic number.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"
+    }
+]
