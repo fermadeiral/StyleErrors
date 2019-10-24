@@ -1,0 +1,91 @@
+[
+    {
+        "line": "19",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "21",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "25",
+        "column": "1",
+        "severity": "warning",
+        "message": "Redundant import from the same package - com.intuit.tank.vm.perfManager.StandaloneAgentTracker.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "31",
+        "column": "4",
+        "severity": "warning",
+        "message": "Unknown tag 'generatedBy'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "40",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testStandaloneAgentTracker_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "54",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testAddAvailability_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "71",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAgents_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "89",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAgents_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "107",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAgents_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "126",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAgents_4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "144",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAgents_5' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "163",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAvailabilities_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "181",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetAvailabilityForAgent_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

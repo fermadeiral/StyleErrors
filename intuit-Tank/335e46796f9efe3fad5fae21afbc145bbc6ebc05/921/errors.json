@@ -1,0 +1,70 @@
+[
+    {
+        "line": "16",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "18",
+        "column": "1",
+        "severity": "warning",
+        "message": "Redundant import from the same package - com.intuit.tank.api.model.v1.user.UserCredentials.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "20",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "25",
+        "column": "4",
+        "severity": "warning",
+        "message": "Unknown tag 'generatedBy'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "36",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testUserCredentials_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "54",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testUserCredentials_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "74",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "91",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPass_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "108",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "125",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetPass_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]

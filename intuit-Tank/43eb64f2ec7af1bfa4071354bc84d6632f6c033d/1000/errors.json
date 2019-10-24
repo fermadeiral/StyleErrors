@@ -1,0 +1,657 @@
+[
+    {
+        "line": "1",
+        "severity": "warning",
+        "message": "File length is 3,268 lines (max allowed is 2,000).",
+        "source": "com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"
+    },
+    {
+        "line": "19",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "21",
+        "severity": "warning",
+        "message": "Using the '.*' form of import should be avoided - org.junit.Assert.*.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"
+    },
+    {
+        "line": "26",
+        "column": "8",
+        "severity": "warning",
+        "message": "Unused import - com.intuit.tank.project.ColumnPreferences.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"
+    },
+    {
+        "line": "29",
+        "column": "1",
+        "severity": "warning",
+        "message": "Redundant import from the same package - com.intuit.tank.script.ScriptEditor.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"
+    },
+    {
+        "line": "34",
+        "column": "4",
+        "severity": "warning",
+        "message": "Unknown tag 'generatedBy'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"
+    },
+    {
+        "line": "43",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testScriptEditor_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "57",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testCancel_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "94",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testClearOrderList_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "130",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testComplete_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "168",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testComplete_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "206",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testComplete_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "244",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testComplete_4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "282",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testCreateScriptDetails_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "318",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testDeselectAll_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "354",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testEnterFilterMode_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "390",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetCurrentPage_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "427",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetCurrentStep_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "464",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetGotoGroupList_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "501",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetMaxThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "538",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetMinThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "575",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetNumRowsVisible_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "612",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetOrderList_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "649",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetOrderList_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "686",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetOrderList_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "723",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPrettyString_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "762",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPrettyString_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "801",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPrettyString_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "840",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPrettyString_4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "879",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPrettyString_5' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "918",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPreviousRequest_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "951",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetPreviousRequest_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "984",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetSaveAsName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1021",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetScript_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1058",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetScriptDetails_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1090",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetScriptName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1127",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetSelectedSteps_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1164",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetSelectedStepsArr_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1201",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetSleepTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1238",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetSteps_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1275",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetTablePrefs_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1312",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetTableState_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1349",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetVariableKey_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1386",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testGetVariableValue_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1423",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testInsert_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1460",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testInsertThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1496",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testInsertVariable_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1532",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsAggregator_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1570",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsAggregator_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1608",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsClearVariable_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1646",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsClearVariable_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1684",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsCookieStep_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1722",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsCookieStep_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1760",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsCopyEnabled_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1797",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsDeleteEnabled_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1834",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsDeleteEnabled_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1871",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsLogicStep_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1909",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsLogicStep_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1947",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsRequest_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "1985",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsRequest_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2023",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsSleepTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2061",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsSleepTime_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2099",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2137",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsVariable_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2175",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testIsVariable_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2213",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testPopulateGroupList_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2249",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testPopulateGroupList_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2285",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testPopulateGroupList_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2321",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testPopulateGroupList_4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2357",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testReIndexAndCheck_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2393",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testReIndexAndCheck_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2429",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testReIndexAndCheck_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2465",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testReindexScriptSteps_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2501",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testReindexScriptSteps_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2537",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSelectAll_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2573",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetCurrentPage_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2610",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetCurrentStep_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2647",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetMaxThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2684",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetMinThinkTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2721",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetNumRowsVisible_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2758",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetOrderList_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2795",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetOrderList_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2832",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetOrderList_3' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2869",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetOrderList_4' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2906",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSaveAsName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2943",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetScript_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "2981",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetScriptName_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3018",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSelectedSteps_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3055",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSelectedStepsArr_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3092",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSelectedStepsArr_2' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3129",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSleepTime_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3166",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetSteps_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3203",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetVariableKey_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    },
+    {
+        "line": "3240",
+        "column": "17",
+        "severity": "warning",
+        "message": "Name 'testSetVariableValue_1' must match pattern '^[a-z][a-zA-Z0-9]*$'.",
+        "source": "com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"
+    }
+]
